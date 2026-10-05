@@ -235,6 +235,13 @@ svg#chart.dragging{cursor:grabbing}
 .seasonbar button:hover:not(:disabled){border-color:var(--ink)}
 #hl{transition:opacity .15s}
 @media (max-width:640px){.seasonbar .sb-mgr,.seasonbar .sb-mood{display:none}.seasonbar .sb-more{margin-left:0}}
+
+.wkbox{position:relative;overflow:hidden;background:#fff;border-radius:3px;box-shadow:0 0 0 4px #fff}
+.wk{position:absolute;left:0;top:0;width:100px;height:115px;transform-origin:0 0}
+.wk .pt{position:absolute;overflow:hidden}
+.wk .pt img{position:absolute;left:0;top:0;width:100%;height:100%}
+.reallinks{font-size:14.5px;margin:4px 0 8px}
+.reallinks a{color:var(--blue)}
 /* Internationals section */
 .intl{max-width:1200px;margin:34px auto 0;padding:0 18px}
 .intl h2{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:clamp(28px,4vw,38px);margin:0 0 4px;border-bottom:1px solid var(--ink);padding-bottom:6px}
@@ -1875,16 +1882,36 @@ function kitSVG(k, w){
   const ss = k.ss ? `<path d="M10.4 33L10 42M29.6 33L30 42" stroke="${k.ss}" stroke-width="1.5"/>` : '';
   return `<svg class="kitsvg" viewBox="0 0 40 45" width="${w}" height="${h}" aria-hidden="true"><defs><clipPath id="${id}"><path d="${shirt}"/></clipPath></defs><path d="${shorts}" fill="${k.sh}" stroke="var(--ink)" stroke-width=".8" stroke-linejoin="round"/>${ss}<path d="${shirt}" fill="${k.s}"/><g clip-path="url(#${id})">${pat}</g>${trim}<path d="${shirt}" fill="none" stroke="var(--ink)" stroke-width=".8" stroke-linejoin="round"/></svg>`;
 }
+function wkColor(v){ v = String(v || '').trim(); if (/^[0-9a-f]{6}$/i.test(v) || /^[0-9a-f]{3}$/i.test(v)) return '#' + v; if (/^#[0-9a-f]{3,6}$/i.test(v) || /^[a-z]+$/i.test(v)) return v; return 'transparent'; }
+const WK_POS = {la:'left:0;top:0;width:31px;height:59px', b:'left:31px;top:0;width:38px;height:59px', ra:'left:69px;top:0;width:31px;height:59px', sh:'left:0;top:59px;width:100px;height:36px', so:'left:0;top:95px;width:100px;height:20px'};
+function wikiKit(s, which){ return WIKIKITS && WIKIKITS.kits && WIKIKITS.kits[s] && WIKIKITS.kits[s][which] || null; }
+function wikiKitHTML(k, scale){
+  const ov = (WIKIKITS && WIKIKITS.overlays) || {};
+  const parts = ['la','b','ra','sh','so'].map(p=>{ const v = k[p] || {}; return `<div class="pt" style="${WK_POS[p]};background:${wkColor(v.c)}">${v.f ? `<img src="${esc(v.f)}" alt="">` : ''}${ov[p] ? `<img src="${esc(ov[p])}" alt="">` : ''}</div>`; }).join('');
+  return `<div class="wkbox" style="width:${100*scale}px;height:${115*scale}px"><div class="wk" style="transform:scale(${scale})">${parts}</div></div>`;
+}
 function kitCard(s){
   s = Math.max(FIRST, Math.min(LAST, s));
   const k = kitFor(s), aw = awayFor(s), mk = makerFor(s), sp = sponsorFor(s);
+  const wh = wikiKit(s,'home'), wa = wikiKit(s,'away'), wt = wikiKit(s,'third');
   let h = `<h3 id="popTitle">${sl(s)} kit</h3><p class="meta">${esc(k.label)}</p>`;
-  h += `<div class="kits"><figure>${kitSVG(k, 86)}<figcaption>Home</figcaption></figure>${aw && aw.k ? `<figure>${kitSVG(aw.k, 86)}<figcaption>Away</figcaption></figure>` : ''}</div>`;
+  if (wh){
+    h += `<div class="kits">${[[wh,'Home'],[wa,'Away'],[wt,'Third']].filter(x=>x[0]).map(x=>`<figure>${wikiKitHTML(x[0], .82)}<figcaption>${x[1]}</figcaption></figure>`).join('')}</div>`;
+    const used = new Set(); [wh,wa,wt].filter(Boolean).forEach(kk=>['la','b','ra','sh','so'].forEach(p=>{ const f = kk[p] && kk[p].f; if (f && WIKIKITS.credits && WIKIKITS.credits[f]) used.add(WIKIKITS.credits[f]); }));
+    h += `<p class="credit" style="margin:-4px 0 8px">Kit drawings from Wikipedia${used.size ? ': ' + esc([...used].slice(0,3).join('; ')) + (used.size > 3 ? '; others' : '') : ''}. Logos are left off.</p>`;
+  } else {
+    h += `<div class="kits"><figure>${kitSVG(k, 86)}<figcaption>Home</figcaption></figure>${aw && aw.k ? `<figure>${kitSVG(aw.k, 86)}<figcaption>Away</figcaption></figure>` : ''}</div>`;
+  }
   h += `<dl class="kdl">${aw ? `<dt>Away</dt><dd>${esc(aw.label)}</dd>` : ''}<dt>Maker</dt><dd>${esc(mk || 'Not recorded here')}</dd><dt>Shirt sponsor</dt><dd>${esc(sp || 'None')}</dd><dt>Badge</dt><dd>${esc(crestFor(s))}</dd></dl>`;
   if (k.note) h += `<p>${esc(k.note)}</p>`;
-  h += `<p class="hint" style="font-size:13.5px;margin-top:6px">A simplified drawing of the colours, not the exact design. The real kits, season by season, are drawn at <a href="https://www.historicalkits.co.uk/Everton/Everton.htm" target="_blank" rel="noopener">Historical Football Kits</a>.</p>`;
+  const q = encodeURIComponent(`Everton ${sl(s)} home shirt`);
+  h += `<p class="reallinks">See the real shirts: <a href="https://www.google.com/search?tbm=isch&q=${q}" target="_blank" rel="noopener">photos</a>, <a href="https://www.footballkitarchive.com/everton-fc-kits-t51/" target="_blank" rel="noopener">Football Kit Archive</a>, <a href="https://www.historicalkits.co.uk/Everton/Everton.htm" target="_blank" rel="noopener">Historical Football Kits</a>${s >= 1977 && s <= 2019 ? `, <a href="https://www.subsidesports.com/uk/archive/club-team/everton-football-shirt-archive" target="_blank" rel="noopener">Subside Sports archive</a>` : ''}</p>`;
   h += `<div class="acts"><button type="button" data-kit="${s-1}"${s<=FIRST?' disabled':''}>Earlier</button><button type="button" data-kit="${s+1}"${s>=LAST?' disabled':''}>Later</button>${goBtn(s)}</div>`;
   return h;
+}
+let WIKIKITS = null;
+async function loadWikiKits(){
+  try { const r = await fetch('kits/kits.json', {cache:'no-cache'}); if (!r.ok) return; WIKIKITS = await r.json(); refreshPop(); } catch(e) {}
 }
 function spanOf(pk){
   const [t, a] = pk.split(':'), i = +a;
@@ -2196,6 +2223,7 @@ function boot(){
   if (!window.claude) loadLocalPhotos();
   try { const h = +location.hash.slice(1); if (h>=FIRST && h<=LAST) sel = h; } catch(e){}
   render(); legend(); tally(); detail(sel); intlSection(); centerOn(sel+1, false); drawMini(); drawSbar();
+  loadWikiKits();
   initStore();
 }
 boot();

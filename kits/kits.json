@@ -1,0 +1,3445 @@
+{
+ "kits": {
+  "1888": {
+   "home": {
+    "la": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton1888.png"
+    },
+    "ra": {
+     "c": "00AEF0",
+     "f": ""
+    },
+    "sh": {
+     "c": "000080",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1889": {
+   "home": {
+    "la": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton1888.png"
+    },
+    "ra": {
+     "c": "00AEF0",
+     "f": ""
+    },
+    "sh": {
+     "c": "000080",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1890": {
+   "home": {
+    "la": {
+     "c": "ECA190",
+     "f": ""
+    },
+    "b": {
+     "c": "ECA190",
+     "f": "kits/files/Kit_body_collar_buttons_2.png"
+    },
+    "ra": {
+     "c": "ECA190",
+     "f": ""
+    },
+    "sh": {
+     "c": "000080",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "000066",
+     "f": ""
+    },
+    "b": {
+     "c": "000066",
+     "f": "kits/files/Kit_body_whitevertical.png"
+    },
+    "ra": {
+     "c": "000066",
+     "f": ""
+    },
+    "sh": {
+     "c": "000066",
+     "f": ""
+    },
+    "so": {
+     "c": "000066",
+     "f": ""
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_left_arm_blue_stripes4.png"
+    },
+    "b": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_body_bluestripes4.png"
+    },
+    "ra": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_right_arm_blue_stripes4.png"
+    },
+    "sh": {
+     "c": "000066",
+     "f": ""
+    },
+    "so": {
+     "c": "000066",
+     "f": ""
+    }
+   }
+  },
+  "1891": {
+   "home": {
+    "la": {
+     "c": "f62139",
+     "f": ""
+    },
+    "b": {
+     "c": "f62139",
+     "f": "kits/files/Kit_body_everton1891.png"
+    },
+    "ra": {
+     "c": "f62139",
+     "f": ""
+    },
+    "sh": {
+     "c": "000080",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1892": {
+   "home": {
+    "la": {
+     "c": "00AEF0",
+     "f": ""
+    },
+    "b": {
+     "c": "00AEF0",
+     "f": "kits/files/Kit_body_collar_buttons_2.png"
+    },
+    "ra": {
+     "c": "00AEF0",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_buttons.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000080",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1893": {
+   "home": {
+    "la": {
+     "c": "00aef0",
+     "f": ""
+    },
+    "b": {
+     "c": "00aef0",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "00aef0",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1894": {
+   "home": {
+    "la": {
+     "c": "00aef0",
+     "f": ""
+    },
+    "b": {
+     "c": "00aef0",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "00aef0",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1895": {
+   "home": {
+    "la": {
+     "c": "007fff",
+     "f": ""
+    },
+    "b": {
+     "c": "007fff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "007fff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1896": {
+   "home": {
+    "la": {
+     "c": "007fff",
+     "f": ""
+    },
+    "b": {
+     "c": "007fff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "007fff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "000080",
+     "f": ""
+    }
+   }
+  },
+  "1936": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1937": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1938": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1946": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_hoops_blue.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_hoops_blue.png"
+    }
+   }
+  },
+  "1947": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_hoops_blue.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_whitecollarplain.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1948": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1949": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1950": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1951": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1952": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_hoops_gold.png"
+    }
+   }
+  },
+  "1953": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_hoops_gold.png"
+    }
+   }
+  },
+  "1954": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_hoops_gold.png"
+    }
+   }
+  },
+  "1955": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_hoops_gold.png"
+    }
+   }
+  },
+  "1956": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_vneckwhite.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_hoops_gold.png"
+    }
+   }
+  },
+  "1957": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_whiteborder.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_vneckwhite.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_whiteborder.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_bluehorizontal.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_left_arm_blueborder.png"
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_vneckblue.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_right_arm_blueborder.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_bluehorizontal.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_hoops_gold.png"
+    }
+   }
+  },
+  "1965": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_whiteborder.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_whiteborder.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   }
+  },
+  "1966": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   }
+  },
+  "1967": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   }
+  },
+  "1968": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffce00",
+     "f": ""
+    }
+   }
+  },
+  "1969": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffce00",
+     "f": ""
+    }
+   }
+  },
+  "1970": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffce00",
+     "f": ""
+    }
+   }
+  },
+  "1971": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_left_arm_greenborder.png"
+    },
+    "b": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_body_greencollar.png"
+    },
+    "ra": {
+     "c": "ffce00",
+     "f": "kits/files/Kit_right_arm_greenborder.png"
+    },
+    "sh": {
+     "c": "1a8b00",
+     "f": ""
+    },
+    "so": {
+     "c": "ffce00",
+     "f": ""
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_left_arm_blueborder.png"
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_bluecollar_trineck.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_right_arm_blueborder.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_blueline.png"
+    }
+   }
+  },
+  "1972": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collarwhite.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffd700",
+     "f": ""
+    },
+    "b": {
+     "c": "ffd700",
+     "f": "kits/files/Kit_body_collarblue.png"
+    },
+    "ra": {
+     "c": "ffd700",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffd700",
+     "f": ""
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_left_arm_blueborder.png"
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_collarblue.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_right_arm_blueborder.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_blueline.png"
+    }
+   }
+  },
+  "1974": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_whitecollarplain.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FFD700",
+     "f": ""
+    },
+    "b": {
+     "c": "FFD700",
+     "f": "kits/files/Kit_body_collarblue.png"
+    },
+    "ra": {
+     "c": "FFD700",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFD700",
+     "f": ""
+    }
+   }
+  },
+  "1975": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollar_trineck.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffd700",
+     "f": ""
+    },
+    "b": {
+     "c": "ffd700",
+     "f": "kits/files/Kit_body_bluecollar_trineck.png"
+    },
+    "ra": {
+     "c": "ffd700",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffd700",
+     "f": ""
+    }
+   }
+  },
+  "1976": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_shoulder_stripes_white_stripes.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_shoulder_stripes_white_stripes.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_shoulder_stripes_white_stripes.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_left_arm_blueborder.png"
+    },
+    "b": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_body_collarblue.png"
+    },
+    "ra": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_right_arm_blueborder.png"
+    },
+    "sh": {
+     "c": "ffff00",
+     "f": ""
+    },
+    "so": {
+     "c": "ffff00",
+     "f": ""
+    }
+   }
+  },
+  "1980": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_shoulder_stripes_white_stripes.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_shoulder_stripes_white_stripes.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_shoulder_stripes_white_stripes.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_adidasblue.png"
+    },
+    "so": {
+     "c": "0000ff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_left_arm_shoulder_stripes_blue_stripes.png"
+    },
+    "b": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_body_2blueshoulderstripes.png"
+    },
+    "ra": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_right_arm_shoulder_stripes_blue_stripes.png"
+    },
+    "sh": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_shorts_adidasblue.png"
+    },
+    "so": {
+     "c": "ffff00",
+     "f": ""
+    }
+   }
+  },
+  "1984": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_left_arm_whiteborder.png"
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_everton0910h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_right_arm_whiteborder.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_bluebottom.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_2stripesblue.png"
+    }
+   }
+  },
+  "1985": {
+   "home": {
+    "la": {
+     "c": "003399",
+     "f": ""
+    },
+    "b": {
+     "c": "003399",
+     "f": "kits/files/Kit_body_whitehorizontaltop.png"
+    },
+    "ra": {
+     "c": "003399",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_bluetop.png"
+    }
+   }
+  },
+  "1990": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collarwhite.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffff00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_body_collarblue.png"
+    },
+    "ra": {
+     "c": "ffff00",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_socks_color_2_stripes_blue.png"
+    }
+   }
+  },
+  "1992": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_whiteborder.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_whitecollarplain.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_whiteborder.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "0000ff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FD6978",
+     "f": "kits/files/Kit_left_arm_blue_stripes4.png"
+    },
+    "b": {
+     "c": "FD6978",
+     "f": "kits/files/Kit_body_bluestripes4.png"
+    },
+    "ra": {
+     "c": "FD6978",
+     "f": "kits/files/Kit_right_arm_blue_stripes4.png"
+    },
+    "sh": {
+     "c": "000066",
+     "f": ""
+    },
+    "so": {
+     "c": "FD6978",
+     "f": "kits/files/Kit_socks_bluetop.png"
+    }
+   }
+  },
+  "1994": {
+   "home": {
+    "la": {
+     "c": "2720AC",
+     "f": ""
+    },
+    "b": {
+     "c": "2720AC",
+     "f": "kits/files/Kit_body_everton9495h.png"
+    },
+    "ra": {
+     "c": "2720AC",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_everton9495h.png"
+    },
+    "so": {
+     "c": "003399",
+     "f": "kits/files/Kit_socks_everton9495h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "e0e0e0",
+     "f": ""
+    },
+    "b": {
+     "c": "e0e0e0",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "e0e0e0",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_whitesides.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "1995": {
+   "home": {
+    "la": {
+     "c": "2720AC",
+     "f": ""
+    },
+    "b": {
+     "c": "2720AC",
+     "f": "kits/files/Kit_body_everton9495h.png"
+    },
+    "ra": {
+     "c": "2720AC",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_everton9495h.png"
+    },
+    "so": {
+     "c": "003399",
+     "f": "kits/files/Kit_socks_everton9495h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "e0e0e0",
+     "f": ""
+    },
+    "b": {
+     "c": "e0e0e0",
+     "f": "kits/files/Kit_body_collarblack.png"
+    },
+    "ra": {
+     "c": "e0e0e0",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_whitesides.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   }
+  },
+  "2000": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_collarwhite.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_bluesides.png"
+    },
+    "so": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_socks_whitetop.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FDD017",
+     "f": "kits/files/Kit_left_arm_blueborder.png"
+    },
+    "b": {
+     "c": "FDD017",
+     "f": "kits/files/Kit_body_bluecollar_2.png"
+    },
+    "ra": {
+     "c": "FDD017",
+     "f": "kits/files/Kit_right_arm_blueborder.png"
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "so": {
+     "c": "FDD017",
+     "f": "kits/files/Kit_socks_bluetop.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_left_arm_bluelower.png"
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_bluehorizontal.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_right_arm_bluelower.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_whitesides.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_blacktop.png"
+    }
+   }
+  },
+  "2004": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_everton0405h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton0405a.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "so": {
+     "c": "0000FF",
+     "f": ""
+    }
+   }
+  },
+  "2005": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_collar.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_bluelinel.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "98a0a1",
+     "f": "kits/files/Kit_left_arm_blackshoulders.png"
+    },
+    "b": {
+     "c": "98a0a1",
+     "f": "kits/files/Kit_body_thinblacksides.png"
+    },
+    "ra": {
+     "c": "98a0a1",
+     "f": "kits/files/Kit_right_arm_blackshoulders.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "98a0a1",
+     "f": "kits/files/Kit_socks_blacklinel.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ffff00",
+     "f": ""
+    },
+    "b": {
+     "c": "ffff00",
+     "f": "kits/files/Kit_body_thin_dark_grey_hoops.png"
+    },
+    "ra": {
+     "c": "ffff00",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffff00",
+     "f": ""
+    }
+   }
+  },
+  "2006": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_everton0809h.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "sh": {
+     "c": "0b1381",
+     "f": ""
+    },
+    "so": {
+     "c": "0b1381",
+     "f": ""
+    }
+   },
+   "third": {
+    "la": {
+     "c": "ecd85e",
+     "f": ""
+    },
+    "b": {
+     "c": "ecd85e",
+     "f": ""
+    },
+    "ra": {
+     "c": "ecd85e",
+     "f": ""
+    },
+    "sh": {
+     "c": "0b1381",
+     "f": ""
+    },
+    "so": {
+     "c": "0b1381",
+     "f": ""
+    }
+   }
+  },
+  "2007": {
+   "home": {
+    "la": {
+     "c": "003399",
+     "f": ""
+    },
+    "b": {
+     "c": "003399",
+     "f": "kits/files/Kit_body_whitearmpits.png"
+    },
+    "ra": {
+     "c": "003399",
+     "f": ""
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "b": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "000000",
+     "f": ""
+    }
+   }
+  },
+  "2008": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_evertonfc0809h.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_evertonfc0809h.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_evertonfc0809h.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_evertonfc0809h.png"
+    },
+    "so": {
+     "c": "ffffff",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_left_arm_evertonfc0809a.png"
+    },
+    "b": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_body_evertonfc0809a.png"
+    },
+    "ra": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_right_arm_evertonfc0809a.png"
+    },
+    "sh": {
+     "c": "000033",
+     "f": "kits/files/Kit_shorts_evertonfc0809a.png"
+    },
+    "so": {
+     "c": "000033",
+     "f": ""
+    }
+   },
+   "third": {
+    "la": {
+     "c": "d4ff00",
+     "f": "kits/files/Kit_left_arm_evertonfc0809t.png"
+    },
+    "b": {
+     "c": "d4ff00",
+     "f": "kits/files/Kit_body_evertonfc0809t.png"
+    },
+    "ra": {
+     "c": "d4ff00",
+     "f": "kits/files/Kit_right_arm_evertonfc0809t.png"
+    },
+    "sh": {
+     "c": "000033",
+     "f": "kits/files/Kit_shorts_evertonfc0809t.png"
+    },
+    "so": {
+     "c": "d4ff00",
+     "f": ""
+    }
+   }
+  },
+  "2009": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_evertonfc0910h.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_evertonfc0910h.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_evertonfc0910h.png"
+    },
+    "sh": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_shorts_evertonfc0910h.png"
+    },
+    "so": {
+     "c": "ffffff",
+     "f": "kits/files/Kit_socks_evertonfc0910hl.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "000000",
+     "f": "kits/files/Kit_left_arm_evertonfc0910a.png"
+    },
+    "b": {
+     "c": "000000",
+     "f": "kits/files/Kit_body_evertonfc0910a.png"
+    },
+    "ra": {
+     "c": "000000",
+     "f": "kits/files/Kit_right_arm_evertonfc0910a.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_evertonfc0910a.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_evertonfc0910al.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "450086",
+     "f": ""
+    },
+    "b": {
+     "c": "5f04b4",
+     "f": "kits/files/Kit_body_evertonfc0910t.png"
+    },
+    "ra": {
+     "c": "450086",
+     "f": ""
+    },
+    "sh": {
+     "c": "5f04b4",
+     "f": "kits/files/Kit_shorts_evertonfc0910t.png"
+    },
+    "so": {
+     "c": "5f04b4",
+     "f": "kits/files/Kit_socks_evertonfc0910tl.png"
+    }
+   }
+  },
+  "2010": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_evertonfc1011h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "sh": {
+     "c": "",
+     "f": ""
+    },
+    "so": {
+     "c": "",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FF69B4",
+     "f": ""
+    },
+    "b": {
+     "c": "FF69B4",
+     "f": "kits/files/Kit_body_evertonfc1011a.png"
+    },
+    "ra": {
+     "c": "FF69B4",
+     "f": ""
+    },
+    "sh": {
+     "c": "000040",
+     "f": ""
+    },
+    "so": {
+     "c": "000040",
+     "f": ""
+    }
+   },
+   "third": {
+    "la": {
+     "c": "fffdd0",
+     "f": "kits/files/Kit_left_arm_everton1011t.png"
+    },
+    "b": {
+     "c": "fffdd0",
+     "f": "kits/files/Kit_body_evertonfc1011t.png"
+    },
+    "ra": {
+     "c": "fffdd0",
+     "f": "kits/files/Kit_right_arm_everton1011t.png"
+    },
+    "sh": {
+     "c": "000040",
+     "f": ""
+    },
+    "so": {
+     "c": "fffdd0",
+     "f": "kits/files/Kit_socks_evertonfc1011tl.png"
+    }
+   }
+  },
+  "2011": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_left_arm_evertonfc1112h.png"
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_evertonfc1112h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_right_arm_evertonfc1112h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc1112h.png"
+    },
+    "so": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_socks_evertonfc1112hl.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "f5b32b",
+     "f": "kits/files/Kit_left_arm_evertonfc1112a.png"
+    },
+    "b": {
+     "c": "f5b32b",
+     "f": "kits/files/Kit_body_evertonfc1112a.png"
+    },
+    "ra": {
+     "c": "f5b32b",
+     "f": "kits/files/Kit_right_arm_evertonfc1112a.png"
+    },
+    "sh": {
+     "c": "000040",
+     "f": ""
+    },
+    "so": {
+     "c": "FFB400",
+     "f": "kits/files/Kit_socks_navytopl.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "DDDDDD",
+     "f": "kits/files/Kit_left_arm_evertonfc1112t.png"
+    },
+    "b": {
+     "c": "DDDDDD",
+     "f": "kits/files/Kit_body_evertonfc1112t.png"
+    },
+    "ra": {
+     "c": "DDDDDD",
+     "f": "kits/files/Kit_right_arm_evertonfc1112t.png"
+    },
+    "sh": {
+     "c": "000040",
+     "f": ""
+    },
+    "so": {
+     "c": "DDDDDD",
+     "f": "kits/files/Kit_socks_navytopl.png"
+    }
+   }
+  },
+  "2012": {
+   "home": {
+    "la": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_left_arm_everton1213h.png"
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton1213h.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_right_arm_everton1213h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_colchester0809t.png"
+    },
+    "so": {
+     "c": "0000FF",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "000000",
+     "f": ""
+    },
+    "b": {
+     "c": "000000",
+     "f": "kits/files/Kit_body_everton1213a.png"
+    },
+    "ra": {
+     "c": "000000",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_monterrey1213t1.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_monterrey1213t1.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton1213t.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_shorts_colchester0809h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": ""
+    }
+   }
+  },
+  "2013": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_left_arm_everton1314h.png"
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_everton1314home.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_right_arm_everton1314h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_porto0809.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "000000",
+     "f": "kits/files/Kit_left_arm_everton1314a.png"
+    },
+    "b": {
+     "c": "000000",
+     "f": "kits/files/Kit_body_everton1314a.png"
+    },
+    "ra": {
+     "c": "000000",
+     "f": "kits/files/Kit_right_arm_everton1314a.png"
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "so": {
+     "c": "FFFF00",
+     "f": "kits/files/Kit_socks_apoel1011h.png"
+    }
+   }
+  },
+  "2014": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_everton1415h2.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "262C3D",
+     "f": "kits/files/Kit_socks_everton1415h.png"
+    }
+   }
+  },
+  "2015": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_everton1516h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_everton1516h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_everton1516h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_left_arm_everton1516a.png"
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton1516a.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_right_arm_everton1516a.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_everton1516a.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_everton1516a.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "314927",
+     "f": ""
+    },
+    "b": {
+     "c": "314927",
+     "f": "kits/files/Kit_body_everton1516t.png"
+    },
+    "ra": {
+     "c": "314927",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": ""
+    },
+    "so": {
+     "c": "314927",
+     "f": "kits/files/Kit_socks_blacktop.png"
+    }
+   }
+  },
+  "2016": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_left_arm_evertonfc1617h.png"
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_evertonfc1617h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_right_arm_evertonfc1617h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc1617h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_evertonfc1617h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "000000",
+     "f": "kits/files/Kit_left_arm_evertonfc1617a.png"
+    },
+    "b": {
+     "c": "000000",
+     "f": "kits/files/Kit_body_evertonfc1617a.png"
+    },
+    "ra": {
+     "c": "000000",
+     "f": "kits/files/Kit_right_arm_evertonfc1617a.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_evertonfc1617a.png"
+    },
+    "so": {
+     "c": "000030",
+     "f": "kits/files/Kit_socks_evertonfc1617a.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "FFFF00",
+     "f": "kits/files/Kit_left_arm_evertonfc1617t.png"
+    },
+    "b": {
+     "c": "FFFF00",
+     "f": "kits/files/Kit_body_evertonfc1617t.png"
+    },
+    "ra": {
+     "c": "FFFF00",
+     "f": "kits/files/Kit_right_arm_evertonfc1617t.png"
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_shorts_evertonfc1617t.png"
+    },
+    "so": {
+     "c": "FFEE00",
+     "f": "kits/files/Kit_socks_evertonfc1617t.png"
+    }
+   }
+  },
+  "2018": {
+   "home": {
+    "la": {
+     "c": "0D00E9",
+     "f": "kits/files/Kit_left_arm_evertonfc1819h.png"
+    },
+    "b": {
+     "c": "0D00E9",
+     "f": "kits/files/Kit_body_evertonfc1819h.png"
+    },
+    "ra": {
+     "c": "0D00E9",
+     "f": "kits/files/Kit_right_arm_evertonfc1819h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc1819h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_efc1819hLong.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "1B1B1B",
+     "f": "kits/files/Kit_left_arm_evertonfc1819a.png"
+    },
+    "b": {
+     "c": "1B1B1B",
+     "f": "kits/files/Kit_body_evertonfc1819a.png"
+    },
+    "ra": {
+     "c": "1B1B1B",
+     "f": "kits/files/Kit_right_arm_evertonfc1819a.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_evertonfc1819a.png"
+    },
+    "so": {
+     "c": "1B1B1B",
+     "f": "kits/files/Kit_socks_efc1819aLong.png"
+    }
+   }
+  },
+  "2019": {
+   "home": {
+    "la": {
+     "c": "0D00E9",
+     "f": "kits/files/Kit_left_arm_evertonfc1920h.png"
+    },
+    "b": {
+     "c": "0D00E9",
+     "f": "kits/files/Kit_body_evertonfc1920h.png"
+    },
+    "ra": {
+     "c": "0D00E9",
+     "f": "kits/files/Kit_right_arm_evertonfc1920h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc1920h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_evertonfc1920h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "ff6464",
+     "f": ""
+    },
+    "b": {
+     "c": "ff6464",
+     "f": "kits/files/Kit_body_evertonfc1920a.png"
+    },
+    "ra": {
+     "c": "ff6464",
+     "f": ""
+    },
+    "sh": {
+     "c": "090040",
+     "f": ""
+    },
+    "so": {
+     "c": "ff6464",
+     "f": "kits/files/Kit_socks_evertonfc1920a.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "040C15",
+     "f": "kits/files/Kit_left_arm_evertonfc1920t.png"
+    },
+    "b": {
+     "c": "040C15",
+     "f": "kits/files/Kit_body_evertonfc1920t.png"
+    },
+    "ra": {
+     "c": "040C15",
+     "f": "kits/files/Kit_right_arm_evertonfc1920t.png"
+    },
+    "sh": {
+     "c": "040C15",
+     "f": "kits/files/Kit_shorts_evertonfc1920t.png"
+    },
+    "so": {
+     "c": "040C15",
+     "f": "kits/files/Kit_socks_evertonfc1920t.png"
+    }
+   }
+  },
+  "2020": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_left_arm_evertonfc2021h.png"
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_evertonfc2021h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_right_arm_evertonfc2021h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc2021h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_efc2021h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FFCC00",
+     "f": "kits/files/Kit_left_arm_evertonfc2021a.png"
+    },
+    "b": {
+     "c": "FFCC00",
+     "f": "kits/files/Kit_body_evertonfc2021a.png"
+    },
+    "ra": {
+     "c": "FFCC00",
+     "f": "kits/files/Kit_right_arm_evertonfc2021a.png"
+    },
+    "sh": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_shorts_evertonfc2021a.png"
+    },
+    "so": {
+     "c": "FFCC00",
+     "f": "kits/files/Kit_socks_efc2021a.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "77CCAA",
+     "f": "kits/files/Kit_left_arm_evertonfc2021t.png"
+    },
+    "b": {
+     "c": "77CCAA",
+     "f": "kits/files/Kit_body_evertonfc2021t.png"
+    },
+    "ra": {
+     "c": "77CCAA",
+     "f": "kits/files/Kit_right_arm_evertonfc2021t.png"
+    },
+    "sh": {
+     "c": "606060",
+     "f": "kits/files/Kit_shorts_evertonfc2021t.png"
+    },
+    "so": {
+     "c": "77CCAA",
+     "f": "kits/files/Kit_socks_efc2021t.png"
+    }
+   }
+  },
+  "2021": {
+   "home": {
+    "la": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_left_arm_evertonfc2122h.png"
+    },
+    "b": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_body_evertonfc2122h.png"
+    },
+    "ra": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_right_arm_evertonfc2122h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc2122h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_bluetops.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "000000",
+     "f": "kits/files/Kit_left_arm_evertonfc2122a.png"
+    },
+    "b": {
+     "c": "000000",
+     "f": "kits/files/Kit_body_evertonfc2122a.png"
+    },
+    "ra": {
+     "c": "000000",
+     "f": "kits/files/Kit_right_arm_evertonfc2122a.png"
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_evertonfc2122a.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_monterrey1213t1.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_left_arm_evertonfc2122t.png"
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_evertonfc2122t.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_right_arm_evertonfc2122t.png"
+    },
+    "sh": {
+     "c": "05003A",
+     "f": "kits/files/Kit_shorts_evertonfc2122t.png"
+    },
+    "so": {
+     "c": "05003A",
+     "f": "kits/files/Kit_socks_evertonfc2122t.png"
+    }
+   }
+  },
+  "2022": {
+   "home": {
+    "la": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_left_arm_evertonfc2223h.png"
+    },
+    "b": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_body_evertonfc2223h.png"
+    },
+    "ra": {
+     "c": "0000DE",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc2223h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_evertonfc2223h.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "fba6b9",
+     "f": "kits/files/Kit_left_arm_evertonfc2223a.png"
+    },
+    "b": {
+     "c": "fba6b9",
+     "f": "kits/files/Kit_body_evertonfc2223a.png"
+    },
+    "ra": {
+     "c": "fba6b9",
+     "f": "kits/files/Kit_right_arm_evertonfc2223a.png"
+    },
+    "sh": {
+     "c": "131743",
+     "f": "kits/files/Kit_shorts_evertonfc2223a.png"
+    },
+    "so": {
+     "c": "fba6b9",
+     "f": "kits/files/Kit_socks_evertonfc2223a.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "fde623",
+     "f": "kits/files/Kit_left_arm_evertonfc2223t.png"
+    },
+    "b": {
+     "c": "fde623",
+     "f": "kits/files/Kit_body_evertonfc2223t.png"
+    },
+    "ra": {
+     "c": "fde623",
+     "f": "kits/files/Kit_right_arm_evertonfc2223t.png"
+    },
+    "sh": {
+     "c": "fde623",
+     "f": "kits/files/Kit_shorts_evertonfc2223t.png"
+    },
+    "so": {
+     "c": "fde623",
+     "f": "kits/files/Kit_socks_evertonfc2223t.png"
+    }
+   }
+  },
+  "2023": {
+   "home": {
+    "la": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_left_arm_evertonfc2324h.png"
+    },
+    "b": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_body_evertonfc2324h.png"
+    },
+    "ra": {
+     "c": "0000DE",
+     "f": "kits/files/Kit_right_arm_evertonfc2324h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_evertonfc2324h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_evertonfc2324hl.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "7E8588",
+     "f": "kits/files/Kit_left_arm_evertonfc2324t.png"
+    },
+    "b": {
+     "c": "7E8588",
+     "f": "kits/files/Kit_body_evertonfc2324t.png"
+    },
+    "ra": {
+     "c": "D1D6DA",
+     "f": "kits/files/Kit_right_arm_evertonfc2324t.png"
+    },
+    "sh": {
+     "c": "7E8588",
+     "f": "kits/files/Kit_shorts_evertonfc2324t.png"
+    },
+    "so": {
+     "c": "7E8588",
+     "f": "kits/files/Kit_socks_evertonfc2324t.png"
+    }
+   }
+  },
+  "2024": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_everton2425h.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": ""
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_everton2425h.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_everton2425hl.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "444444",
+     "f": "kits/files/Kit_left_arm_everton2425a.png"
+    },
+    "b": {
+     "c": "444444",
+     "f": "kits/files/Kit_body_everton2425a.png"
+    },
+    "ra": {
+     "c": "444444",
+     "f": "kits/files/Kit_right_arm_everton2425a.png"
+    },
+    "sh": {
+     "c": "444444",
+     "f": ""
+    },
+    "so": {
+     "c": "444444",
+     "f": "kits/files/Kit_socks_yellowtopl.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "f2e3b2",
+     "f": "kits/files/Kit_left_arm_everton2425t.png"
+    },
+    "b": {
+     "c": "f2e3b2",
+     "f": "kits/files/Kit_body_everton2425t.png"
+    },
+    "ra": {
+     "c": "f2e3b2",
+     "f": "kits/files/Kit_right_arm_everton2425t.png"
+    },
+    "sh": {
+     "c": "232323",
+     "f": "kits/files/Kit_shorts_everton2425t.png"
+    },
+    "so": {
+     "c": "f2e3b2",
+     "f": "kits/files/Kit_socks_everton2425tl.png"
+    }
+   }
+  },
+  "2025": {
+   "home": {
+    "la": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_left_arm_everton2526h.png"
+    },
+    "b": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_body_everton2526h.png"
+    },
+    "ra": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_right_arm_everton2526h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": ""
+    },
+    "so": {
+     "c": "0000FF",
+     "f": ""
+    }
+   },
+   "away": {
+    "la": {
+     "c": "f1eecf",
+     "f": "kits/files/Kit_left_arm_everton2526a.png"
+    },
+    "b": {
+     "c": "f1eecf",
+     "f": "kits/files/Kit_body_everton2526a.png"
+    },
+    "ra": {
+     "c": "f1eecf",
+     "f": "kits/files/Kit_right_arm_everton2526a.png"
+    },
+    "sh": {
+     "c": "2f287e",
+     "f": ""
+    },
+    "so": {
+     "c": "f1eecf",
+     "f": "kits/files/Kit_socks_everton2526al.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "000000",
+     "f": ""
+    },
+    "b": {
+     "c": "000000",
+     "f": "kits/files/Kit_body_everton2526t.png"
+    },
+    "ra": {
+     "c": "000000",
+     "f": ""
+    },
+    "sh": {
+     "c": "000000",
+     "f": "kits/files/Kit_shorts_everton2526t.png"
+    },
+    "so": {
+     "c": "000000",
+     "f": "kits/files/Kit_socks_everton2526tl.png"
+    }
+   }
+  },
+  "2026": {
+   "home": {
+    "la": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_left_arm_everton2627h.png"
+    },
+    "b": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_body_everton2627h.png"
+    },
+    "ra": {
+     "c": "0000ff",
+     "f": "kits/files/Kit_right_arm_everton2627h.png"
+    },
+    "sh": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_shorts_everton2627h.png"
+    },
+    "so": {
+     "c": "0000FF",
+     "f": "kits/files/Kit_socks_everton2627hl.png"
+    }
+   },
+   "away": {
+    "la": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_left_arm_everton2627a.png"
+    },
+    "b": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_body_everton2627a.png"
+    },
+    "ra": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_right_arm_everton2627a.png"
+    },
+    "sh": {
+     "c": "090040",
+     "f": "kits/files/Kit_shorts_everton2627a.png"
+    },
+    "so": {
+     "c": "FFFFFF",
+     "f": "kits/files/Kit_socks_everton2627al.png"
+    }
+   },
+   "third": {
+    "la": {
+     "c": "006400",
+     "f": "kits/files/Kit_left_arm_everton2627t.png"
+    },
+    "b": {
+     "c": "006400",
+     "f": "kits/files/Kit_body_everton2627t.png"
+    },
+    "ra": {
+     "c": "006400",
+     "f": "kits/files/Kit_right_arm_everton2627t.png"
+    },
+    "sh": {
+     "c": "006400",
+     "f": "kits/files/Kit_shorts_everton2627t.png"
+    },
+    "so": {
+     "c": "006400",
+     "f": "kits/files/Kit_socks_everton2627tl.png"
+    }
+   }
+  }
+ },
+ "overlays": {
+  "la": "kits/files/Kit_left_arm.png",
+  "b": "kits/files/Kit_body.png",
+  "ra": "kits/files/Kit_right_arm.png",
+  "sh": "kits/files/Kit_shorts.png",
+  "so": "kits/files/Kit_socks_long.png"
+ },
+ "credits": {
+  "kits/files/Kit_shorts_evertonfc0809t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc0809t.png": "Wikimedia contributor, free licence",
+  "kits/files/Kit_body_evertonfc0809t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc0809t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc0809a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc0809a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc0809a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc0809a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc0809h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc0809h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc0809h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc0809h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_whitearmpits.png": "Wikimedia contributor, CC BY-SA 2.5",
+  "kits/files/Kit_socks_hoops_blue.png": "MadSproute (talk), CC BY-SA 3.0",
+  "kits/files/Kit_socks_hoops_gold.png": "Fma12, CC BY-SA 3.0",
+  "kits/files/Kit_body_collarblack.png": "Dragases at English Wikipedia, Public domain",
+  "kits/files/Kit_body_vneckblue.png": "Bruno-ban, CC BY-SA 3.0",
+  "kits/files/Kit_socks_bluehorizontal.png": "VEO15, Public domain",
+  "kits/files/Kit_body_vneckwhite.png": "No machine-readable author provided. Gasolino assumed (based on copyright claims)., Public domain",
+  "kits/files/Kit_right_arm_whiteborder.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_whiteborder.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_socks_whitetop.png": "El Pollo Diablo (Talk), CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_greenborder.png": "No machine-readable author provided. Wrightbus assumed (based on copyright claims)., CC BY-SA 3.0",
+  "kits/files/Kit_body_greencollar.png": "VEO15, Public domain",
+  "kits/files/Kit_left_arm_greenborder.png": "No machine-readable author provided. Wrightbus assumed (based on copyright claims)., CC BY-SA 3.0",
+  "kits/files/Kit_body_whitecollar.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_socks_blueline.png": "Wikimedia contributor, CC BY-SA 4.0",
+  "kits/files/Kit_body_collarwhite.png": "Dragases at English Wikipedia, Public domain",
+  "kits/files/Kit_body_whitecollarplain.png": "If5tatement, CC0",
+  "kits/files/Kit_body_bluecollar_trineck.png": "VEO15, CC BY-SA 3.0",
+  "kits/files/Kit_body_whitecollar_trineck.png": "VEO15, CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_blueborder.png": "ed g2s • talk, CC BY-SA 3.0",
+  "kits/files/Kit_body_collarblue.png": "El Pollo Diablo (Talk), CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_blueborder.png": "ed g2s • talk, CC BY-SA 3.0",
+  "kits/files/Kit_shorts_bluesides.png": "Original uploader was Wtstoffs at en.wikipedia, CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_shoulder_stripes_white_stripes.png": "Chandler at English Wikipedia, Public domain",
+  "kits/files/Kit_body_shoulder_stripes_white_stripes.png": "Chandler at English Wikipedia, Public domain",
+  "kits/files/Kit_left_arm_shoulder_stripes_white_stripes.png": "Chandler at English Wikipedia, Public domain",
+  "kits/files/Kit_body_collar.png": "VEO15, Public domain",
+  "kits/files/Kit_body_buttons.png": "Fma12, CC BY-SA 4.0",
+  "kits/files/Kit_body_everton1891.png": "REDMAN 2019, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_blue_stripes4.png": "Fma12, CC BY-SA 3.0",
+  "kits/files/Kit_body_bluestripes4.png": "Fma12, CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_blue_stripes4.png": "Fma12, CC BY-SA 3.0",
+  "kits/files/Kit_body_whitevertical.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_body_collar_buttons_2.png": "Fma12, CC BY-SA 4.0",
+  "kits/files/Kit_body_everton1888.png": "REDMAN 2019, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1112h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1112h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1112h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_blacktop.png": "Heightwatcher at English Wikipedia, Public domain",
+  "kits/files/Kit_shorts_whitesides.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_bluelower.png": "Wiggy! at English Wikipedia, CC BY-SA 3.0",
+  "kits/files/Kit_body_bluehorizontal.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_bluelower.png": "Wiggy! at English Wikipedia, CC BY-SA 3.0",
+  "kits/files/Kit_body_bluecollar_2.png": "Kit_body_blackcollar.png: Odinsblot and Heightwatcher from the English Wikipedia derivative work: Madcynic (talk), Public domain",
+  "kits/files/Kit_body_everton0809h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_body_everton0405a.png": "Bruno-ban, CC0",
+  "kits/files/Kit_body_everton0405h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_socks_bluetop.png": "El Pollo Diablo (Talk), CC BY-SA 3.0",
+  "kits/files/Kit_socks_evertonfc1011tl.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_everton1011t.png": "Bruno-ban, Public domain",
+  "kits/files/Kit_body_evertonfc1011t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_everton1011t.png": "Bruno-ban, Public domain",
+  "kits/files/Kit_body_evertonfc1011a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1011h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_thin_dark_grey_hoops.png": "Heightwatcher at en.wikipedia, Public domain",
+  "kits/files/Kit_socks_blacklinel.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_blackshoulders.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_body_thinblacksides.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_blackshoulders.png": "Wikimedia contributor, CC BY-SA 3.0",
+  "kits/files/Kit_socks_bluelinel.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc0910tl.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc0910t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc0910t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc0910al.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc0910a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc0910a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc0910a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc0910a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc0910hl.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc0910h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc0910h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc0910h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc0910h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1617h.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1617h.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1617h.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_body_everton1516t.png": "Rezart Taçi, CC BY-SA 3.0",
+  "kits/files/Kit_socks_everton1516a.png": "Rezart Taçi, CC BY-SA 3.0",
+  "kits/files/Kit_shorts_everton1516a.png": "Rezart Taçi, CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_everton1516a.png": "Rezart Taçi, CC BY-SA 3.0",
+  "kits/files/Kit_body_everton1516a.png": "Rezart Taçi, CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_everton1516a.png": "Rezart Taçi, CC BY-SA 3.0",
+  "kits/files/Kit_socks_everton1516h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_everton1516h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_body_everton1516h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_socks_color_2_stripes_blue.png": "VanguardScot, CC BY 3.0",
+  "kits/files/Kit_socks_everton1415h.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_body_everton1415h2.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_socks_apoel1011h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_right_arm_everton1314a.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_body_everton1314a.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_everton1314a.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_socks_porto0809.png": "Bruno-ban, CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_everton1314h.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_body_everton1314home.png": "No machine-readable author provided. Germany2014 assumed (based on copyright claims)., CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_everton1314h.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_shorts_colchester0809h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_body_everton1213t.png": "Gustavo neto, CC BY-SA 3.0",
+  "kits/files/Kit_socks_monterrey1213t1.png": "Zoco35, CC BY-SA 3.0",
+  "kits/files/Kit_shorts_monterrey1213t1.png": "Zoco35, CC BY-SA 3.0",
+  "kits/files/Kit_body_everton1213a.png": "Bruno-ban, CC0",
+  "kits/files/Kit_shorts_colchester0809t.png": "Bruno-ban, CC0",
+  "kits/files/Kit_right_arm_everton1213h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_body_everton1213h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_left_arm_everton1213h.png": "Bruno-ban, CC0",
+  "kits/files/Kit_socks_everton9495h.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_shorts_everton9495h.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_body_everton9495h.png": "Zotteteen1, CC BY-SA 3.0",
+  "kits/files/Kit_socks_2stripesblue.png": "El Pollo Diablo (Talk), CC BY-SA 3.0",
+  "kits/files/Kit_shorts_bluebottom.png": "El Pollo Diablo (Talk), CC BY-SA 3.0",
+  "kits/files/Kit_body_everton0910h.png": "Bruno-ban, CC BY-SA 3.0",
+  "kits/files/Kit_right_arm_evertonfc1112t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1112t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1112t.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_navytopl.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1112a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1112a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1112a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc1112hl.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1112h.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2021t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_efc2021a.png": "Flix11, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2021a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2021a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2021a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2021a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_efc2021h.png": "Flix11, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2021h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2021h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2021h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2021h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc1920t.png": "ShadowBryan3, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1920t.png": "ShadowBryan3, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1920t.png": "ShadowBryan3, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1920t.png": "ShadowBryan3, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1920t.png": "ShadowBryan3, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc1920a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1920a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc1920h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1920h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1920h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1920h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1920h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_shoulder_stripes_blue_stripes.png": "Sm3a (talk), Public domain",
+  "kits/files/Kit_body_2blueshoulderstripes.png": "Kit_body_liverpool1011t.png: Bruno-ban derivative work: Ilikeeatingwaffles (talk), CC BY-SA 3.0",
+  "kits/files/Kit_left_arm_shoulder_stripes_blue_stripes.png": "JuanPabloPerezA, Public domain",
+  "kits/files/Kit_shorts_adidasblue.png": "Larske, CC BY-SA 3.0",
+  "kits/files/Kit_socks_efc1819aLong.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1819a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1819a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1819a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1819a.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_socks_efc1819hLong.png": "Flix11, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1819h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1819h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1819h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1819h.png": "Eduardo Stosick, CC BY-SA 4.0",
+  "kits/files/Kit_body_whitehorizontaltop.png": "El Pollo Diablo (Talk), CC BY-SA 3.0",
+  "kits/files/Kit_socks_evertonfc1617t.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1617t.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1617t.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1617t.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1617t.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc1617a.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1617a.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc1617a.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc1617a.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc1617a.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc1617h.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc1617h.png": "Jonas Faccio, CC BY-SA 4.0",
+  "kits/files/Kit_socks_yellowtopl.png": "Eduzs, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_everton2425a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2425a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_left_arm_everton2425a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_everton2425hl.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_shorts_everton2425h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2425h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_evertonfc2324t.png": "Ifnecessary92, CC0",
+  "kits/files/Kit_shorts_evertonfc2324t.png": "Ifnecessary92, CC0",
+  "kits/files/Kit_right_arm_evertonfc2324t.png": "Ifnecessary92, CC0",
+  "kits/files/Kit_body_evertonfc2324t.png": "Ifnecessary92, CC0",
+  "kits/files/Kit_left_arm_evertonfc2324t.png": "Ifnecessary92, CC0",
+  "kits/files/Kit_socks_evertonfc2324hl.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2324h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2324h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2324h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2324h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc2223t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2223t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2223t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2223t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2223t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc2223a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2223a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2223a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2223a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2223a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc2223h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2223h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2223h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2223h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_evertonfc2122t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2122t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2122t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2122t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2122t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2122a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2122a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2122a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2122a.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_bluetops.png": "Bjm10, CC BY-SA 3.0",
+  "kits/files/Kit_shorts_evertonfc2122h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2122h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2122h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_left_arm_evertonfc2122h.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_efc2021t.png": "Flix11, CC BY-SA 4.0",
+  "kits/files/Kit_shorts_evertonfc2021t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_right_arm_evertonfc2021t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_body_evertonfc2021t.png": "JonasBR, CC BY-SA 4.0",
+  "kits/files/Kit_socks_everton2627tl.png": "JonasBR, CC0",
+  "kits/files/Kit_shorts_everton2627t.png": "JonasBR, CC0",
+  "kits/files/Kit_right_arm_everton2627t.png": "JonasBR, CC0",
+  "kits/files/Kit_body_everton2627t.png": "JonasBR, CC0",
+  "kits/files/Kit_left_arm_everton2627t.png": "JonasBR, CC0",
+  "kits/files/Kit_socks_everton2627al.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_shorts_everton2627a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_right_arm_everton2627a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2627a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_left_arm_everton2627a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_everton2627hl.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_shorts_everton2627h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_right_arm_everton2627h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2627h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_left_arm_everton2627h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_everton2526tl.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_shorts_everton2526t.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2526t.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_everton2526al.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_right_arm_everton2526a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2526a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_left_arm_everton2526a.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_right_arm_everton2526h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2526h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_left_arm_everton2526h.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_everton2425tl.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_shorts_everton2425t.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_right_arm_everton2425t.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_body_everton2425t.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_left_arm_everton2425t.png": "WikipedyjniAK, CC0",
+  "kits/files/Kit_socks_long.png": "User:Chandler from the English Wikipedia., Public domain",
+  "kits/files/Kit_shorts.png": "Wikimedia contributor, Public domain",
+  "kits/files/Kit_right_arm.png": "Wikimedia contributor, Public domain",
+  "kits/files/Kit_body.png": "Denniss and others, Public domain",
+  "kits/files/Kit_left_arm.png": "Yarl • PL, Public domain"
+ }
+}
