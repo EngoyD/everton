@@ -1,0 +1,2043 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Synchronological Chart of Everton Football Club, 1878–2026</title>
+<meta name="description" content="Everton FC from 1878 to today: results, mood, money, managers, players, internationals, the Liverpool Echo and the city around the club, on one timeline.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%94%B5%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --paper:#F1ECE1; --paper-hi:#FBF8F1; --ink:#0F1D40; --ink-soft:#4F5B78; --rule:rgba(15,29,64,.17);
+  --blue:#1B3FA0; --gold:#B5821F; --madder:#B23A2C; --verd:#2E7A64;
+  --tint-a:rgba(15,29,64,.035); --tint-b:rgba(27,63,160,.07); --war:rgba(178,58,44,.08); --sel:rgba(27,63,160,.14);
+  --cover:#1B3FA0; --cover-2:#15338A;
+  --labw:156px;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0B1D52; --paper-hi:#132B6F; --ink:#F4F0E6; --ink-soft:#AFB9D8; --rule:rgba(244,240,230,.16);
+    --blue:#A3BEFF; --gold:#F2BC57; --madder:#FF8F7A; --verd:#87D3B6;
+    --tint-a:rgba(244,240,230,.035); --tint-b:rgba(163,190,255,.08); --war:rgba(255,143,122,.10); --sel:rgba(163,190,255,.2);
+    --cover:#1E49C2; --cover-2:#173BA3;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0B1D52; --paper-hi:#132B6F; --ink:#F4F0E6; --ink-soft:#AFB9D8; --rule:rgba(244,240,230,.16);
+  --blue:#A3BEFF; --gold:#F2BC57; --madder:#FF8F7A; --verd:#87D3B6;
+  --tint-a:rgba(244,240,230,.035); --tint-b:rgba(163,190,255,.08); --war:rgba(255,143,122,.10); --sel:rgba(163,190,255,.2);
+  --cover:#1E49C2; --cover-2:#173BA3;
+  color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{
+  margin:0; color:var(--ink); background-color:var(--paper);
+  background-image:radial-gradient(ellipse 90% 60% at 50% 0%, var(--paper-hi), transparent 70%);
+  font-family:"EB Garamond", Garamond, Georgia, "Times New Roman", serif;
+  font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+
+/* Title cartouche */
+.cartouche{max-width:1000px;margin:36px auto 18px;padding:0 18px}
+.frame{background:var(--cover);color:#fff;padding:0 28px 0;text-align:center;box-shadow:inset 0 0 0 6px var(--cover),inset 0 0 0 7px rgba(255,255,255,.75),0 14px 34px -18px rgba(5,15,50,.6);border-radius:2px}
+.frame .pre,.frame .sub,.frame .tally{color:rgba(255,255,255,.88)}
+.frame .tally{border-top-color:rgba(255,255,255,.28)}
+.frame .tower{display:block;margin:14px auto 0}
+.leitch{display:block;width:100%;height:16px}
+.frame .leitch{margin:0 -28px;width:calc(100% + 56px)}
+.divider{max-width:1200px;margin:34px auto 0;padding:0 18px}
+.frame .pre{font-family:"IM Fell English",Georgia,serif;font-style:italic;font-size:19px;margin:0;color:var(--ink-soft)}
+h1{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:clamp(32px,6vw,64px);line-height:1.02;margin:4px 0 10px;letter-spacing:.005em}
+.frame .sub{font-style:italic;font-size:18px;max-width:60ch;margin:0 auto 14px;line-height:1.45}
+.motto{font-family:"IM Fell English SC",Georgia,serif;font-size:20px;letter-spacing:.06em;margin:0}
+.tally{margin:14px auto 0;padding-top:12px;border-top:1px solid var(--rule);font-size:16px;max-width:70ch}
+
+/* Controls */
+.controls{max-width:1200px;margin:22px auto 10px;padding:0 18px;display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:space-between}
+.hint{font-style:italic;color:var(--ink-soft);margin:0;font-size:16px}
+.ctl{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ctl span{font-style:italic;color:var(--ink-soft);font-size:15px;margin-right:2px}
+.ctl button{background:transparent;border:1px solid var(--rule);border-radius:2px;padding:2px 9px;font-size:15px;cursor:pointer;line-height:1.5}
+.ctl button:hover{border-color:var(--ink)}
+.ctl button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+
+/* Chart */
+.chartwrap{border-top:3px double var(--ink);border-bottom:3px double var(--ink);position:relative}
+.chart{display:flex;overflow-x:auto;overflow-y:hidden;overscroll-behavior-x:contain;scrollbar-color:var(--ink-soft) transparent}
+.labels{position:sticky;left:0;z-index:3;flex:0 0 var(--labw);width:var(--labw);background:var(--paper);border-right:1px solid var(--ink);box-shadow:6px 0 10px -8px rgba(0,0,0,.45)}
+.lab{border-bottom:1px solid var(--rule);padding:3px 10px 3px 12px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}
+.lab b{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:16.5px;line-height:1.1}
+.lab small{font-style:italic;font-size:12.5px;color:var(--ink-soft);line-height:1.25;margin-top:2px}
+.lab .tick{position:absolute;right:6px;font-size:11.5px;font-style:italic;color:var(--ink-soft);transform:translateY(-50%);line-height:1}
+.lab.ruler{background:transparent}
+svg#chart{display:block;flex:0 0 auto;cursor:crosshair;touch-action:pan-x pan-y}
+#chart text{font-family:"EB Garamond",Georgia,serif;font-size:12.5px;fill:var(--ink)}
+#chart .yr{font-family:"IM Fell English",Georgia,serif;font-size:13px;text-anchor:middle}
+#chart .ep{font-family:"IM Fell English",Georgia,serif;font-style:italic;font-size:15px;text-anchor:middle}
+#chart .blk{font-size:12.5px}
+#chart .it{font-style:italic}
+#chart .soft{fill:var(--ink-soft)}
+.tip{position:fixed;z-index:20;pointer-events:none;background:var(--ink);color:var(--paper);font-size:14px;padding:3px 9px;border-radius:2px;white-space:nowrap;opacity:0;transition:opacity .12s}
+.tip.on{opacity:1}
+
+/* Legend */
+.legend{max-width:1200px;margin:12px auto 0;padding:0 18px;display:flex;flex-wrap:wrap;gap:6px 20px;font-size:15px;color:var(--ink-soft)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend svg{flex:0 0 auto}
+.moodkey{display:inline-block;width:110px;height:10px;border-radius:5px;vertical-align:middle}
+
+/* Season detail */
+.detail{max-width:1200px;margin:30px auto 0;padding:0 18px}
+.dhead{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px;border-bottom:1px solid var(--ink);padding-bottom:8px}
+.dhead h2{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:clamp(34px,5vw,48px);line-height:1;margin:0}
+.dhead .epoch{font-style:italic;font-size:19px;color:var(--ink-soft);margin:0 auto 0 0}
+.nav{display:flex;gap:6px}
+.nav button{background:transparent;border:1px solid var(--rule);border-radius:2px;padding:2px 10px;font-size:15px;cursor:pointer}
+.nav button:hover{border-color:var(--ink)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:8px 36px;margin-top:14px}
+.cols h3{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-style:italic;font-size:21px;margin:6px 0 6px;border-bottom:1px solid var(--rule);padding-bottom:2px}
+.lead{font-size:22px;margin:0 0 6px;line-height:1.25}
+.lead .rel{color:var(--madder)}
+table.rec{border-collapse:collapse;margin:2px 0 12px;font-variant-numeric:lining-nums tabular-nums}
+table.rec th{font-weight:400;font-style:italic;color:var(--ink-soft);font-size:14px;padding:0 10px 0 0;text-align:right}
+table.rec td{padding:0 10px 0 0;text-align:right;font-size:18px}
+dl{margin:0}
+dt{font-style:italic;color:var(--ink-soft);font-size:15px;line-height:1.3}
+dd{margin:0 0 10px;font-variant-numeric:lining-nums}
+.sw{display:inline-block;width:28px;height:10px;border-radius:5px;margin-right:7px;vertical-align:middle}
+ul.ev{list-style:none;margin:0;padding:0}
+ul.ev li{margin:0 0 10px;padding-left:14px;position:relative}
+ul.ev li::before{content:"";position:absolute;left:0;top:.62em;width:6px;height:6px;border-radius:50%;background:var(--ink-soft)}
+ul.ev li.club::before{background:var(--blue)}
+ul.ev li.trag::before,ul.ev li.war::before{background:var(--madder)}
+ul.ev li.money::before{background:var(--gold)}
+ul.ev .when{font-style:italic;color:var(--ink-soft);margin-right:6px}
+.none{font-style:italic;color:var(--ink-soft)}
+footer{max-width:72ch;margin:40px auto 48px;padding:18px 18px 0;border-top:1px solid var(--rule);font-size:15px;color:var(--ink-soft);font-style:italic}
+
+@media (max-width:640px){
+  :root{--labw:96px}
+  .lab b{font-size:13.5px}
+  .lab small{display:none}
+  .frame{padding:22px 16px 18px}
+  .frame .sub{font-size:16.5px}
+  body{font-size:16.5px}
+}
+@media (prefers-reduced-motion:reduce){.tip{transition:none}.chart{scroll-behavior:auto}}
+
+ul.ev li.echo::before{background:#d98ca0}
+.pop .row>div:last-child{min-width:0}
+
+/* ---- v2 additions ---- */
+.toolbar{max-width:1200px;margin:0 auto 10px;padding:0 18px;display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center}
+.search{position:relative;flex:1 1 260px;max-width:420px}
+.search input{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--paper-hi);border:1px solid var(--ink-soft);border-radius:2px;padding:5px 10px}
+.search input::placeholder{color:var(--ink-soft);font-style:italic}
+.results{position:absolute;left:0;right:0;top:100%;z-index:25;margin:2px 0 0;padding:4px 0;list-style:none;background:var(--paper-hi);border:1px solid var(--ink);box-shadow:0 8px 24px rgba(0,0,0,.25);max-height:340px;overflow:auto;display:none}
+.results.on{display:block}
+.results li{padding:5px 12px;cursor:pointer;line-height:1.3}
+.results li[aria-selected="true"],.results li:hover{background:var(--sel)}
+.results li small{display:block;color:var(--ink-soft);font-style:italic;font-size:13.5px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+.chips span{font-style:italic;color:var(--ink-soft);font-size:15px;margin-right:2px}
+.chips button{background:transparent;border:1px solid var(--rule);border-radius:12px;padding:1px 10px;font-size:14.5px;cursor:pointer;color:var(--ink-soft)}
+.chips button[aria-pressed="true"]{color:var(--ink);border-color:var(--ink);background:var(--tint-b)}
+#chart [data-pk]{cursor:pointer}
+#chart [data-pk]:hover text{fill:var(--blue);text-decoration:underline}
+#chart [data-pk]:hover rect,#chart [data-pk]:hover circle,#chart [data-pk]:hover path{filter:brightness(1.12)}
+#chart .ph{fill:var(--gold)}
+.lab{cursor:default}
+
+/* Popover card */
+.pop{position:fixed;z-index:40;width:360px;max-width:calc(100vw - 16px);max-height:min(78vh,640px);overflow:auto;background:var(--paper-hi);color:var(--ink);border:1px solid var(--ink);outline:1px solid var(--ink);outline-offset:3px;box-shadow:0 18px 40px rgba(0,0,0,.35);padding:16px 18px 14px;display:none}
+.pop.on{display:block}
+.pop .x{position:absolute;top:6px;right:8px;background:transparent;border:0;font-size:22px;line-height:1;cursor:pointer;color:var(--ink-soft);padding:4px 6px}
+.pop h3{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:25px;line-height:1.1;margin:0 26px 4px 0}
+.pop .meta{font-style:italic;color:var(--ink-soft);margin:0 0 8px;font-size:15px;line-height:1.35}
+.pop p{margin:0 0 9px}
+.pop .row{display:flex;gap:14px;align-items:flex-start}
+.portrait{flex:0 0 112px;width:112px;height:140px;border:1px solid var(--ink);padding:4px;background:var(--paper)}
+.portrait{position:relative}
+.portrait img{position:absolute;top:4px;left:4px;width:calc(100% - 8px);height:calc(100% - 8px);object-fit:cover;object-position:50% 20%;display:block;background:var(--paper)}
+.portrait svg{width:100%;height:100%;display:block}
+.credit{font-size:12px;font-style:italic;color:var(--ink-soft);margin-top:3px;line-height:1.2}
+.acts{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.acts button,.acts a{font-size:14px;background:transparent;border:1px solid var(--rule);border-radius:2px;padding:2px 9px;cursor:pointer;color:var(--ink);text-decoration:none}
+.acts button:hover,.acts a:hover{border-color:var(--ink)}
+.acts .primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.namebtn{background:none;border:0;padding:0;font:inherit;color:var(--blue);cursor:pointer;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px;text-align:left}
+.namebtn:hover{color:var(--ink)}
+.pop ul.plain{list-style:none;margin:0;padding:0}
+.pop ul.plain li{margin:0 0 4px}
+.upl{border-top:1px solid var(--rule);margin-top:10px;padding-top:8px;font-size:14.5px}
+.upl input[type=text]{width:100%;font:inherit;font-size:14px;background:var(--paper);color:var(--ink);border:1px solid var(--rule);padding:3px 6px;margin:4px 0}
+.status{font-style:italic;color:var(--ink-soft);font-size:14px;margin-top:4px}
+.status.err{color:var(--madder)}
+@media (max-width:640px){
+  .pop{left:0 !important;right:0;top:auto !important;bottom:0;width:auto;max-width:none;max-height:70vh;outline:0;border-width:2px 0 0;padding-bottom:calc(14px + env(safe-area-inset-bottom,0px))}
+}
+
+.photobar[hidden]{display:none !important}
+.photobar{max-width:1200px;margin:0 auto 12px;padding:10px 18px;border:1px solid var(--gold);background:var(--paper-hi);display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;font-size:15.5px}
+.photobar p{margin:0;flex:1 1 420px}
+.photobar button{font:inherit;font-size:14.5px;background:var(--ink);color:var(--paper);border:1px solid var(--ink);border-radius:2px;padding:3px 12px;cursor:pointer}
+.photobar button.ghost{background:transparent;color:var(--ink);border-color:var(--rule)}
+.photobar progress{width:180px;height:8px;accent-color:var(--blue)}
+.photobar .err{color:var(--madder)}
+/* Motion and Everton details */
+.mini{position:sticky;top:env(safe-area-inset-top,0px);z-index:12;background:var(--paper);border-top:1px solid var(--rule);padding:6px 18px 5px;box-shadow:0 6px 12px -10px rgba(0,0,0,.4)}
+.mini svg{display:block;width:100%;height:46px;cursor:grab;touch-action:none}
+.mini svg:active{cursor:grabbing}
+svg#chart.dragging{cursor:grabbing}
+#selr,#mint{transition:transform .32s cubic-bezier(.2,.75,.2,1)}
+.pop{border-top:6px solid var(--cover)}
+.pop.on{animation:popIn .17s ease-out}
+@keyframes popIn{from{opacity:0;transform:translateY(6px) scale(.985)}to{opacity:1;transform:none}}
+.detail .cols{animation:fadeIn .22s ease-out}
+@keyframes fadeIn{from{opacity:.25;transform:translateY(3px)}to{opacity:1;transform:none}}
+.portrait{border-color:var(--cover);border-width:2px}
+.playbtn{background:var(--cover) !important;color:#fff !important;border-color:var(--cover) !important;padding:2px 12px !important}
+.playbtn[aria-pressed="true"]{background:var(--gold) !important;border-color:var(--gold) !important;color:#111 !important}
+@media (prefers-reduced-motion:reduce){#selr,#mint{transition:none}.pop.on,.detail .cols{animation:none}}
+/* Internationals section */
+.intl{max-width:1200px;margin:34px auto 0;padding:0 18px}
+.intl h2{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:clamp(28px,4vw,38px);margin:0 0 4px;border-bottom:1px solid var(--ink);padding-bottom:6px}
+.intl .lede{max-width:70ch;margin:8px 0 12px}
+.ifilters{display:flex;flex-wrap:wrap;gap:8px 14px;margin:0 0 10px;align-items:center}
+.ifilters input,.ifilters select{font:inherit;font-size:15px;color:var(--ink);background:var(--paper-hi);border:1px solid var(--ink-soft);border-radius:2px;padding:3px 8px}
+.tablewrap{max-height:520px;overflow:auto;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+table.itab{border-collapse:collapse;width:100%;font-variant-numeric:lining-nums tabular-nums}
+table.itab th{position:sticky;top:0;background:var(--paper);text-align:left;font-weight:400;font-style:italic;color:var(--ink-soft);font-size:14.5px;padding:6px 10px 4px 0;border-bottom:1px solid var(--ink)}
+table.itab td{padding:4px 10px 4px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+table.itab td.n,table.itab th.n{text-align:right}
+table.itab{table-layout:fixed}
+table.itab col.c-name{width:32%} table.itab col.c-ctry{width:30%} table.itab col.c-n{width:11%} table.itab col.c-yr{width:16%}
+table.itab th button{all:unset;cursor:pointer;display:inline-flex;align-items:baseline;gap:5px;font-style:italic;color:var(--ink-soft);padding:2px 0}
+table.itab th button:hover,table.itab th[aria-sort="ascending"] button,table.itab th[aria-sort="descending"] button{color:var(--ink)}
+table.itab th button:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+table.itab th .arr{display:inline-block;width:.8em;font-style:normal;font-size:11px;text-align:center}
+table.itab th.n button{flex-direction:row-reverse}
+table.itab td.n{padding-right:10px}
+table.itab td.yr,table.itab th.yr{padding-left:22px}
+table.itab tbody tr{transition:background .15s}
+table.itab tbody tr:hover{background:var(--tint-b)}
+.swc{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:baseline}
+.wclist{margin:18px 0 0;columns:2 340px;column-gap:36px}
+.wclist p{margin:0 0 8px;break-inside:avoid}
+.wclist b{font-weight:500}
+.archives{max-width:72ch;margin:26px auto 0;padding:0 18px}
+.archives h2{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:26px;margin:0 0 6px}
+.archives a{color:var(--blue)}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><defs>
+  <pattern id="leitchW" width="28" height="16" patternUnits="userSpaceOnUse"><path d="M0 1.5H28M0 14.5H28M0 1.5V14.5M0 1.5L14 14.5M14 1.5L0 14.5M14 1.5L28 14.5M28 1.5L14 14.5" stroke="#fff" stroke-opacity=".8" stroke-width="1.2" fill="none"/></pattern>
+  <pattern id="leitchI" width="28" height="16" patternUnits="userSpaceOnUse"><path d="M0 1.5H28M0 14.5H28M0 1.5V14.5M0 1.5L14 14.5M14 1.5L0 14.5M14 1.5L28 14.5M28 1.5L14 14.5" stroke="var(--ink)" stroke-opacity=".38" stroke-width="1.1" fill="none"/></pattern>
+</defs></svg>
+<header class="cartouche">
+  <div class="frame">
+    <svg class="leitch" aria-hidden="true"><rect width="100%" height="16" fill="url(#leitchW)"/></svg>
+    <svg class="tower" viewBox="0 0 60 70" width="46" height="54" aria-hidden="true"><g fill="none" stroke="#fff" stroke-width="1.7" stroke-linejoin="round"><path d="M30 3v7M27 6h6"/><path d="M15 30C15 19 21.5 11.5 30 11.5S45 19 45 30"/><path d="M12 30h36"/><path d="M15 30v29h30V30"/><path d="M27 59V47a3 3 0 0 1 6 0v12"/><path d="M21 37v6M39 37v6"/><path d="M7 59h46"/></g></svg>
+    <p class="pre">A synchronological chart of</p>
+    <h1>Everton Football Club</h1>
+    <p class="sub">Its results, moods, money and masters set side by side with the Liverpool Echo's coverage and the wars and griefs of the city around it, from a chapel side in Stanley Park in 1878 to Hill Dickinson Stadium on Bramley-Moore Dock</p>
+    <p class="motto">Nil satis nisi optimum</p>
+    <p class="tally" id="tally"></p>
+    <svg class="leitch" aria-hidden="true" style="margin-top:18px"><rect width="100%" height="16" fill="url(#leitchI)" style="display:none"/><rect width="100%" height="16" fill="url(#leitchW)"/></svg>
+  </div>
+</header>
+
+<div class="controls">
+  <p class="hint">Drag the chart or the strip above it to travel. Ctrl or ⌘ plus scroll zooms where you point. Click anything for its story.</p>
+  <div class="ctl" role="group" aria-label="Playback and zoom">
+    <button type="button" id="play" class="playbtn" aria-pressed="false">Play history</button>
+    <span>Zoom</span>
+    <button type="button" id="zout" aria-label="Zoom out">−</button>
+    <button type="button" id="zin" aria-label="Zoom in">+</button>
+  </div>
+</div>
+<div class="toolbar">
+  <div class="search">
+    <input id="q" type="search" placeholder="Find a player, manager, event or season" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="results" aria-label="Search the chart">
+    <ul class="results" id="results" role="listbox"></ul>
+  </div>
+  <div class="chips" id="chips" role="group" aria-label="Show or hide streams"><span>Streams</span></div>
+</div>
+
+<div class="chartzone">
+<div class="mini" id="mini"><svg id="miniSvg" height="46" role="img" aria-label="Overview of the whole timeline. Drag across it to move through history."></svg></div>
+<div class="photobar" id="photoBar" hidden></div>
+<div class="chartwrap">
+  <div class="chart" id="scroller" tabindex="0" aria-label="Everton timeline chart. Use left and right arrow keys to move between seasons.">
+    <div class="labels" id="labels"></div>
+    <svg id="chart" role="img" aria-label="Parallel timelines of Everton history from 1878 to 2026"></svg>
+  </div>
+</div>
+</div>
+<div class="tip" id="tip"></div>
+<div class="pop" id="pop" role="dialog" aria-modal="false" aria-labelledby="popTitle"></div>
+
+<div class="legend" id="legend"></div>
+
+<div class="divider" aria-hidden="true"><svg class="leitch"><rect width="100%" height="16" fill="url(#leitchI)"/></svg></div>
+<main class="detail" id="detail" aria-live="polite"></main>
+
+<div class="divider" aria-hidden="true"><svg class="leitch"><rect width="100%" height="16" fill="url(#leitchI)"/></svg></div>
+<section class="intl" id="intl" aria-labelledby="intlh">
+  <h2 id="intlh">Everton internationals</h2>
+  <p class="lede" id="intlLede"></p>
+  <div class="ifilters">
+    <input id="iq" type="search" placeholder="Filter by name" aria-label="Filter internationals by name">
+    <select id="ic" aria-label="Country"></select>
+    <span class="hint" id="icount"></span>
+  </div>
+  <div class="tablewrap"><table class="itab"><colgroup><col class="c-name"><col class="c-ctry"><col class="c-n"><col class="c-n"><col class="c-yr"></colgroup><thead><tr><th scope="col" data-k="name"><button type="button">Player<span class="arr"></span></button></th><th scope="col" data-k="country"><button type="button">Country<span class="arr"></span></button></th><th scope="col" class="n" data-k="caps" aria-sort="descending"><button type="button">Caps<span class="arr"></span></button></th><th scope="col" class="n" data-k="goals"><button type="button">Goals<span class="arr"></span></button></th><th scope="col" class="yr" data-k="first"><button type="button">Capped<span class="arr"></span></button></th></tr></thead><tbody id="ibody"></tbody></table></div>
+  <div class="wclist" id="wclist"></div>
+</section>
+
+<section class="archives">
+  <h2>Reading the Echo's archive</h2>
+  <p>The Echo's own back pages sit behind the British Newspaper Archive and Findmypast. Free routes in: <a href="https://bluecorrespondent.co.uk/" target="_blank" rel="noopener">Blue Correspondent</a> transcribes Echo, Football Echo and Mercury reports season by season; <a href="http://www.evertoncollection.org.uk/" target="_blank" rel="noopener">The Everton Collection</a> catalogues surviving Football Echo editions; current coverage lives at <a href="https://www.liverpoolecho.co.uk/" target="_blank" rel="noopener">liverpoolecho.co.uk</a>.</p>
+</section>
+
+<footer>
+  League positions and records for 1888–89 to 2024–25 are computed from James Curley's engsoccerdata results set, with 2022–23, 2025–26 and the unfinished 2026–27 season (table as of late September 2026) taken from published tables. FA Cup runs come from the same dataset. Internationals and World Cup squads follow Wikipedia's List of Everton F.C. international players (CC BY-SA), updated to 1 July 2026, with a few obvious year errors corrected. Losses are from the club's published annual accounts. Mood is an editorial reading of each season, not a measured index. Photos load from Wikimedia Commons under free licences; each card names the photographer and licence and links to the original file.
+</footer>
+
+<script>const DATA={"S":{"1888":{"tier":1,"pos":8,"n":12,"P":22,"W":9,"D":2,"L":11,"F":35,"A":46,"Pts":20,"derby":[],"bw":"Everton 6-2 Derby County","bl":"Bolton Wanderers 6-2 Everton"},"1889":{"tier":1,"pos":2,"n":12,"P":22,"W":14,"D":3,"L":5,"F":65,"A":40,"Pts":31,"derby":[],"bw":"Everton 8-0 Stoke City","bl":"Everton 1-5 Preston North End"},"1890":{"tier":1,"pos":1,"n":12,"P":22,"W":14,"D":1,"L":7,"F":63,"A":29,"Pts":29,"derby":[],"bw":"Everton 7-0 Derby County","bl":"Notts County 3-1 Everton"},"1891":{"tier":1,"pos":5,"n":14,"P":26,"W":12,"D":4,"L":10,"F":49,"A":49,"Pts":28,"derby":[],"bw":"Everton 5-1 Aston Villa","bl":"West Bromwich Albion 4-0 Everton"},"1892":{"tier":1,"pos":3,"n":16,"P":30,"W":16,"D":4,"L":10,"F":74,"A":51,"Pts":36,"derby":[],"bw":"Everton 6-0 Manchester United","bl":"Preston North End 5-0 Everton"},"1893":{"tier":1,"pos":6,"n":16,"P":30,"W":15,"D":3,"L":12,"F":90,"A":57,"Pts":33,"derby":[],"bw":"Everton 8-1 Darwen","bl":"Derby County 7-3 Everton"},"1894":{"tier":1,"pos":2,"n":16,"P":30,"W":18,"D":6,"L":6,"F":82,"A":50,"Pts":42,"derby":["EFC 3-0 LFC","LFC 2-2 EFC"],"bw":"Everton 5-0 Birmingham City","bl":"Sheffield Wednesday 3-0 Everton"},"1895":{"tier":1,"pos":3,"n":16,"P":30,"W":16,"D":7,"L":7,"F":66,"A":43,"Pts":39,"derby":[],"bw":"Everton 5-0 Sheffield United","bl":"Sunderland 3-0 Everton"},"1896":{"tier":1,"pos":7,"n":16,"P":30,"W":14,"D":3,"L":13,"F":62,"A":57,"Pts":31,"derby":["EFC 2-1 LFC","LFC 0-0 EFC"],"bw":"Everton 6-0 Burnley","bl":"Sheffield Wednesday 4-1 Everton"},"1897":{"tier":1,"pos":4,"n":16,"P":30,"W":13,"D":9,"L":8,"F":48,"A":39,"Pts":35,"derby":["LFC 3-1 EFC","EFC 3-0 LFC"],"bw":"Everton 6-1 West Bromwich Albion","bl":"Derby County 5-1 Everton"},"1898":{"tier":1,"pos":4,"n":18,"P":34,"W":15,"D":8,"L":11,"F":48,"A":41,"Pts":38,"derby":["EFC 1-2 LFC","LFC 2-0 EFC"],"bw":"Everton 4-0 Burnley","bl":"West Bromwich Albion 3-0 Everton"},"1899":{"tier":1,"pos":11,"n":18,"P":34,"W":13,"D":7,"L":14,"F":47,"A":49,"Pts":33,"derby":["LFC 1-2 EFC","EFC 3-1 LFC"],"bw":"Everton 4-0 Manchester City","bl":"Sheffield United 5-0 Everton"},"1900":{"tier":1,"pos":7,"n":18,"P":34,"W":16,"D":5,"L":13,"F":55,"A":42,"Pts":37,"derby":["EFC 1-1 LFC","LFC 1-2 EFC"],"bw":"Everton 5-1 Wolverhampton Wanderers","bl":"Bury 3-0 Everton"},"1901":{"tier":1,"pos":2,"n":18,"P":34,"W":17,"D":7,"L":10,"F":53,"A":35,"Pts":41,"derby":["LFC 2-2 EFC","EFC 4-0 LFC"],"bw":"Everton 6-1 Wolverhampton Wanderers","bl":"Nottingham Forest 4-0 Everton"},"1902":{"tier":1,"pos":12,"n":18,"P":34,"W":13,"D":6,"L":15,"F":45,"A":47,"Pts":32,"derby":["EFC 3-1 LFC","LFC 0-0 EFC"],"bw":"Everton 3-0 Middlesbrough","bl":"Sheffield Wednesday 4-1 Everton"},"1903":{"tier":1,"pos":3,"n":18,"P":34,"W":19,"D":5,"L":10,"F":59,"A":32,"Pts":43,"derby":["LFC 2-2 EFC","EFC 5-2 LFC"],"bw":"Everton 5-1 Birmingham City","bl":"Middlesbrough 3-0 Everton"},"1904":{"tier":1,"pos":2,"n":18,"P":34,"W":21,"D":5,"L":8,"F":63,"A":36,"Pts":47,"derby":[],"bw":"Everton 5-1 Nottingham Forest","bl":"Manchester City 2-0 Everton"},"1905":{"tier":1,"pos":11,"n":20,"P":38,"W":15,"D":7,"L":16,"F":70,"A":66,"Pts":37,"derby":["EFC 4-2 LFC","LFC 1-1 EFC"],"bw":"Everton 6-2 Notts County","bl":"Aston Villa 4-0 Everton"},"1906":{"tier":1,"pos":3,"n":20,"P":38,"W":20,"D":5,"L":13,"F":70,"A":46,"Pts":45,"derby":["LFC 1-2 EFC","EFC 0-0 LFC"],"bw":"Everton 9-1 Manchester City","bl":"Sheffield United 4-1 Everton"},"1907":{"tier":1,"pos":11,"n":20,"P":38,"W":15,"D":6,"L":17,"F":58,"A":64,"Pts":36,"derby":["EFC 2-4 LFC","LFC 0-0 EFC"],"bw":"Everton 6-1 Bury","bl":"Bolton Wanderers 3-0 Everton"},"1908":{"tier":1,"pos":2,"n":20,"P":38,"W":18,"D":10,"L":10,"F":82,"A":57,"Pts":46,"derby":["LFC 0-1 EFC","EFC 5-0 LFC"],"bw":"Everton 5-0 Liverpool","bl":"Manchester City 4-0 Everton"},"1909":{"tier":1,"pos":10,"n":20,"P":38,"W":16,"D":8,"L":14,"F":51,"A":56,"Pts":40,"derby":["EFC 2-3 LFC","LFC 0-1 EFC"],"bw":"Everton 3-0 Bury","bl":"Everton 0-4 Nottingham Forest"},"1910":{"tier":1,"pos":4,"n":20,"P":38,"W":19,"D":7,"L":12,"F":50,"A":36,"Pts":45,"derby":["LFC 0-2 EFC","EFC 0-1 LFC"],"bw":"Everton 6-1 Blackburn Rovers","bl":"Sunderland 4-0 Everton"},"1911":{"tier":1,"pos":2,"n":20,"P":38,"W":20,"D":6,"L":12,"F":46,"A":42,"Pts":46,"derby":["EFC 2-1 LFC","LFC 1-3 EFC"],"bw":"Everton 4-0 Manchester United","bl":"Manchester City 4-0 Everton"},"1912":{"tier":1,"pos":11,"n":20,"P":38,"W":15,"D":7,"L":16,"F":48,"A":54,"Pts":37,"derby":["LFC 0-2 EFC","EFC 0-2 LFC"],"bw":"Everton 4-0 Notts County","bl":"Everton 0-6 Newcastle United"},"1913":{"tier":1,"pos":15,"n":20,"P":38,"W":12,"D":11,"L":15,"F":46,"A":55,"Pts":35,"derby":["EFC 1-2 LFC","LFC 1-2 EFC"],"bw":"Everton 5-0 Derby County","bl":"Blackburn Rovers 6-0 Everton"},"1914":{"tier":1,"pos":1,"n":20,"P":38,"W":19,"D":8,"L":11,"F":76,"A":47,"Pts":46,"derby":["LFC 0-5 EFC","EFC 1-3 LFC"],"bw":"Everton 7-1 Sunderland","bl":"Middlesbrough 5-1 Everton"},"1919":{"tier":1,"pos":16,"n":22,"P":42,"W":12,"D":14,"L":16,"F":69,"A":68,"Pts":38,"derby":["EFC 0-0 LFC","LFC 3-1 EFC"],"bw":"Everton 4-0 Newcastle United","bl":"Burnley 5-0 Everton"},"1920":{"tier":1,"pos":7,"n":22,"P":42,"W":17,"D":13,"L":12,"F":66,"A":55,"Pts":47,"derby":["LFC 1-0 EFC","EFC 0-3 LFC"],"bw":"Everton 5-1 Chelsea","bl":"Everton 0-3 Liverpool"},"1921":{"tier":1,"pos":20,"n":22,"P":42,"W":12,"D":12,"L":18,"F":57,"A":55,"Pts":36,"derby":["EFC 1-1 LFC","LFC 1-1 EFC"],"bw":"Everton 5-0 Manchester United","bl":"Newcastle United 3-0 Everton"},"1922":{"tier":1,"pos":5,"n":22,"P":42,"W":20,"D":7,"L":15,"F":63,"A":59,"Pts":47,"derby":["LFC 5-1 EFC","EFC 0-1 LFC"],"bw":"Everton 4-0 Stoke City","bl":"Blackburn Rovers 5-1 Everton"},"1923":{"tier":1,"pos":7,"n":22,"P":42,"W":18,"D":13,"L":11,"F":62,"A":53,"Pts":49,"derby":["EFC 1-0 LFC","LFC 1-2 EFC"],"bw":"Everton 6-1 Manchester City","bl":"West Bromwich Albion 5-0 Everton"},"1924":{"tier":1,"pos":17,"n":22,"P":42,"W":12,"D":11,"L":19,"F":40,"A":60,"Pts":35,"derby":["EFC 0-1 LFC","LFC 3-1 EFC"],"bw":"Everton 3-1 Manchester City","bl":"Everton 0-3 Sunderland"},"1925":{"tier":1,"pos":11,"n":22,"P":42,"W":12,"D":18,"L":12,"F":72,"A":70,"Pts":42,"derby":["LFC 5-1 EFC","EFC 3-3 LFC"],"bw":"Everton 4-0 West Bromwich Albion","bl":"Liverpool 5-1 Everton"},"1926":{"tier":1,"pos":20,"n":22,"P":42,"W":12,"D":10,"L":20,"F":64,"A":90,"Pts":34,"derby":["EFC 1-0 LFC","LFC 1-0 EFC"],"bw":"Leeds United 1-3 Everton","bl":"Bolton Wanderers 5-0 Everton"},"1927":{"tier":1,"pos":1,"n":22,"P":42,"W":20,"D":13,"L":9,"F":102,"A":66,"Pts":53,"derby":["EFC 1-1 LFC","LFC 3-3 EFC"],"bw":"Everton 7-0 West Ham United","bl":"Huddersfield Town 4-1 Everton"},"1928":{"tier":1,"pos":18,"n":22,"P":42,"W":17,"D":4,"L":21,"F":63,"A":75,"Pts":38,"derby":["EFC 1-0 LFC","LFC 1-2 EFC"],"bw":"Everton 4-0 Portsmouth","bl":"Everton 2-6 Manchester City"},"1929":{"tier":1,"pos":22,"n":22,"P":42,"W":12,"D":11,"L":19,"F":80,"A":92,"Pts":35,"derby":["LFC 0-3 EFC","EFC 3-3 LFC"],"bw":"Everton 4-0 Derby County","bl":"Bolton Wanderers 5-0 Everton"},"1930":{"tier":2,"pos":1,"n":22,"P":42,"W":28,"D":5,"L":9,"F":121,"A":66,"Pts":61,"derby":[],"bw":"Everton 9-1 Plymouth Argyle","bl":"Bradford Park Avenue 4-1 Everton"},"1931":{"tier":1,"pos":1,"n":22,"P":42,"W":26,"D":4,"L":12,"F":116,"A":64,"Pts":56,"derby":["LFC 1-3 EFC","EFC 2-1 LFC"],"bw":"Everton 8-1 Newcastle United","bl":"Birmingham City 4-0 Everton"},"1932":{"tier":1,"pos":11,"n":22,"P":42,"W":16,"D":9,"L":17,"F":81,"A":74,"Pts":41,"derby":["EFC 3-1 LFC","LFC 7-4 EFC"],"bw":"Everton 6-1 Blackburn Rovers","bl":"Birmingham City 4-0 Everton"},"1933":{"tier":1,"pos":14,"n":22,"P":42,"W":12,"D":16,"L":14,"F":62,"A":63,"Pts":40,"derby":["LFC 3-2 EFC","EFC 0-0 LFC"],"bw":"Everton 7-1 Blackburn Rovers","bl":"Everton 3-7 Newcastle United"},"1934":{"tier":1,"pos":8,"n":22,"P":42,"W":16,"D":12,"L":14,"F":89,"A":88,"Pts":44,"derby":["EFC 1-0 LFC","LFC 2-1 EFC"],"bw":"Everton 5-0 Stoke City","bl":"Sunderland 7-0 Everton"},"1935":{"tier":1,"pos":16,"n":22,"P":42,"W":13,"D":13,"L":16,"F":89,"A":89,"Pts":39,"derby":["LFC 6-0 EFC","EFC 0-0 LFC"],"bw":"Everton 5-0 Preston North End","bl":"Liverpool 6-0 Everton"},"1936":{"tier":1,"pos":17,"n":22,"P":42,"W":14,"D":9,"L":19,"F":81,"A":78,"Pts":37,"derby":["EFC 2-0 LFC","LFC 3-2 EFC"],"bw":"Everton 7-0 Derby County","bl":"Wolverhampton Wanderers 7-2 Everton"},"1937":{"tier":1,"pos":14,"n":22,"P":42,"W":16,"D":7,"L":19,"F":79,"A":75,"Pts":39,"derby":["LFC 1-2 EFC","EFC 1-3 LFC"],"bw":"Everton 4-1 Manchester City","bl":"Everton 1-4 Arsenal"},"1938":{"tier":1,"pos":1,"n":22,"P":42,"W":27,"D":5,"L":10,"F":88,"A":52,"Pts":59,"derby":["EFC 2-1 LFC","LFC 0-3 EFC"],"bw":"Everton 5-1 Portsmouth","bl":"Wolverhampton Wanderers 7-0 Everton"},"1946":{"tier":1,"pos":10,"n":22,"P":42,"W":17,"D":9,"L":16,"F":62,"A":67,"Pts":43,"derby":["LFC 0-0 EFC","EFC 1-0 LFC"],"bw":"Everton 4-1 Derby County","bl":"Derby County 5-1 Everton"},"1947":{"tier":1,"pos":14,"n":22,"P":42,"W":17,"D":6,"L":19,"F":52,"A":66,"Pts":40,"derby":["EFC 0-3 LFC","LFC 4-0 EFC"],"bw":"Everton 3-0 Aston Villa","bl":"Blackpool 5-0 Everton"},"1948":{"tier":1,"pos":18,"n":22,"P":42,"W":13,"D":11,"L":18,"F":41,"A":63,"Pts":37,"derby":["EFC 1-1 LFC","LFC 0-0 EFC"],"bw":"Everton 5-0 Blackpool","bl":"Chelsea 6-0 Everton"},"1949":{"tier":1,"pos":18,"n":22,"P":42,"W":10,"D":14,"L":18,"F":42,"A":66,"Pts":34,"derby":["EFC 0-0 LFC","LFC 3-1 EFC"],"bw":"Everton 3-0 Huddersfield Town","bl":"Portsmouth 7-0 Everton"},"1950":{"tier":1,"pos":22,"n":22,"P":42,"W":12,"D":8,"L":22,"F":48,"A":86,"Pts":32,"derby":["EFC 1-3 LFC","LFC 0-2 EFC"],"bw":"Fulham 1-5 Everton","bl":"Sheffield Wednesday 6-0 Everton"},"1951":{"tier":2,"pos":7,"n":22,"P":42,"W":17,"D":10,"L":15,"F":64,"A":58,"Pts":44,"derby":[],"bw":"Everton 5-0 Hull City","bl":"Everton 1-5 Notts County"},"1952":{"tier":2,"pos":16,"n":22,"P":42,"W":12,"D":14,"L":16,"F":71,"A":75,"Pts":38,"derby":[],"bw":"Everton 7-1 Doncaster Rovers","bl":"Huddersfield Town 8-2 Everton"},"1953":{"tier":2,"pos":2,"n":22,"P":42,"W":20,"D":16,"L":6,"F":92,"A":58,"Pts":56,"derby":[],"bw":"Everton 6-1 Brentford","bl":"Plymouth Argyle 4-0 Everton"},"1954":{"tier":1,"pos":11,"n":22,"P":42,"W":16,"D":10,"L":16,"F":62,"A":68,"Pts":42,"derby":[],"bw":"Everton 4-0 Huddersfield Town","bl":"Portsmouth 5-0 Everton"},"1955":{"tier":1,"pos":15,"n":22,"P":42,"W":15,"D":10,"L":17,"F":55,"A":69,"Pts":40,"derby":[],"bw":"Everton 5-1 Birmingham City","bl":"Chelsea 6-1 Everton"},"1956":{"tier":1,"pos":15,"n":22,"P":42,"W":14,"D":10,"L":18,"F":61,"A":79,"Pts":38,"derby":[],"bw":"Everton 5-0 Charlton Athletic","bl":"Tottenham Hotspur 6-0 Everton"},"1957":{"tier":1,"pos":16,"n":22,"P":42,"W":13,"D":11,"L":18,"F":65,"A":75,"Pts":37,"derby":[],"bw":"Bolton Wanderers 1-5 Everton","bl":"Manchester City 6-2 Everton"},"1958":{"tier":1,"pos":16,"n":22,"P":42,"W":17,"D":4,"L":21,"F":71,"A":87,"Pts":38,"derby":[],"bw":"Bolton Wanderers 0-3 Everton","bl":"Tottenham Hotspur 10-4 Everton"},"1959":{"tier":1,"pos":15,"n":22,"P":42,"W":13,"D":11,"L":18,"F":73,"A":78,"Pts":37,"derby":[],"bw":"Everton 6-1 Leicester City","bl":"Newcastle United 8-2 Everton"},"1960":{"tier":1,"pos":5,"n":22,"P":42,"W":22,"D":6,"L":14,"F":87,"A":69,"Pts":50,"derby":[],"bw":"Everton 5-0 Newcastle United","bl":"Manchester United 4-0 Everton"},"1961":{"tier":1,"pos":4,"n":22,"P":42,"W":20,"D":11,"L":11,"F":88,"A":54,"Pts":51,"derby":[],"bw":"Everton 6-0 Nottingham Forest","bl":"Everton 0-4 Sheffield Wednesday"},"1962":{"tier":1,"pos":1,"n":22,"P":42,"W":25,"D":11,"L":6,"F":84,"A":42,"Pts":61,"derby":["EFC 2-2 LFC","LFC 0-0 EFC"],"bw":"Everton 5-0 Blackpool","bl":"Leyton Orient 3-0 Everton"},"1963":{"tier":1,"pos":3,"n":22,"P":42,"W":21,"D":10,"L":11,"F":84,"A":64,"Pts":52,"derby":["LFC 2-1 EFC","EFC 3-1 LFC"],"bw":"Everton 6-1 Nottingham Forest","bl":"Arsenal 6-0 Everton"},"1964":{"tier":1,"pos":4,"n":22,"P":42,"W":17,"D":15,"L":10,"F":69,"A":60,"Pts":49,"derby":["LFC 0-4 EFC","EFC 2-1 LFC"],"bw":"Everton 5-0 Wolverhampton Wanderers","bl":"Chelsea 5-1 Everton"},"1965":{"tier":1,"pos":11,"n":22,"P":42,"W":15,"D":11,"L":16,"F":56,"A":62,"Pts":41,"derby":["LFC 5-0 EFC","EFC 0-0 LFC"],"bw":"Everton 5-1 Sheffield Wednesday","bl":"Liverpool 5-0 Everton"},"1966":{"tier":1,"pos":6,"n":22,"P":42,"W":19,"D":10,"L":13,"F":65,"A":46,"Pts":48,"derby":["EFC 3-1 LFC","LFC 0-0 EFC"],"bw":"Everton 4-0 West Ham United","bl":"Manchester United 3-0 Everton"},"1967":{"tier":1,"pos":5,"n":22,"P":42,"W":23,"D":6,"L":13,"F":67,"A":40,"Pts":52,"derby":["LFC 1-0 EFC","EFC 1-0 LFC"],"bw":"West Bromwich Albion 2-6 Everton","bl":"Manchester United 3-1 Everton"},"1968":{"tier":1,"pos":3,"n":22,"P":42,"W":21,"D":15,"L":6,"F":77,"A":36,"Pts":57,"derby":["EFC 0-0 LFC","LFC 1-1 EFC"],"bw":"Everton 7-1 Leicester City","bl":"Everton 0-2 Tottenham Hotspur"},"1969":{"tier":1,"pos":1,"n":22,"P":42,"W":29,"D":8,"L":5,"F":72,"A":34,"Pts":66,"derby":["EFC 0-3 LFC","LFC 0-2 EFC"],"bw":"Everton 6-2 Stoke City","bl":"Everton 0-3 Liverpool"},"1970":{"tier":1,"pos":14,"n":22,"P":42,"W":12,"D":13,"L":17,"F":54,"A":60,"Pts":37,"derby":["LFC 3-2 EFC","EFC 0-0 LFC"],"bw":"Everton 4-1 Southampton","bl":"Arsenal 4-0 Everton"},"1971":{"tier":1,"pos":15,"n":22,"P":42,"W":9,"D":18,"L":15,"F":37,"A":48,"Pts":36,"derby":["EFC 1-0 LFC","LFC 4-0 EFC"],"bw":"Everton 8-0 Southampton","bl":"Chelsea 4-0 Everton"},"1972":{"tier":1,"pos":17,"n":22,"P":42,"W":13,"D":11,"L":18,"F":41,"A":49,"Pts":37,"derby":["LFC 1-0 EFC","EFC 0-2 LFC"],"bw":"Everton 2-0 Manchester United","bl":"Tottenham Hotspur 3-0 Everton"},"1973":{"tier":1,"pos":7,"n":22,"P":42,"W":16,"D":12,"L":14,"F":50,"A":48,"Pts":44,"derby":["EFC 0-1 LFC","LFC 0-0 EFC"],"bw":"Everton 3-0 Ipswich Town","bl":"Ipswich Town 3-0 Everton"},"1974":{"tier":1,"pos":4,"n":22,"P":42,"W":16,"D":18,"L":8,"F":56,"A":42,"Pts":50,"derby":["EFC 0-0 LFC","LFC 0-0 EFC"],"bw":"Everton 4-1 Birmingham City","bl":"Carlisle United 3-0 Everton"},"1975":{"tier":1,"pos":11,"n":22,"P":42,"W":15,"D":12,"L":15,"F":60,"A":66,"Pts":42,"derby":["EFC 0-0 LFC","LFC 1-0 EFC"],"bw":"Everton 3-0 Sheffield United","bl":"Queens Park Rangers 5-0 Everton"},"1976":{"tier":1,"pos":9,"n":22,"P":42,"W":14,"D":14,"L":14,"F":62,"A":64,"Pts":42,"derby":["LFC 3-1 EFC","EFC 0-0 LFC"],"bw":"Queens Park Rangers 0-4 Everton","bl":"Manchester United 4-0 Everton"},"1977":{"tier":1,"pos":3,"n":22,"P":42,"W":22,"D":11,"L":9,"F":76,"A":45,"Pts":55,"derby":["LFC 0-0 EFC","EFC 0-1 LFC"],"bw":"Everton 6-0 Coventry City","bl":"Everton 2-6 Manchester United"},"1978":{"tier":1,"pos":4,"n":22,"P":42,"W":17,"D":17,"L":8,"F":52,"A":40,"Pts":51,"derby":["EFC 1-0 LFC","LFC 1-1 EFC"],"bw":"Everton 3-0 Manchester United","bl":"Southampton 3-0 Everton"},"1979":{"tier":1,"pos":19,"n":22,"P":42,"W":9,"D":17,"L":16,"F":43,"A":51,"Pts":35,"derby":["LFC 2-2 EFC","EFC 1-2 LFC"],"bw":"Everton 5-1 Leeds United","bl":"Everton 0-4 Ipswich Town"},"1980":{"tier":1,"pos":15,"n":22,"P":42,"W":13,"D":10,"L":19,"F":55,"A":58,"Pts":36,"derby":["EFC 2-2 LFC","LFC 1-0 EFC"],"bw":"Everton 5-0 Crystal Palace","bl":"Ipswich Town 4-0 Everton"},"1981":{"tier":1,"pos":8,"n":22,"P":42,"W":17,"D":13,"L":12,"F":56,"A":50,"Pts":64,"derby":["LFC 3-1 EFC","EFC 1-3 LFC"],"bw":"Wolverhampton Wanderers 0-3 Everton","bl":"Tottenham Hotspur 3-0 Everton"},"1982":{"tier":1,"pos":7,"n":22,"P":42,"W":18,"D":10,"L":14,"F":66,"A":48,"Pts":64,"derby":["EFC 0-5 LFC","LFC 0-0 EFC"],"bw":"Everton 5-0 Aston Villa","bl":"Everton 0-5 Liverpool"},"1983":{"tier":1,"pos":7,"n":22,"P":42,"W":16,"D":14,"L":12,"F":44,"A":42,"Pts":62,"derby":["LFC 3-0 EFC","EFC 1-1 LFC"],"bw":"Everton 4-1 Notts County","bl":"Ipswich Town 3-0 Everton"},"1984":{"tier":1,"pos":1,"n":22,"P":42,"W":28,"D":6,"L":8,"F":88,"A":43,"Pts":90,"derby":["LFC 0-1 EFC","EFC 1-0 LFC"],"bw":"Everton 5-0 Manchester United","bl":"Everton 1-4 Tottenham Hotspur"},"1985":{"tier":1,"pos":2,"n":22,"P":42,"W":26,"D":8,"L":8,"F":87,"A":41,"Pts":86,"derby":["EFC 2-3 LFC","LFC 0-2 EFC"],"bw":"Everton 6-1 Arsenal","bl":"Queens Park Rangers 3-0 Everton"},"1986":{"tier":1,"pos":1,"n":22,"P":42,"W":26,"D":8,"L":8,"F":76,"A":31,"Pts":86,"derby":["EFC 0-0 LFC","LFC 3-1 EFC"],"bw":"Everton 4-0 Norwich City","bl":"Tottenham Hotspur 2-0 Everton"},"1987":{"tier":1,"pos":4,"n":21,"P":40,"W":19,"D":13,"L":8,"F":53,"A":27,"Pts":70,"derby":["LFC 2-0 EFC","EFC 1-0 LFC"],"bw":"Everton 4-0 Sheffield Wednesday","bl":"Liverpool 2-0 Everton"},"1988":{"tier":1,"pos":8,"n":20,"P":38,"W":14,"D":12,"L":12,"F":50,"A":45,"Pts":54,"derby":["LFC 1-1 EFC","EFC 0-0 LFC"],"bw":"Everton 4-0 Newcastle United","bl":"Everton 0-2 Luton Town"},"1989":{"tier":1,"pos":6,"n":20,"P":38,"W":17,"D":8,"L":13,"F":57,"A":46,"Pts":59,"derby":["EFC 1-3 LFC","LFC 2-1 EFC"],"bw":"Everton 4-0 Crystal Palace","bl":"Aston Villa 6-2 Everton"},"1990":{"tier":1,"pos":9,"n":20,"P":38,"W":13,"D":12,"L":13,"F":50,"A":46,"Pts":51,"derby":["EFC 2-3 LFC","LFC 3-1 EFC"],"bw":"Everton 3-0 Southampton","bl":"Coventry City 3-1 Everton"},"1991":{"tier":1,"pos":12,"n":22,"P":42,"W":13,"D":14,"L":15,"F":52,"A":51,"Pts":53,"derby":["LFC 3-1 EFC","EFC 1-1 LFC"],"bw":"Everton 4-0 West Ham United","bl":"Liverpool 3-1 Everton"},"1992":{"tier":1,"pos":13,"n":22,"P":42,"W":15,"D":8,"L":19,"F":53,"A":55,"Pts":53,"derby":["EFC 2-1 LFC","LFC 1-0 EFC"],"bw":"Manchester United 0-3 Everton","bl":"Everton 0-2 Manchester United"},"1993":{"tier":1,"pos":17,"n":22,"P":42,"W":12,"D":8,"L":22,"F":42,"A":63,"Pts":44,"derby":["EFC 2-0 LFC","LFC 2-1 EFC"],"bw":"Everton 6-2 Swindon Town","bl":"Everton 1-5 Norwich City"},"1994":{"tier":1,"pos":15,"n":22,"P":42,"W":11,"D":17,"L":14,"F":44,"A":51,"Pts":50,"derby":["EFC 2-0 LFC","LFC 0-0 EFC"],"bw":"Everton 3-0 Leeds United","bl":"Manchester City 4-0 Everton"},"1995":{"tier":1,"pos":6,"n":20,"P":38,"W":17,"D":10,"L":11,"F":64,"A":44,"Pts":61,"derby":["LFC 1-2 EFC","EFC 1-1 LFC"],"bw":"Everton 4-0 Middlesbrough","bl":"Everton 0-2 Arsenal"},"1996":{"tier":1,"pos":16,"n":20,"P":38,"W":10,"D":12,"L":16,"F":44,"A":57,"Pts":42,"derby":["LFC 1-1 EFC","EFC 1-1 LFC"],"bw":"Everton 7-1 Southampton","bl":"Wimbledon 4-0 Everton"},"1997":{"tier":1,"pos":17,"n":20,"P":38,"W":9,"D":13,"L":16,"F":41,"A":56,"Pts":40,"derby":["EFC 2-0 LFC","LFC 1-1 EFC"],"bw":"Everton 4-2 Barnsley","bl":"Arsenal 4-0 Everton"},"1998":{"tier":1,"pos":14,"n":20,"P":38,"W":11,"D":10,"L":17,"F":42,"A":47,"Pts":43,"derby":["EFC 0-0 LFC","LFC 3-2 EFC"],"bw":"Everton 6-0 West Ham United","bl":"Everton 1-4 Manchester United"},"1999":{"tier":1,"pos":13,"n":20,"P":38,"W":12,"D":14,"L":12,"F":59,"A":49,"Pts":50,"derby":["LFC 0-1 EFC","EFC 0-0 LFC"],"bw":"Everton 5-0 Sunderland","bl":"Manchester United 5-1 Everton"},"2000":{"tier":1,"pos":16,"n":20,"P":38,"W":11,"D":9,"L":18,"F":45,"A":59,"Pts":42,"derby":["LFC 3-1 EFC","EFC 2-3 LFC"],"bw":"Everton 3-0 Charlton Athletic","bl":"Manchester City 5-0 Everton"},"2001":{"tier":1,"pos":15,"n":20,"P":38,"W":11,"D":10,"L":17,"F":45,"A":57,"Pts":43,"derby":["EFC 1-3 LFC","LFC 1-1 EFC"],"bw":"Everton 5-0 West Ham United","bl":"Newcastle United 6-2 Everton"},"2002":{"tier":1,"pos":7,"n":20,"P":38,"W":17,"D":8,"L":13,"F":48,"A":49,"Pts":59,"derby":["LFC 0-0 EFC","EFC 1-2 LFC"],"bw":"Everton 2-0 Fulham","bl":"Manchester United 3-0 Everton"},"2003":{"tier":1,"pos":17,"n":20,"P":38,"W":9,"D":12,"L":17,"F":45,"A":57,"Pts":39,"derby":["EFC 0-3 LFC","LFC 0-0 EFC"],"bw":"Everton 4-0 Leeds United","bl":"Manchester City 5-1 Everton"},"2004":{"tier":1,"pos":4,"n":20,"P":38,"W":18,"D":7,"L":13,"F":45,"A":46,"Pts":61,"derby":["EFC 1-0 LFC","LFC 2-1 EFC"],"bw":"Everton 4-0 Crystal Palace","bl":"Arsenal 7-0 Everton"},"2005":{"tier":1,"pos":11,"n":20,"P":38,"W":14,"D":8,"L":16,"F":34,"A":49,"Pts":50,"derby":["EFC 1-3 LFC","LFC 3-1 EFC"],"bw":"Everton 4-1 Aston Villa","bl":"West Bromwich Albion 4-0 Everton"},"2006":{"tier":1,"pos":6,"n":20,"P":38,"W":15,"D":13,"L":10,"F":52,"A":36,"Pts":58,"derby":["EFC 3-0 LFC","LFC 0-0 EFC"],"bw":"Everton 3-0 Liverpool","bl":"Manchester United 3-0 Everton"},"2007":{"tier":1,"pos":5,"n":20,"P":38,"W":19,"D":8,"L":11,"F":55,"A":33,"Pts":65,"derby":["EFC 1-2 LFC","LFC 1-0 EFC"],"bw":"Everton 7-1 Sunderland","bl":"Everton 1-4 Arsenal"},"2008":{"tier":1,"pos":5,"n":20,"P":38,"W":17,"D":12,"L":9,"F":55,"A":37,"Pts":63,"derby":["EFC 0-2 LFC","LFC 1-1 EFC"],"bw":"Everton 4-0 Wigan Athletic","bl":"Everton 0-3 Portsmouth"},"2009":{"tier":1,"pos":8,"n":20,"P":38,"W":16,"D":13,"L":9,"F":60,"A":49,"Pts":61,"derby":["EFC 0-2 LFC","LFC 1-0 EFC"],"bw":"Everton 5-1 Hull City","bl":"Everton 1-6 Arsenal"},"2010":{"tier":1,"pos":7,"n":20,"P":38,"W":13,"D":15,"L":10,"F":51,"A":45,"Pts":54,"derby":["EFC 2-0 LFC","LFC 2-2 EFC"],"bw":"Wolverhampton Wanderers 0-3 Everton","bl":"Everton 1-4 West Bromwich Albion"},"2011":{"tier":1,"pos":7,"n":20,"P":38,"W":15,"D":11,"L":12,"F":50,"A":40,"Pts":56,"derby":["EFC 0-2 LFC","LFC 3-0 EFC"],"bw":"Everton 4-0 Sunderland","bl":"Liverpool 3-0 Everton"},"2012":{"tier":1,"pos":6,"n":20,"P":38,"W":16,"D":15,"L":7,"F":55,"A":40,"Pts":63,"derby":["EFC 2-2 LFC","LFC 0-0 EFC"],"bw":"Swansea City 0-3 Everton","bl":"West Bromwich Albion 2-0 Everton"},"2013":{"tier":1,"pos":5,"n":20,"P":38,"W":21,"D":9,"L":8,"F":61,"A":39,"Pts":72,"derby":["EFC 3-3 LFC","LFC 4-0 EFC"],"bw":"Everton 4-0 Stoke City","bl":"Liverpool 4-0 Everton"},"2014":{"tier":1,"pos":11,"n":20,"P":38,"W":12,"D":11,"L":15,"F":48,"A":50,"Pts":47,"derby":["LFC 1-1 EFC","EFC 0-0 LFC"],"bw":"Everton 3-0 Aston Villa","bl":"Everton 3-6 Chelsea"},"2015":{"tier":1,"pos":11,"n":20,"P":38,"W":11,"D":14,"L":13,"F":59,"A":55,"Pts":47,"derby":["EFC 1-1 LFC","LFC 4-0 EFC"],"bw":"Everton 6-2 Sunderland","bl":"Liverpool 4-0 Everton"},"2016":{"tier":1,"pos":7,"n":20,"P":38,"W":17,"D":10,"L":11,"F":62,"A":44,"Pts":61,"derby":["EFC 0-1 LFC","LFC 3-1 EFC"],"bw":"Everton 4-0 Manchester City","bl":"Chelsea 5-0 Everton"},"2017":{"tier":1,"pos":8,"n":20,"P":38,"W":13,"D":10,"L":15,"F":44,"A":58,"Pts":49,"derby":["LFC 1-1 EFC","EFC 0-0 LFC"],"bw":"Everton 4-0 West Ham United","bl":"Manchester United 4-0 Everton"},"2018":{"tier":1,"pos":8,"n":20,"P":38,"W":15,"D":9,"L":14,"F":54,"A":46,"Pts":54,"derby":["LFC 1-0 EFC","EFC 0-0 LFC"],"bw":"Burnley 1-5 Everton","bl":"Everton 2-6 Tottenham Hotspur"},"2019":{"tier":1,"pos":12,"n":20,"P":38,"W":13,"D":10,"L":15,"F":44,"A":56,"Pts":49,"derby":["LFC 5-2 EFC","EFC 0-0 LFC"],"bw":"Everton 2-0 West Ham United","bl":"Chelsea 4-0 Everton"},"2020":{"tier":1,"pos":10,"n":20,"P":38,"W":17,"D":8,"L":13,"F":47,"A":48,"Pts":59,"derby":["EFC 2-2 LFC","LFC 0-2 EFC"],"bw":"Everton 5-2 West Bromwich Albion","bl":"Manchester City 5-0 Everton"},"2021":{"tier":1,"pos":16,"n":20,"P":38,"W":11,"D":6,"L":21,"F":43,"A":66,"Pts":39,"derby":["EFC 1-4 LFC","LFC 2-0 EFC"],"bw":"Everton 3-0 Leeds United","bl":"Tottenham Hotspur 5-0 Everton"},"2023":{"tier":1,"pos":15,"n":20,"P":38,"W":13,"D":9,"L":16,"F":40,"A":51,"Pts":40,"derby":["LFC 2-0 EFC","EFC 2-0 LFC"],"bw":"Everton 3-0 AFC Bournemouth","bl":"Chelsea 6-0 Everton"},"2024":{"tier":1,"pos":13,"n":20,"P":38,"W":11,"D":15,"L":12,"F":42,"A":44,"Pts":48,"derby":["EFC 2-2 LFC","LFC 1-0 EFC"],"bw":"Everton 4-0 Wolverhampton Wanderers","bl":"Tottenham Hotspur 4-0 Everton"},"2022":{"tier":1,"pos":17,"n":20,"P":38,"W":8,"D":12,"L":18,"F":34,"A":57,"Pts":36,"derby":["EFC 0-0 LFC","LFC 2-0 EFC"],"bw":"Brighton & Hove Albion 1-5 Everton","bl":"Arsenal 4-0 Everton"},"2025":{"tier":1,"pos":13,"n":20,"P":38,"W":13,"D":10,"L":15,"F":47,"A":50,"Pts":49,"derby":["LFC 2-1 EFC","EFC 1-2 LFC"],"bw":"Everton 3-0 Chelsea","bl":"Everton 0-3 Tottenham Hotspur"},"2026":{"tier":1,"pos":7,"n":20,"P":5,"W":2,"D":3,"L":0,"F":6,"A":3,"Pts":9,"derby":[],"bw":null,"bl":null,"partial":true}},"FA":{"1887":{"stage":"Round 1","last":"disqualified after the Bolton Wanderers tie for paying players"},"1889":{"stage":"Round 2","last":"Stoke City 4-2 Everton"},"1890":{"stage":"Round 1","last":"Sunderland 1-0 Everton"},"1891":{"stage":"Round 1","last":"Everton 1-3 Burnley"},"1892":{"stage":"Final","last":"Wolverhampton Wanderers 1-0 Everton"},"1893":{"stage":"Round 1","last":"Stoke City 1-0 Everton"},"1894":{"stage":"Quarter-final","last":"Sheffield Wednesday 2-0 Everton"},"1895":{"stage":"Quarter-final","last":"Sheffield Wednesday 4-0 Everton"},"1896":{"stage":"Final","last":"Aston Villa 3-2 Everton"},"1897":{"stage":"Semi-final","last":"Derby County 3-1 Everton"},"1898":{"stage":"Round 2","last":"Everton 0-1 Nottingham Forest"},"1899":{"stage":"Round 1","last":"Southampton 3-0 Everton"},"1900":{"stage":"Round 2","last":"Sheffield United 2-0 Everton"},"1901":{"stage":"Round 1","last":"Everton 0-2 Liverpool"},"1902":{"stage":"Quarter-final","last":"Millwall 1-0 Everton"},"1903":{"stage":"Round 1","last":"Everton 1-2 Tottenham Hotspur"},"1904":{"stage":"Semi-final","last":"Aston Villa 2-1 Everton"},"1905":{"stage":"Winners","last":"Everton 1-0 Newcastle United"},"1906":{"stage":"Final","last":"Sheffield Wednesday 2-1 Everton"},"1907":{"stage":"Quarter-final","last":"Southampton 3-2 Everton"},"1908":{"stage":"Round 2","last":"Manchester United 1-0 Everton"},"1909":{"stage":"Semi-final","last":"Barnsley 3-0 Everton"},"1910":{"stage":"Round 3","last":"Derby County 5-0 Everton"},"1911":{"stage":"Quarter-final","last":"Swindon Town 2-1 Everton"},"1912":{"stage":"Quarter-final","last":"Everton 0-1 Oldham Athletic"},"1913":{"stage":"Round 1","last":"Glossop 2-1 Everton"},"1914":{"stage":"Semi-final","last":"Chelsea 2-0 Everton"},"1919":{"stage":"Round 1","last":"Birmingham City 2-0 Everton"},"1920":{"stage":"Quarter-final","last":"Everton 0-1 Wolverhampton Wanderers"},"1921":{"stage":"Round 1","last":"Everton 0-6 Crystal Palace"},"1922":{"stage":"Round 1","last":"Bradford Park Avenue 1-0 Everton"},"1923":{"stage":"Round 2","last":"Brighton & Hove Albion 5-2 Everton"},"1924":{"stage":"Round 3","last":"Sheffield United 1-0 Everton"},"1925":{"stage":"Round 3","last":"Fulham 1-0 Everton"},"1926":{"stage":"Round 4","last":"Hull City 3-2 Everton"},"1927":{"stage":"Round 4","last":"Arsenal 4-3 Everton"},"1928":{"stage":"Round 3","last":"Chelsea 2-0 Everton"},"1929":{"stage":"Round 4","last":"Blackburn Rovers 4-1 Everton"},"1930":{"stage":"Semi-final","last":"West Bromwich Albion 1-0 Everton"},"1931":{"stage":"Round 3","last":"Everton 1-2 Liverpool"},"1932":{"stage":"Winners","last":"Everton 3-0 Manchester City"},"1933":{"stage":"Round 3","last":"Tottenham Hotspur 3-0 Everton"},"1934":{"stage":"Quarter-final","last":"Everton 1-2 Bolton Wanderers"},"1935":{"stage":"Round 3","last":"Everton 1-3 Preston North End"},"1936":{"stage":"Round 5","last":"Tottenham Hotspur 4-3 Everton"},"1937":{"stage":"Round 4","last":"Everton 0-1 Sunderland"},"1938":{"stage":"Quarter-final","last":"Wolverhampton Wanderers 2-0 Everton"},"1945":{"stage":"Round 3","last":"Everton 2-2 Preston North End"},"1946":{"stage":"Round 4","last":"Sheffield Wednesday 2-1 Everton"},"1947":{"stage":"Round 5","last":"Everton 0-1 Fulham"},"1948":{"stage":"Round 4","last":"Chelsea 2-0 Everton"},"1949":{"stage":"Semi-final","last":"Liverpool 2-0 Everton"},"1950":{"stage":"Round 3","last":"Hull City 2-0 Everton"},"1951":{"stage":"Round 3","last":"Everton 1-3 Leyton Orient"},"1952":{"stage":"Semi-final","last":"Bolton Wanderers 4-3 Everton"},"1953":{"stage":"Round 5","last":"Sheffield Wednesday 3-1 Everton"},"1954":{"stage":"Round 4","last":"Everton 0-4 Liverpool"},"1955":{"stage":"Quarter-final","last":"Manchester City 2-1 Everton"},"1956":{"stage":"Round 5","last":"Manchester United 1-0 Everton"},"1957":{"stage":"Round 4","last":"Everton 1-2 Blackburn Rovers"},"1958":{"stage":"Round 5","last":"Everton 1-4 Aston Villa"},"1959":{"stage":"Round 3","last":"Bradford City 3-0 Everton"},"1960":{"stage":"Round 3","last":"Everton 0-1 Sheffield United"},"1961":{"stage":"Round 5","last":"Burnley 3-1 Everton"},"1962":{"stage":"Round 5","last":"West Ham United 1-0 Everton"},"1963":{"stage":"Round 5","last":"Sunderland 3-1 Everton"},"1964":{"stage":"Round 4","last":"Everton 1-2 Leeds United"},"1965":{"stage":"Winners","last":"Everton 3-2 Sheffield Wednesday"},"1966":{"stage":"Quarter-final","last":"Nottingham Forest 3-2 Everton"},"1967":{"stage":"Final","last":"West Bromwich Albion 1-0 Everton (aet)"},"1968":{"stage":"Semi-final","last":"Manchester City 1-0 Everton"},"1969":{"stage":"Round 3","last":"Sheffield United 2-1 Everton"},"1970":{"stage":"Round 3","last":"Stoke City 3-2 Everton"},"1971":{"stage":"Round 5","last":"Everton 0-2 Tottenham Hotspur"},"1972":{"stage":"Round 4","last":"Everton 0-2 Millwall"},"1973":{"stage":"Round 4","last":"West Bromwich Albion 1-0 Everton"},"1974":{"stage":"Round 5","last":"Everton 1-2 Fulham"},"1975":{"stage":"Round 3","last":"Derby County 2-1 Everton"},"1976":{"stage":"Semi-final","last":"Liverpool 3-0 Everton"},"1977":{"stage":"Round 4","last":"Middlesbrough 3-2 Everton"},"1978":{"stage":"Round 3","last":"Sunderland 2-1 Everton"},"1979":{"stage":"Semi-final","last":"West Ham United 2-1 Everton (aet)"},"1980":{"stage":"Quarter-final","last":"Manchester City 3-1 Everton"},"1981":{"stage":"Round 3","last":"West Ham United 2-1 Everton"},"1982":{"stage":"Quarter-final","last":"Manchester United 1-0 Everton"},"1983":{"stage":"Winners","last":"Everton 2-0 Watford"},"1984":{"stage":"Final","last":"Manchester United 1-0 Everton (aet)"},"1985":{"stage":"Final","last":"Liverpool 3-1 Everton"},"1986":{"stage":"Round 5","last":"Wimbledon 3-1 Everton"},"1987":{"stage":"Round 5","last":"Everton 0-1 Liverpool"},"1988":{"stage":"Final","last":"Liverpool 3-2 Everton (aet)"},"1989":{"stage":"Round 5","last":"Oldham Athletic 2-1 Everton"},"1990":{"stage":"Quarter-final","last":"West Ham United 2-1 Everton"},"1991":{"stage":"Round 4","last":"Chelsea 1-0 Everton"},"1992":{"stage":"Round 3","last":"Everton 1-2 Wimbledon"},"1993":{"stage":"Round 3","last":"Everton 2-3 Bolton Wanderers"},"1994":{"stage":"Winners","last":"Everton 1-0 Manchester United"},"1995":{"stage":"Round 4","last":"Port Vale 2-1 Everton"},"1996":{"stage":"Round 4","last":"Everton 2-3 Bradford City"},"1997":{"stage":"Round 3","last":"Everton 0-1 Newcastle United"},"1998":{"stage":"Quarter-final","last":"Newcastle United 4-1 Everton"},"1999":{"stage":"Quarter-final","last":"Everton 1-2 Aston Villa"},"2000":{"stage":"Round 4","last":"Everton 0-3 Tranmere Rovers"},"2001":{"stage":"Quarter-final","last":"Middlesbrough 3-0 Everton"},"2002":{"stage":"Round 3","last":"Shrewsbury Town 2-1 Everton"},"2003":{"stage":"Round 4","last":"Fulham 2-1 Everton (aet)"},"2004":{"stage":"Round 5","last":"Everton 0-2 Manchester United"},"2005":{"stage":"Round 4","last":"Chelsea 4-1 Everton"},"2006":{"stage":"Round 3","last":"Everton 1-4 Blackburn Rovers"},"2007":{"stage":"Round 3","last":"Everton 0-1 Oldham Athletic"},"2008":{"stage":"Final","last":"Chelsea 2-1 Everton"},"2009":{"stage":"Round 4","last":"Everton 1-2 Birmingham City"},"2010":{"stage":"Round 5","last":"Everton 0-1 Reading"},"2011":{"stage":"Semi-final","last":"Liverpool 2-1 Everton"},"2012":{"stage":"Quarter-final","last":"Everton 0-3 Wigan Athletic"},"2013":{"stage":"Quarter-final","last":"Arsenal 4-1 Everton"},"2014":{"stage":"Round 3","last":"West Ham United 2-2 Everton (aet) (9-8 pens)"},"2015":{"stage":"Semi-final","last":"Everton 1-2 Manchester United"},"2016":{"stage":"Round 3","last":"Everton 1-2 Leicester City"},"2017":{"stage":"Round 3","last":"Liverpool 2-1 Everton"},"2018":{"stage":"Round 4","last":"Millwall 3-2 Everton"},"2019":{"stage":"Round 3","last":"Liverpool 1-0 Everton"},"2020":{"stage":"Quarter-final","last":"Everton 0-2 Manchester City"},"2021":{"stage":"Quarter-final","last":"Crystal Palace 4-0 Everton"},"2022":{"stage":"Round 3","last":"Manchester City 3-1 Everton"},"2023":{"stage":"Round 4","last":"Everton 1-2 Luton Town"},"2024":{"stage":"Round 4","last":"beaten 2-0 by AFC Bournemouth"}}};</script>
+<script>
+(() => {
+"use strict";
+const S = {}; for (const k in DATA.S) S[+k] = DATA.S[k];
+const FA = {}; for (const k in DATA.FA) FA[+k] = DATA.FA[k];
+const Y0 = 1877.5, Y1 = 2032.5, NOW = 2026.76, FIRST = 1878, LAST = 2026;
+const WAR = new Set([1915,1916,1917,1918,1939,1940,1941,1942,1943,1944,1945]);
+const dec = d => { const p = String(d).split('-'); return p[1] ? +p[0] + (+p[1] - 0.5) / 12 : +p[0] + 0.5; };
+const seasonOf = y => Math.floor(y - 0.5);
+const sl = s => (s + 1) % 100 === 0 ? `${s}–${s + 1}` : `${s}–${String((s + 1) % 100).padStart(2, '0')}`;
+const ord = n => n + ((n % 100 >= 11 && n % 100 <= 13) ? 'th' : (['th','st','nd','rd'][n % 10] || 'th'));
+const esc = t => String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const when = d => { const p = String(d).split('-'); return p[1] ? `${MON[+p[1]-1]} ${p[0]}` : p[0]; };
+const res = t => t ? String(t).replace(/EFC/g,'Everton').replace(/LFC/g,'Liverpool').replace(/(\d+)-(\d+)/g,'$1–$2') : '';
+/* ---------- Curated history ---------- */
+const EPOCHS = [
+  [1878,1892.2,'Beginnings'],[1892.2,1914.6,'Goodison rises'],[1914.6,1919.6,'Great War'],
+  [1919.6,1939.7,'Dean and the School of Science'],[1939.7,1946.6,'Second World War'],[1946.6,1960.5,'Post-war slump'],
+  [1960.5,1973.4,'The Mersey Millionaires'],[1973.4,1981.45,'Seventies drift'],[1981.45,1987.5,"Kendall's golden age"],
+  [1987.5,2002.2,'Banned, then bleeding'],[2002.2,2016.12,'Moyes and Martínez'],[2016.12,2024.97,'Moshiri: boom, bust, deductions'],
+  [2024.97,2025.6,'Friedkin'],[2025.6,Y1,'Hill Dickinson Stadium']
+];
+const EPOCH_TXT = {
+  'Beginnings':"From a chapel side in Stanley Park to league champions at Anfield, ending in the split with John Houlding.",
+  'Goodison rises':"A new ground built by the members, a first FA Cup in 1906, and big crowds.",
+  'Great War':"Champions in 1915, then four years without league football.",
+  'Dean and the School of Science':"Dixie Dean's 60 goals, a first relegation, an instant return and titles in 1928, 1932 and 1939.",
+  'Second World War':"The 1939 champions are broken up by war; Liverpool is bombed harder than any British city outside London.",
+  'Post-war slump':"Huge crowds, a cautious board, relegation in 1951 and promotion in 1954.",
+  'The Mersey Millionaires':"John Moores' money buys Catterick's sides: titles in 1963 and 1970, the FA Cup in 1966.",
+  'Seventies drift':"Latchford's goals and two near misses, but no trophies.",
+  "Kendall's golden age":"Two titles, the FA Cup and the Cup Winners' Cup, then the Heysel ban.",
+  'Banned, then bleeding':"Shut out of Europe, then a decade of debt and survival scraps lit up by the 1995 FA Cup.",
+  'Moyes and Martínez':"Stability on a shoestring: fourth in 2005, a cup final in 2009, 72 points in 2014.",
+  'Moshiri: boom, bust, deductions':"Big money, worse results, years of losses, two points deductions and a stadium half-built on borrowed money.",
+  'Friedkin':"The Friedkin Group take over, Moyes returns and Goodison says goodbye.",
+  'Hill Dickinson Stadium':"Everton's new home on Bramley-Moore Dock, opened in August 2025."
+};
+const MGR = [
+  ['Committee',1878,1888.6,'Run by the club committee'],['Barclay',1888.6,1889.6,'William Barclay, secretary'],
+  ['Molyneux',1889.6,1901.4,'Dick Molyneux, secretary'],['Cuff',1901.4,1918.6,'Will Cuff, secretary'],
+  ['McIntosh',1919.4,1935.9,'Tom McIntosh, secretary'],['Kelly',1936.4,1948.6,'Theo Kelly, secretary and later secretary-manager'],
+  ['Britton',1948.75,1956.2,'Cliff Britton'],['Buchan',1956.5,1958.8,'Ian Buchan, chief coach'],['Carey',1958.85,1961.3,'Johnny Carey'],
+  ['Catterick',1961.3,1973.3,'Harry Catterick'],['Bingham',1973.5,1977.05,'Billy Bingham'],['Lee',1977.05,1981.4,'Gordon Lee'],
+  ['Kendall',1981.45,1987.5,'Howard Kendall'],['Harvey',1987.5,1990.85,'Colin Harvey'],['Kendall',1990.9,1993.95,'Howard Kendall, second spell'],
+  ['Walker',1994.05,1994.85,'Mike Walker'],['Royle',1994.85,1997.25,'Joe Royle'],['Kendall',1997.5,1998.5,'Howard Kendall, third spell'],
+  ['Smith',1998.5,2002.2,'Walter Smith'],['Moyes',2002.2,2013.45,'David Moyes'],['Martínez',2013.45,2016.37,'Roberto Martínez'],
+  ['Koeman',2016.45,2017.8,'Ronald Koeman'],['Allardyce',2017.9,2018.38,'Sam Allardyce'],['Silva',2018.42,2019.92,'Marco Silva'],
+  ['Ancelotti',2019.97,2021.45,'Carlo Ancelotti'],['Benítez',2021.5,2022.04,'Rafael Benítez'],['Lampard',2022.08,2023.07,'Frank Lampard'],
+  ['Dyche',2023.08,2025.02,'Sean Dyche'],['Moyes',2025.03,NOW,'David Moyes, second spell']
+];
+const MBIO = {
+  'Theo Kelly':"Secretary from 1936 and the club's first secretary-manager. His club tie became the basis of the crest.",
+  'Cliff Britton':"Took Everton down in 1951 and back up in 1954.",
+  'Johnny Carey':"Sacked by John Moores in the back of a London taxi in 1961.",
+  'Harry Catterick':"Champions in 1963 and 1970, FA Cup winners in 1966.",
+  'Billy Bingham':"A former Everton winger; took the side to fourth in 1975.",
+  'Gordon Lee':"A League Cup final in 1977 and third place in 1978.",
+  'Howard Kendall':"Everton's most successful manager: two titles, the FA Cup and the Cup Winners' Cup in his first spell. Three spells in all, and a Holy Trinity midfielder before that.",
+  'Colin Harvey':"Kendall's coach and successor; the 1989 FA Cup final.",
+  'Mike Walker':"Ten months in charge as the club slid toward relegation in 1994.",
+  'Joe Royle':"Won the FA Cup in 1995 with the side nicknamed the Dogs of War. Also a centre-forward in the 1970 title side.",
+  'Walter Smith':"Four seasons in the lower half on a tight budget.",
+  'David Moyes':"Fourth in 2005 and an FA Cup final in 2009 across eleven years, then back in 2025 to lead the move to Hill Dickinson Stadium.",
+  'Roberto Martínez':"72 points and fifth in his first season; sacked after the third.",
+  'Ronald Koeman':"Seventh in 2017, sacked that October after a heavy summer of spending.",
+  'Sam Allardyce':"Steadied the side in 2017–18 but never won the crowd over.",
+  'Marco Silva':"A bright start in 2018 that faded.",
+  'Carlo Ancelotti':"Took Everton top in October 2020, then left for Real Madrid in 2021.",
+  'Rafael Benítez':"The former Liverpool manager lasted under seven months.",
+  'Frank Lampard':"Kept Everton up in 2022 with the Crystal Palace comeback.",
+  'Sean Dyche':"Kept the club up through two points deductions."
+};
+const OWN = [
+  ["Members' club",1878,1892.2,"A members' club; brewer John Houlding is president and Anfield's landlord",['John Houlding']],
+  ['Shareholder board',1892.2,1960.5,'A limited company run by local directors such as George Mahon and Will Cuff',['George Mahon']],
+  ['The Moores family',1960.5,1994.6,"Littlewoods founder John Moores becomes chairman; his family stay the largest shareholders until 1994",['John Moores']],
+  ['Peter Johnson',1994.6,1999.95,'Peter Johnson buys control from the Moores family',['Peter Johnson']],
+  ['Bill Kenwright',1999.95,2016.12,"Bill Kenwright's True Blue Holdings buys Johnson out",['Bill Kenwright']],
+  ['Farhad Moshiri',2016.12,2024.97,'Farhad Moshiri buys 49.9%, later most of the club',['Farhad Moshiri']],
+  ['The Friedkin Group',2024.97,Y1,"Dan Friedkin's group completes its takeover in December 2024",['Dan Friedkin']]
+];
+const OWNP = {
+  'John Houlding':['President and Anfield landlord',[[1881,1892.2]],"Brewer and Tory alderman who leased Anfield to Everton, raised the rent, and formed Liverpool FC when the members walked out."],
+  'George Mahon':['Leader of the 1892 breakaway',[[1892.2,1908.5]],"Organist and accountant who led the members against Houlding and found the land for Goodison Park."],
+  'John Moores':['Chairman',[[1960.5,1965.5],[1972.5,1973.5]],"Founder of Littlewoods; his money built Catterick's title sides."],
+  'Peter Johnson':['Owner',[[1994.6,1999.95]],"Tranmere Rovers owner who bought control of Everton in 1994."],
+  'Bill Kenwright':['Owner, then chairman',[[1999.95,2023.8]],"Theatre producer and lifelong fan; chairman until his death in 2023."],
+  'Farhad Moshiri':['Majority owner',[[2016.12,2024.97]],"Bought in from 2016, funded heavy spending and the stadium, and sold to the Friedkin Group in 2024."],
+  'Dan Friedkin':['Owner',[[2024.97,NOW]],"Head of the Friedkin Group, which also owns AS Roma."]
+};
+const GROUND = [
+  ['Stanley Park',1878,1883.6,'An open pitch in the park; the posts were carried on and off.'],
+  ['Priory Road',1883.6,1884.7,'A private field, the first enclosed ground.'],
+  ['Anfield',1884.7,1892.4,"Everton's home for eight years, until the rent row with John Houlding."],
+  ['Goodison Park',1892.65,2025.4,"Built by the members in 1892; home for 133 years. Last men's match: 18 May 2025. Everton Women play there now."],
+  ['Hill Dickinson Stadium',2025.6,Y1,'52,888 seats on Bramley-Moore Dock. First league match 24 August 2025, a 2–0 win over Brighton.']
+];
+const FINERA = [
+  [1878,1884.7,0,'Chapel subscriptions','Members pay subscriptions; there is no gate to speak of in Stanley Park.'],
+  [1884.7,1892.2,0,'Anfield gates, Houlding rent','Crowds pay at Anfield, but the club rents its ground from John Houlding, who keeps raising the rent.'],
+  [1892.2,1914.6,1,'Goodison goldmine','Members fund their own ground; big crowds make Everton one of the best-supported clubs in England.'],
+  [1914.6,1919.6,-1,'Wartime football','The League is suspended; regional games bring in little.'],
+  [1919.6,1939.7,1,'Big crowds, new stands','Goodison is rebuilt stand by stand, ending with four two-tier sides in 1938.'],
+  [1939.7,1946.6,-1,'War again','Football reduced to regional competitions.'],
+  [1946.6,1960.5,0,'Austerity','Huge post-war crowds, but a cautious board and a relegation.'],
+  [1960.5,1973.4,2,'Mersey Millionaires','John Moores funds British-record signings.'],
+  [1973.4,1985.4,0,'Spending, then thrift','Latchford is a British-record buy; in the early 1980s Kendall builds cheaply.'],
+  [1985.4,1992.6,0,'Locked out of Europe','The Heysel ban removes European income just as the club peaks.'],
+  [1992.6,1999.95,-1,'Debts mount','Premier League TV money arrives, but the Johnson years end under pressure from the bank.'],
+  [1999.95,2016.12,-1,'Kenwright shoestring','Thin capital and failed stadium schemes at Kings Dock and Kirkby; Moyes buys cheap and sells well.'],
+  [2016.12,2018.5,0,'Moshiri spree','Heavy spending on transfers and wages as the stadium project begins.'],
+  [2018.5,2024.97,-2,'Losses and PSR','Seven straight years of losses, two points deductions, and debts above £1bn once owner loans are counted.'],
+  [2024.97,Y1,1,'Friedkin reset','Owner loans turned into shares, a £350m 30-year stadium loan, and record revenue of £196.7m in 2024–25.']
+];
+const PLAYERS = [
+  ['Edgar Chadwick',[[1888.6,1899.4]],'Inside-left in the first League side and the 1891 champions.'],
+  ['Jack Sharp',[[1899.4,1910.4]],'Winger who also played Test cricket for England, and later a club director.'],
+  ['Sandy Young',[[1901.4,1911.4]],'Scored the only goal of the 1906 FA Cup final.'],
+  ['Sam Chedgzoy',[[1910.4,1925.4]],'Winger who exploited the new corner-kick law in 1924 by dribbling the ball in himself.'],
+  ['Dixie Dean',[[1925.2,1938.2]],"Everton's record goalscorer. His 60 league goals in 1927–28 remain the English top-flight record."],
+  ['Ted Sagar',[[1929.2,1953.4]],'Goalkeeper for 24 years, the longest spell any player has had at one English club.'],
+  ['Joe Mercer',[[1932.6,1946.9]],'Half-back in the 1939 title side; later captained Arsenal and managed Manchester City to the title.'],
+  ['T. G. Jones',[[1936.2,1950.1]],'Welsh centre-half remembered as the Prince of Centre-Halves.'],
+  ['Tommy Lawton',[[1937.0,1945.9]],"Signed to succeed Dean; top scorer in the 1938–39 title season."],
+  ['Dave Hickson',[[1951.6,1955.6],[1957.7,1959.9]],"The Cannonball Kid, centre-forward in two spells and a hero of the 1950s."],
+  ['Brian Labone',[[1957.7,1971.4]],'Captain and centre-half, called the last of the Corinthians by Harry Catterick.'],
+  ['Alex Young',[[1960.9,1968.6]],'The Golden Vision, the Scottish forward of the 1963 champions.'],
+  ['Roy Vernon',[[1960.2,1965.2]],'Welsh inside-forward who captained the 1963 champions.'],
+  ['Gordon West',[[1962.2,1973.4]],'Goalkeeper for both Catterick titles and the 1966 FA Cup.'],
+  ['Colin Harvey',[[1963.0,1974.6]],'The White Pelé of the Holy Trinity midfield, later manager.'],
+  ['Ray Wilson',[[1964.5,1969.5]],"Left-back who won the World Cup with England in 1966 while an Everton player, weeks after winning the FA Cup."],
+  ['Joe Royle',[[1966.0,1974.95]],'Centre-forward in the 1970 title side; manager of the 1995 cup winners.'],
+  ['Alan Ball',[[1966.6,1971.95]],'Bought for a British record weeks after winning the 1966 World Cup with England.'],
+  ['Bob Latchford',[[1974.1,1981.6]],'Scored 30 league goals in 1977–78.'],
+  ['Kevin Ratcliffe',[[1980.2,1992.0]],'Captain of the 1980s sides that won two titles, the FA Cup and the Cup Winners\' Cup.'],
+  ['Graeme Sharp',[[1980.2,1991.6]],"Everton's highest post-war goalscorer."],
+  ['Neville Southall',[[1981.5,1998.1]],'Record appearance maker and one of the great goalkeepers; 91 Wales caps while at Everton.'],
+  ['Kevin Sheedy',[[1982.6,1992.2]],'The left foot behind two titles; scored in the 1985 Cup Winners\' Cup final.'],
+  ['Peter Reid',[[1982.9,1989.1]],'Midfield engine of 1985 and PFA Player of the Year.'],
+  ['Trevor Steven',[[1983.5,1989.5]],'Winger in both 1980s title sides.'],
+  ['Andy Gray',[[1983.85,1985.6]],'Scored in the 1984 FA Cup final and the 1985 Cup Winners\' Cup final.'],
+  ['Gary Lineker',[[1985.5,1986.5]],'Forty goals in one season, then sold to Barcelona.'],
+  ['Dave Watson',[[1986.5,2001.4]],'Centre-back and captain who lifted the 1995 FA Cup.'],
+  ['Duncan Ferguson',[[1994.8,1998.9],[2000.6,2006.4]],'Cult hero in two spells, later a caretaker manager.'],
+  ['Wayne Rooney',[[2002.6,2004.65],[2017.55,2018.55]],'Debut at 16 in 2002, sold in 2004, back for one season in 2017.'],
+  ['Tim Cahill',[[2004.6,2012.6]],"Goalscoring midfielder and Australia's record scorer."],
+  ['Mikel Arteta',[[2005.1,2011.7]],'Playmaker of the Moyes years, later Arsenal manager.'],
+  ['Tim Howard',[[2006.6,2016.4]],"Goalkeeper; 93 caps for the United States while at Everton, the club record."],
+  ['Leighton Baines',[[2007.6,2020.6]],'Left-back and penalty specialist.'],
+  ['Phil Jagielka',[[2007.6,2019.5]],'Centre-back and captain.'],
+  ['Séamus Coleman',[[2009.1,2026.45]],'Signed from Sligo Rovers for £60,000; long-serving captain and Ireland captain.'],
+  ['Romelu Lukaku',[[2013.7,2017.55]],'Top scorer, sold to Manchester United for £75m.'],
+  ['Dominic Calvert-Lewin',[[2016.6,2025.5]],'Striker and England international.'],
+  ['Jordan Pickford',[[2017.5,NOW]],"England's goalkeeper at three World Cups."],
+  ['Richarlison',[[2018.6,2022.5]],'Brazil forward, sold to Tottenham.'],
+  ['Iliman Ndiaye',[[2024.6,NOW]],'Scored the last goal at Goodison and the first at Hill Dickinson Stadium.']
+];
+const CLUB = [
+  {d:'1878',t:"St Domingo's FC formed",x:"Members of St Domingo's Methodist New Connexion Chapel start a football side so they can play in winter as well as cricket in summer."},
+  {d:'1879-11',t:'Renamed Everton',x:'The club takes the name of its district to draw players from beyond the chapel.'},
+  {d:'1879-12',t:'First match as Everton, 6–0',k:'match',x:"St Peter's beaten 6–0 in Stanley Park on 20 December 1879."},
+  {d:'1884-09',t:'Move to Anfield',x:"Everton play their first match at Anfield, on land arranged through John Orrell and brewer John Houlding."},
+  {d:'1885-03',t:'First international: Job Wilding',k:'mile',x:'Job Wilding plays for Wales against England, the first of more than 250 Everton internationals.'},
+  {d:'1888-09',t:'Founder member of the Football League',k:'mile',x:'One of the twelve clubs in the first Football League season.'},
+  {d:'1891-03',t:'First league title',k:'match',x:'Champions of 1890–91, two points clear of Preston North End.'},
+  {d:'1892-03',t:'Split with Houlding',k:'mile',x:"A row over the Anfield rent ends with Everton walking out. Houlding forms Liverpool FC to fill his empty ground."},
+  {d:'1892-08',t:'Goodison Park opens',k:'mile',x:"Everton move across Stanley Park to Mere Green field and build England's first purpose-built major football stadium."},
+  {d:'1894-10',t:'First Merseyside derby, 3–0',k:'match',x:'Everton beat Liverpool 3–0 at Goodison on 13 October 1894.'},
+  {d:'1901',t:'Royal blue shirts',x:'After years of changing colours the club settles on royal blue.'},
+  {d:'1906-04',t:'First FA Cup',k:'match',x:'Sandy Young scores the only goal against Newcastle United at the Crystal Palace.'},
+  {d:'1925-03',t:'Dixie Dean signs',x:'An 18-year-old Bill Dean arrives from Tranmere Rovers.'},
+  {d:'1928-05',t:"Dean's 60th league goal",k:'match',x:'A hat-trick against Arsenal on the final day takes Dean to 60 league goals, still the English top-flight record.'},
+  {d:'1930-05',t:'First relegation',k:'match',x:'Bottom of Division One despite scoring 80 league goals.'},
+  {d:'1931-05',t:'Division Two champions',k:'match',x:'121 league goals in the promotion season.'},
+  {d:'1933-04',t:'FA Cup, numbered shirts',k:'match',x:'Manchester City beaten 3–0 at Wembley in the first final where players wore numbers. Everton wore 1 to 11.'},
+  {d:'1938-03',t:"Prince Rupert's Tower crest",x:"Secretary Theo Kelly designs a club tie featuring the Everton lock-up. It becomes the basis of the crest."},
+  {d:'1938-10',t:'Four double-decker stands',k:'mile',x:'With the new Gwladys Street stand, Goodison becomes the first British ground with two-tier stands on all four sides.'},
+  {d:'1939-05',t:'Champions on the eve of war',k:'match',x:"Tommy Lawton's goals win the 1938–39 title. War breaks the side up before it peaks."},
+  {d:'1948-09',t:'Record crowd: 78,299',x:"Goodison's record attendance, for the derby on 18 September 1948."},
+  {d:'1951-05',t:'Relegated again',k:'match',x:'Bottom of Division One. Three seasons in the second tier follow.'},
+  {d:'1954-04',t:'Promoted; never down since',k:'mile',x:'Runners-up in Division Two. Everton have played in the top flight every season since.'},
+  {d:'1958',t:'Undersoil heating',x:'Goodison is the first British ground to install it.'},
+  {d:'1961-04',t:'Carey sacked in a taxi',x:'Chairman John Moores dismisses Johnny Carey in the back of a London cab and appoints Harry Catterick.'},
+  {d:'1963-05',t:'Sixth title',k:'match',x:"Catterick's side, built with Moores' money, win the 1962–63 championship."},
+  {d:'1966-05',t:'Cup final comeback',k:'match',x:'Two goals down to Sheffield Wednesday at Wembley, Everton win 3–2: two from Mike Trebilcock and a winner from Derek Temple.'},
+  {d:'1966-07',t:'Ray Wilson, world champion',k:'mile',x:"Everton's left-back plays the whole of England's World Cup final win at Wembley."},
+  {d:'1970-04',t:'Champions with the Holy Trinity',k:'match',x:'Ball, Harvey and Kendall run the midfield as Everton win the 1969–70 title by nine points.'},
+  {d:'1971-03',t:'European Cup exit',k:'match',x:'Out to Panathinaikos on away goals in the quarter-final.'},
+  {d:'1977-04',t:'League Cup final, third attempt',k:'match',x:'After two drawn games, Aston Villa win the second replay 3–2 at Old Trafford.'},
+  {d:'1978-04',t:"Latchford's 30",k:'match',x:'Bob Latchford reaches 30 league goals on the final day, the first top-flight player to do it in six years.'},
+  {d:'1980-03',t:'Dixie Dean dies at Goodison',x:'Dean, 73, dies at the ground during a derby on 1 March 1980.'},
+  {d:'1981-05',t:'Kendall returns',x:'Howard Kendall comes back as player-manager.'},
+  {d:'1983-12',t:'"Kendall out" leaflets',x:'Crowds shrink and fans hand out leaflets demanding a new manager.'},
+  {d:'1984-01',t:'Heath at Oxford',k:'match',x:"Adrian Heath's late equaliser in a League Cup tie at Oxford is remembered as the turning point of the Kendall years."},
+  {d:'1984-05',t:'FA Cup won',k:'match',x:'Graeme Sharp and Andy Gray score against Watford.'},
+  {d:'1985-04',t:'Bayern beaten 3–1',k:'match',x:"The Cup Winners' Cup semi-final second leg, often called the greatest night at Goodison."},
+  {d:'1985-05',t:"Title and Cup Winners' Cup",k:'match',x:"The league is won and Rapid Vienna are beaten 3–1 in Rotterdam. Manchester United deny a treble in the FA Cup final."},
+  {d:'1986-05',t:'Second to Liverpool, twice',k:'match',x:'Runners-up in the league, then beaten 3–1 by Liverpool in the FA Cup final.'},
+  {d:'1987-05',t:'Ninth title',k:'match',x:'Champions again in 1986–87. Kendall leaves for Athletic Bilbao that summer.'},
+  {d:'1989-05',t:'Merseyside Cup final',k:'match',x:'Five weeks after Hillsborough, Everton lose 3–2 to Liverpool after extra time.'},
+  {d:'1992-08',t:'Founder member of the Premier League',k:'mile',x:'One of three clubs to have founded both the Football League and the Premier League.'},
+  {d:'1994-05',t:'Wimbledon, 3–2',k:'match',x:'Two down on the final day, Everton win 3–2 and stay up.'},
+  {d:'1995-05',t:'FA Cup: the Dogs of War',k:'match',x:"Paul Rideout's header beats Manchester United. It remains the club's last major trophy."},
+  {d:'1998-05',t:'Survival on goal difference',k:'match',x:"A 1–1 draw with Coventry keeps Everton up at Bolton's expense."},
+  {d:'2002-03',t:"Moyes: \"the People's Club\"",x:"David Moyes arrives from Preston and calls Everton the people's club in Liverpool."},
+  {d:'2002-10',t:'Rooney, 16, beats Arsenal',k:'match',x:"A late winner ends Arsenal's 30-game unbeaten league run."},
+  {d:'2005-05',t:'Fourth place',k:'match',x:'Everton finish above Liverpool and reach the Champions League qualifiers.'},
+  {d:'2005-08',t:'Villarreal qualifier',k:'match',x:'Out of the Champions League qualifier after a Duncan Ferguson header is disallowed in the second leg.'},
+  {d:'2009-05',t:'FA Cup final lost',k:'match',x:'Louis Saha scores after 25 seconds; Chelsea win 2–1.'},
+  {d:'2013-06',t:'Moyes to Man Utd',x:'Roberto Martínez replaces him.'},
+  {d:'2014-05',t:'72 points',k:'match',x:"Martínez's first season brings the club's best Premier League points total."},
+  {d:'2017-10',t:'Koeman sacked',x:'Out in October after a summer of heavy spending.'},
+  {d:'2021-08',t:'Stadium build begins',k:'mile',x:'Work starts at Bramley-Moore Dock.'},
+  {d:'2022-05',t:'Palace comeback',k:'match',x:'Two down at half-time, Everton beat Crystal Palace 3–2 to stay up.'},
+  {d:'2023-01',t:'Board stays away',x:'Directors miss matches, citing a security threat, amid fan protests.'},
+  {d:'2023-05',t:'Final-day escape',k:'match',x:"Abdoulaye Doucouré's goal beats Bournemouth 1–0."},
+  {d:'2023-10',t:'Bill Kenwright dies',x:'The chairman and lifelong fan dies aged 78.'},
+  {d:'2023-11',t:'Ten-point deduction',k:'mile',x:'For breaching profit and sustainability rules. Cut to six on appeal in February 2024.'},
+  {d:'2024-04',t:'Two more points deducted',k:'mile',x:'A second PSR breach. Everton finish 15th anyway.'},
+  {d:'2025-01',t:'Moyes returns',x:'Sean Dyche is sacked with the club near the drop zone; Moyes comes back.'},
+  {d:'2025-05',t:'Goodison farewell',k:'match',x:"A 2–0 win over Southampton in the last men's match at Goodison. Iliman Ndiaye scores the final goal."},
+  {d:'2025-08',t:'Hill Dickinson Stadium opens',k:'match',x:'Everton beat Brighton 2–0 in the first league match at Hill Dickinson Stadium on 24 August 2025. Ndiaye and James Garner score, Jack Grealish sets up both, and Jordan Pickford saves a penalty.'},
+  {d:'2026-03',t:'3–0 v Chelsea; eighth',k:'match',x:'Briefly in the race for Europe after 31 games.'},
+  {d:'2026-04',t:'First derby at Hill Dickinson lost',k:'match',x:"Beto equalises, but Van Dijk heads Liverpool's winner in the 100th minute: Everton 1–2 Liverpool."},
+  {d:'2026-05',t:'Fade to 13th',x:'Six league games without a win to finish the season.'},
+  {d:'2026-06',t:'Four at the World Cup',k:'mile',x:"Gueye, Ndiaye, Patterson and Pickford go to the 2026 World Cup, an eleventh straight finals with an Everton player in a squad."},
+  {d:'2026-09',t:'Unbeaten start',k:'match',x:'Two wins and three draws from the first five league games of 2026–27.'},
+  {d:'2026-11',t:'Next derby: 28 November',k:'future',x:'Everton host Liverpool at Hill Dickinson Stadium on 28 November 2026.'}
+];
+const WORLD_SPANS = [
+  {d:'1899-10',e:'1902-05',t:'Boer War'},
+  {d:'1914-08',e:'1918-11',t:'First World War',war:1},
+  {d:'1939-09',e:'1945-05',t:'Second World War',war:1},
+  {d:'1940-08',e:'1942-01',t:'Liverpool Blitz',war:1},
+  {d:'1985-06',e:'1990-07',t:'English clubs banned from Europe',war:1},
+  {d:'2020-03',e:'2021-05',t:'Covid: empty grounds'}
+];
+const WORLD = [
+  {d:'1911-08',t:'Transport strike',k:'city',x:'A general transport strike paralyses Liverpool; troops are sent into the city.'},
+  {d:'1915-04',t:'League halted',k:'war',x:'Everton finish 1914–15 as champions, and official league football stops until 1919.'},
+  {d:'1926-05',t:'General Strike',k:'city',x:'A nine-day national strike.'},
+  {d:'1931',t:'Depression on the docks',k:'city',x:'Mass unemployment hits Liverpool through the early 1930s.'},
+  {d:'1941-05',t:'May Blitz',k:'war',x:'A week of raids devastates Liverpool and Bootle. Merseyside is the most heavily bombed area of Britain outside London.'},
+  {d:'1946-08',t:'Football returns',k:'city',x:'Post-war crowds pack grounds across the country.'},
+  {d:'1962-10',t:'Merseybeat',k:'city',x:'The Beatles release their first single and Liverpool becomes the centre of British pop.'},
+  {d:'1966-07',t:'World Cup at Goodison',k:'city',x:'Goodison hosts five matches, including Portugal 5–3 North Korea and the West Germany v USSR semi-final.'},
+  {d:'1981-07',t:'Toxteth riots',k:'city',x:'Unrest in a city hit hard by the decline of the docks and mass unemployment.'},
+  {d:'1985-05',t:'Bradford fire and Heysel',k:'trag',x:'Fifty-six die in the Bradford fire on 11 May. On 29 May, 39 die at Heysel before the Liverpool v Juventus European Cup final. English clubs are banned from Europe, and Everton, the new champions, lose their place in the European Cup.'},
+  {d:'1989-04',t:'Hillsborough disaster',k:'trag',x:'On 15 April 1989, 97 Liverpool supporters die after a crush at the FA Cup semi-final in Sheffield. Evertonians help link Goodison and Anfield with a chain of scarves across Stanley Park, and the two clubs meet in the Cup final in their memory.'},
+  {d:'1990-01',t:'Taylor Report',k:'city',x:'All-seater stadiums become compulsory in the top divisions. Goodison loses its terraces by 1994.'},
+  {d:'1995-12',t:'Bosman ruling',k:'city',x:'Out-of-contract players can leave for free, shifting power to players and the richest clubs.'},
+  {d:'2007-08',t:'Rhys Jones',k:'trag',x:"An 11-year-old Evertonian is shot dead in Croxteth. Liverpool play Everton's anthem, Z-Cars, at Anfield in tribute."},
+  {d:'2008',t:'Capital of Culture',k:'city',x:'Liverpool is European Capital of Culture.'},
+  {d:'2012-09',t:'Hillsborough Panel report',k:'trag',x:'The independent panel exposes the cover-up. At Goodison, two children in shirts numbered 9 and 6 walk out together.'},
+  {d:'2016-04',t:'Hillsborough inquests',k:'trag',x:'The jury finds the victims were unlawfully killed and that fans were not to blame.'},
+  {d:'2022-03',t:'Russia sanctions',k:'city',x:'Sponsorships linked to Alisher Usmanov, including USM and MegaFon, are suspended.'}
+];
+const ECHO_SPANS = [
+  {d:'1889',e:'2004-08',t:'The Football Echo, Saturday nights'}
+];
+const ECHO = [
+  {d:'1879',t:'Liverpool Echo launched',x:"Published as the cheaper evening sister of the Liverpool Daily Post in the same year St Domingo's renamed itself Everton. It cost a halfpenny until 1917."},
+  {d:'1889',t:'The Football Echo begins',x:"The Echo's Saturday-night results paper, printed on pink paper and known as the Pink. It marked its centenary with souvenir editions in 1989."},
+  {d:'1892-08',t:'The Pink inspects Goodison',x:'Two weeks before the opening, the Football Echo reports the new ground transformed "from a morass into one of the best appointed athletic enclosures". It also notes a telephone line from Goodison to the paper\'s offices, so results can be printed the moment a game ends, as it had done from Anfield.'},
+  {d:'1906',t:"'Bee' names the Kop",x:"Echo sports editor Ernest Edwards, who wrote as 'Bee', is credited with naming Anfield's Spion Kop. His columns follow Everton through the Dean years."},
+  {d:'1927-11',t:"Bee's Notes on Sport",x:"Edwards' column runs through Dean's record 60-goal season."},
+  {d:'1934-10',t:'The Salt of the Soccer Crowd',x:"An Echo series by Edwards profiles George 'Bumper' Clarkson, a fan who had followed Everton for 57 years, from Stanley Park and Priory Road onwards."},
+  {d:'1958',t:'Evening Express merged in',x:"The city's rival evening paper, the Liverpool Evening Express, is merged into the Echo."},
+  {d:'1973',t:'Move to Old Hall Street',x:'The Echo leaves Victoria Street for a purpose-built newsroom and print works.'},
+  {d:'1984-05',t:'"Blue Heaven"',x:"The Football Echo's FA Cup final edition of 19 May 1984. A copy survives in the Everton Collection."},
+  {d:'1989-04',t:'Hillsborough Sunday edition',x:'The Echo prints a special Sunday edition the day after the disaster. All 75,000 copies sell.'},
+  {d:'1989-11',t:'Football Echo centenary',x:'Souvenir editions mark a hundred years of the Pink.'},
+  {d:'2004-08',t:'The Pink folded in',x:'The standalone Saturday-night Football Echo ends. It becomes a 24-page section of the new Weekend Echo from 14 August.'},
+  {d:'2012-01',t:'Daily Post ends',x:"The Echo's morning sister stops daily publication, leaving the Echo as the city's daily paper."},
+  {d:'2014-01',t:'Sunday Echo launched',x:'The Echo begins publishing seven days a week.'},
+  {d:'2018-03',t:'Leaves Old Hall Street',x:"The newsroom moves to St Paul's Square."},
+  {d:'2020',t:"Prentice's memoir",x:"Echo head of sport David Prentice publishes A Grand Old Team to Report, 45 years of following Everton as a fan and reporter."}
+];
+const MONEY = [
+  {d:'1925-03',t:'Dean: £3,000',x:'Signed from Tranmere Rovers.'},
+  {d:'1960-06',t:'Moores money',x:'Littlewoods founder John Moores takes charge and funds record spending.'},
+  {d:'1966-08',t:'Ball: £110,000',x:'A British record fee, from Blackpool.'},
+  {d:'1971-12',t:'Ball sold: £220,000',x:'To Arsenal, a British record.'},
+  {d:'1974-02',t:'Latchford: £350,000',x:'A British record fee, from Birmingham City.'},
+  {d:'1985-06',t:'Lineker: £800,000',x:'From Leicester City.'},
+  {d:'1986-07',t:'Lineker sold: £2.75m',x:'To Barcelona after one season and 40 goals.'},
+  {d:'1988-08',t:'Cottee: £2.2m',x:'A British record fee, from West Ham.'},
+  {d:'1998-11',t:'Ferguson sold: £8m',x:'Sold to Newcastle without Walter Smith being told, to ease pressure from the bank.'},
+  {d:'2003-04',t:'Kings Dock scheme fails',x:'The club cannot raise its share of a waterfront stadium plan.'},
+  {d:'2004-08',t:'Rooney sold: £27m',x:'To Manchester United.'},
+  {d:'2008-09',t:'Fellaini: £15m',x:'A club record fee.'},
+  {d:'2009-11',t:'Kirkby plan rejected',x:'The government rejects the Destination Kirkby stadium plan.'},
+  {d:'2016-02',t:'Moshiri buys in',x:'Farhad Moshiri buys 49.9% of the club.'},
+  {d:'2017-07',t:'Lukaku sold: £75m',x:'To Manchester United, a club record sale.'},
+  {d:'2017-08',t:'Sigurdsson: £45m',x:'A club record fee.'},
+  {d:'2019-06',t:'Loss £111.8m',x:'Annual loss for 2018–19.'},
+  {d:'2020-06',t:'Loss £139.9m',x:'Annual loss for 2019–20.'},
+  {d:'2021-06',t:'Loss £120.9m',x:'Annual loss for 2020–21.'},
+  {d:'2022-06',t:'Loss £44.7m',x:'Annual loss for 2021–22.'},
+  {d:'2023-06',t:'Loss £89.1m',x:'Annual loss for 2022–23.'},
+  {d:'2023-09',t:'777 Partners deal agreed',x:"Moshiri agrees to sell to the Miami firm. The deal collapses by June 2024."},
+  {d:'2024-06',t:'Loss £53.2m',x:'Annual loss for 2023–24, the seventh in a row.'},
+  {d:'2024-12',t:'Friedkin takeover',x:"The Friedkin Group completes a takeover reported at around £400m; Moshiri's £450.7m of shareholder loans are converted into shares."},
+  {d:'2025-03',t:'£350m stadium refinance',x:'A 30-year package with JP Morgan Chase. Total spend on Hill Dickinson Stadium reaches £813m by June 2025.'},
+  {d:'2025-06',t:'Loss £8.6m; revenue £196.7m',x:"Record turnover in the last Goodison season. Without the internal sale of Goodison and the women's team the loss would have been far larger."}
+];
+const HON = [];
+[1890,1914,1927,1931,1938,1962,1969,1984,1986].forEach(s=>HON.push([s,'lg','League champions']));
+[1905,1932,1965,1983,1994].forEach(s=>HON.push([s,'fa','FA Cup winners']));
+[1892,1896,1906,1967,1984,1985,1988,2008].forEach(s=>HON.push([s,'faL','FA Cup finalists']));
+[1976,1983].forEach(s=>HON.push([s,'lcL','League Cup finalists']));
+HON.push([1984,'cwc',"European Cup Winners' Cup winners"]);
+HON.push([1930,'d2','Division Two champions']);
+HON.push([1953,'pro','Promoted from Division Two']);
+[1928,1932,1963,1970,1984,1985,1987,1995].forEach(s=>HON.push([s,'cs','Charity Shield winners']));
+HON.push([1986,'cs','Charity Shield, shared']);
+const HORDER = {lg:0,cwc:1,fa:2,d2:3,pro:4,faL:5,lcL:6,cs:7};
+const EURO = {
+  1962:'Fairs Cup: out in round 1 to Dunfermline',1963:'European Cup: out in round 1 to Inter',1964:'Fairs Cup: out in round 3 to Manchester United',
+  1965:'Fairs Cup: out in round 2 to Újpest Dózsa',1966:"Cup Winners' Cup: out in round 2 to Real Zaragoza",
+  1970:'European Cup: quarter-final, out on away goals to Panathinaikos',1975:'UEFA Cup: out in round 1 to AC Milan',
+  1978:'UEFA Cup: out in round 2 to Dukla Prague',1979:'UEFA Cup: out in round 1 to Feyenoord',
+  1984:"Cup Winners' Cup: winners, 3–1 against Rapid Vienna in Rotterdam",
+  1985:'Qualified for the European Cup, but English clubs are banned',1986:'Qualified for the UEFA Cup, but English clubs are banned',
+  1987:'Qualified for the European Cup, but English clubs are banned',
+  1995:"Cup Winners' Cup: out in round 2 to Feyenoord",
+  2005:'Champions League qualifier lost to Villarreal; UEFA Cup round 1 exit to Dinamo Bucharest',
+  2007:'UEFA Cup: last 16, out on penalties to Fiorentina',2008:'UEFA Cup: out in round 1 to Standard Liège',
+  2009:'Europa League: last 32, out to Sporting CP',2014:'Europa League: last 16, out to Dynamo Kyiv',2017:'Europa League: out in the group stage'
+};
+const LCUP = {1976:'Final lost to Aston Villa after two replays',1983:'Final lost to Liverpool in a replay at Maine Road'};
+const MOOD = {
+  1878:[0.2,'A chapel side kicking about in Stanley Park.'],1884:[0.8,'Anfield brings proper crowds and paying customers.'],
+  1888:[0.6,'Founder members of the Football League.'],1890:[2,'First champions of England from Merseyside.'],
+  1891:[-0.6,'The rent row with Houlding splits the club; members walk out of Anfield.'],
+  1892:[1.2,'A new purpose-built home across the park, and a first FA Cup final.'],
+  1894:[1.2,'Runners-up, and the first derby win over the new club at Anfield.'],
+  1905:[1.8,"First FA Cup, Sandy Young's winner against Newcastle."],1906:[0.8,'Back at the Crystal Palace but beaten by Sheffield Wednesday.'],
+  1914:[0.6,'Champions, but the title is overshadowed by the war.'],1919:[-0.3,'Football resumes in a grieving city.'],
+  1925:[0.3,'A teenage centre-forward arrives from Tranmere.'],1927:[2,"Dean's 60 league goals bring the title."],
+  1928:[-0.4,'Champions slide to 18th.'],1929:[-2,'Relegated for the first time, Dean or no Dean.'],
+  1930:[1.6,'Division Two walked, with 121 league goals.'],1931:[2,'Champions straight after promotion.'],
+  1932:[1.8,'FA Cup won 3–0 against Manchester City.'],1938:[1.7,'Champions with Lawton and Mercer. Then war ends it.'],
+  1946:[0.1,'Football returns; the 1939 side has been broken up.'],1950:[-2,'Relegated.'],
+  1951:[-1.2,'Second Division football at Goodison.'],1953:[1.2,"Promoted as runners-up. They haven't been down since."],
+  1960:[1.0,'Moores money arrives.'],1962:[2,'Champions: the Mersey Millionaires deliver.'],1965:[1.8,'From 2–0 down to win the FA Cup, and Ray Wilson wins the World Cup that summer.'],
+  1967:[0.6,'Cup final lost to West Brom.'],1969:[2,'Champions with the Holy Trinity in midfield.'],
+  1970:[0.2,"Champions' hangover and a European Cup exit to Panathinaikos."],1971:[-0.4,'Alan Ball sold; the side ages fast.'],
+  1972:[-0.6,"Catterick's health fails and he is moved upstairs."],1974:[0.8,'A title chase fades late; fourth.'],
+  1977:[0.9,"Latchford's 30 goals and third place."],1979:[-0.9,'Dixie Dean dies at Goodison; 19th, one place above the drop.'],
+  1980:[-0.6,'Gordon Lee sacked; Kendall returns.'],1983:[0.8,'"Kendall out" leaflets in December, the FA Cup in May.'],
+  1984:[2,"Champions and Cup Winners' Cup winners, the strongest side in the country and possibly in Europe."],
+  1985:[1.0,"Lineker's 40 goals, then second to Liverpool twice. The Heysel ban shuts the door on Europe."],
+  1986:[1.8,"Champions again, in Kendall's last season."],1987:[0.0,'Kendall gone to Bilbao; no European Cup to play in.'],
+  1988:[-0.7,'Hillsborough. The city grieves together, and the derby final is played in its shadow.'],
+  1993:[-2,'Two down to Wimbledon on the last day, then 3–2.'],1994:[1.2,"Royle's Dogs of War win the FA Cup."],
+  1995:[0.8,'Sixth, with Kanchelskis on fire.'],1997:[-2,'Survival on goal difference against Coventry.'],
+  1998:[-1.2,"Ferguson sold behind Walter Smith's back."],2001:[-1.2,'Smith sacked as relegation looms; Moyes arrives.'],
+  2002:[1.0,"Rooney and the People's Club."],2003:[-1.0,'17th, and Rooney is sold in the summer.'],2004:[1.8,'Fourth, ahead of Liverpool.'],
+  2005:[-0.3,'The European adventure ends early; mid-table.'],2008:[1.3,'A cup final at Wembley.'],
+  2013:[1.6,"Martínez's first season: 72 points."],2015:[-0.5,'Two cup semi-final defeats; Martínez sacked.'],
+  2016:[0.8,"Moshiri's millions and seventh place."],2017:[-0.8,'A huge summer spend, Koeman sacked by October.'],
+  2018:[0.0,"Silva's bright start fades."],2019:[0.4,'Ancelotti arrives, then Covid empties Goodison.'],
+  2020:[0.4,'Top of the league in October, tenth in May.'],2021:[-1.8,'The Benítez fiasco, then the Palace comeback.'],
+  2022:[-2,'Protests, an absent board and a final-day escape.'],2023:[-1.0,'Points deductions, a failed takeover, and survival anyway.'],
+  2024:[0.7,"New owners, Moyes back, and Goodison's farewell."],2025:[0.6,'The first season at Hill Dickinson Stadium: eighth in March, 13th by May.'],
+  2026:[0.8,'An unbeaten start.']
+};
+
+/* Internationals: caps while contracted to Everton. Name|Country|Caps|Goals|Years */
+const INTL_RAW = `Walter Abbott|England|1|0|1902
+Niclas Alexandersson|Sweden|23|2|2000–2003
+Allan|Brazil|1|0|2020
+Daniel Amokachi|Nigeria|6|2|1994–1995
+Victor Anichebe|Nigeria|10|1|2008–2011
+Smart Arridge|Wales|3|0|1894–1896
+Christian Atsu|Ghana|13|3|2014–2015
+Yakubu Ayegbeni|Nigeria|24|7|2008–2010
+Leighton Baines|England|30|1|2010–2015
+Ibrahima Bakayoko|Ivory Coast|4|1|1999
+Alan Ball|England|39|6|1966–1971
+Michael Ball|England|1|0|2001
+William Balmer|England|1|0|1905
+Ross Barkley|England|22|2|2013–2016
+Nick Barmby|England|5|0|2000
+Jack Bell|Scotland|3|1|1896–1898
+Muhamed Bešić|Bosnia and Herzegovina|21|0|2014–2020
+Beto|Guinea-Bissau|10|1|2024–2025
+Slaven Bilić|Croatia|14|2|1997–1999
+Diniyar Bilyaletdinov|Russia|17|4|2009–2011
+Billy Bingham|Northern Ireland|12|2|1960–1964
+Jesper Blomqvist|Sweden|1|0|2002
+Yannick Bolasie|DR Congo|8|1|2016–2020
+Tom Booth|England|1|0|1903
+Wally Boyes|England|2|0|1938
+Paul Bracewell|England|3|0|1985
+Jarrad Branthwaite|England|1|0|2024
+Dod Brewster|Scotland|1|0|1921
+Cliff Britton|England|9|1|1934–1938
+Armando Broja|Albania|4|0|2025
+Tim Cahill|Australia|53|18|2004–2012
+Dominic Calvert-Lewin|England|11|4|2020–2021
+Lee Carsley|Republic of Ireland|21|0|2002–2008
+Segundo Castillo|Ecuador|7|0|2008–2009
+Edgar Chadwick|England|7|3|1891–1897
+Sam Chedgzoy|England|8|0|1920–1924
+Dave Clements|Northern Ireland|12|0|1973–1975
+Tommy Clinton|Republic of Ireland|3|0|1951–1954
+Séamus Coleman|Republic of Ireland|80|1|2011–2026
+Bobby Collins|Scotland|6|3|1958–1959
+John Collins|Scotland|6|1|1998–1999
+John Connolly|Scotland|1|0|1973
+Billy Cook|Ireland|12|0|1935–1939
+Peter Corr|Republic of Ireland|4|0|1949
+Tony Cottee|England|4|0|1988–1989
+Jackie Coulter|Ireland|5|1|1934–1937
+Warney Cresswell|England|1|0|1929
+Jimmy Cunliffe|England|1|0|1936
+Dai Davies|Wales|16|0|1975–1977
+Joe Davies|Wales|2|0|1889
+Llewellyn Davies|Wales|2|0|1889
+Simon Davies|Wales|12|1|2005–2006
+Stan Davies|Wales|3|1|1921
+Dixie Dean|England|16|18|1927–1932
+Lucas Digne|France|22|0|2018–2021
+Martin Dobson|England|1|0|1974
+Don Donovan|Republic of Ireland|5|0|1954–1957
+Abdoulaye Doucouré|Mali|2|0|2022
+Landon Donovan|United States|1|0|2010
+Dicky Downs|England|1|0|1920
+Shane Duffy|Republic of Ireland|1|0|2014
+Jimmy Dunn|Scotland|1|1|1928
+Richard Dunne|Republic of Ireland|6|2|2000
+Tommy Eglington|Ireland|6|0|1946–1948
+Tommy Eglington|Republic of Ireland|22|2|1946–1955
+Peter Farrell|Ireland|7|0|1946–1949
+Peter Farrell|Republic of Ireland|26|3|1946–1957
+Gareth Farrelly|Republic of Ireland|2|0|1998
+Marouane Fellaini|Belgium|33|6|2008–2013
+Duncan Ferguson|Scotland|3|0|1994–1997
+Bert Freeman|England|2|1|1909
+Ramiro Funes Mori|Argentina|18|1|2015–2017
+Jimmy Gabriel|Scotland|2|0|1960–1963
+James Garner|England|2|0|2026
+Fred Geary|England|2|3|1890–1891
+Cecil Gee|England|3|0|1931, 1936
+Albert Geldard|England|4|0|1933–1937
+Scott Gemmill|Scotland|13|1|1999–2003
+Darron Gibson|Republic of Ireland|10|0|2012–2016
+Torry Gillick|Scotland|5|3|1937–1938
+Ben Godfrey|England|2|0|2021
+Francis Gomez|Gambia|1|0|2025
+Thomas Gravesen|Denmark|44|5|2000–2004
+Andy Gray|Scotland|1|0|1985
+Demarai Gray|Jamaica|5|2|2023
+Phil Griffiths|Wales|1|0|1931
+Thomas Griffiths|Wales|8|1|1927–1931
+Idrissa Gueye|Senegal|76|4|2016–2026
+Brian Hamilton|Northern Ireland|11|0|1976–1977
+Harold Hardman|England|4|1|1905–1908
+Val Harris|Ireland|14|0|1909–1914
+George Harrison|England|2|0|1921
+Asa Hartford|Scotland|8|1|1979, 1981
+Colin Harvey|England|1|0|1971
+John Heitinga|Netherlands|40|1|2009–2013
+Jimmy Hill|Northern Ireland|3|0|1963
+Andy Hinchcliffe|England|4|0|1996–1997
+Barry Horne|Wales|23|0|1992–1996
+Johnny Holt|England|9|0|1890–1895
+Marc Hottiger|Switzerland|7|0|1996
+Johnny Houston|Ireland|3|0|1913–1914
+Ben Howard Baker|England|1|0|1921
+Tim Howard|United States|93|0|2007–2016
+Bob Howarth|England|1|0|1894
+Teddy Hughes|Wales|2|0|1899
+Jack Humphreys|Wales|1|0|1947
+Don Hutchison|Scotland|10|5|1999–2000
+Bobby Irvine|Ireland|11|3|1922–1928
+Alex Iwobi|Nigeria|27|4|2019–2023
+Tommy Jackson|Northern Ireland|6|0|1968–1969
+Lars Jacobsen|Denmark|6|0|2008–2009
+Phil Jagielka|England|40|3|2008–2016
+Frank Jefferis|England|2|0|1912
+Nikica Jelavić|Croatia|13|3|2012–2013
+Pat Jennings|Northern Ireland|1|0|1986
+Andy Johnson|England|6|0|2006–2007
+Tommy Johnson|England|3|2|1931–1932
+T. G. Jones|Wales|17|0|1938–1949
+Robert Jones|Wales|1|0|1894
+Andrei Kanchelskis|Russia|16|3|1995–1996
+Tony Kay|England|1|1|1963
+Moise Kean|Italy|2|0|2020
+Michael Keane|England|10|1|2017–2020
+Joe Kendrick|Ireland|1|0|1927
+Martin Keown|England|9|1|1992
+Kevin Kilbane|Republic of Ireland|24|1|2003–2006
+Joshua King|Norway|3|0|2021
+Davy Klaassen|Netherlands|2|0|2017
+Bill Lacey|Ireland|10|1|1909–1912
+Brian Labone|England|26|0|1962–1970
+Bob Latchford|England|12|5|1977–1979
+Shayne Lavery|Northern Ireland|1|0|2018
+Tommy Lawton|England|8|6|1938–1939
+Joleon Lescott|England|7|0|2007–2009
+Tie Li|China|6|0|2003–2006
+Anders Limpar|Sweden|11|1|1994–1996
+Tobias Linderoth|Sweden|23|0|2002–2004
+Jesper Lindstrøm|Denmark|2|0|2025
+Gary Lineker|England|11|9|1985–1986
+Romelu Lukaku|Belgium|31|15|2013–2017
+Harry Makepeace|England|4|0|1906–1912
+Orel Mangala|Belgium|4|0|2024
+Cuco Martina|Curaçao|4|0|2017–2018
+Neil McBain|Scotland|2|0|1923
+Stuart McCall|Scotland|11|1|1990–1991
+James McCarthy|Republic of Ireland|25|0|2013–2016
+Alex McCartney|Ireland|2|0|1905
+Jim McDonagh|Republic of Ireland|4|0|1981
+James McFadden|Scotland|33|12|2003–2007
+Aiden McGeady|Republic of Ireland|21|2|2014–2017
+Mick Meagan|Republic of Ireland|4|0|1961–1964
+Joe Mercer|England|5|0|1938–1939
+Yerry Mina|Colombia|25|1|2019–2023
+Kevin Mirallas|Belgium|30|5|2012–2017
+Joe-Max Moore|United States|22|4|1999–2002
+Ján Mucha|Slovakia|16|0|2010–2012
+Thomas Myhre|Norway|20|0|1998–2001
+Vitaliy Mykolenko|Ukraine|33|1|2022–2026
+Steven Naismith|Scotland|26|4|2012–2015
+Gary Naysmith|Scotland|32|1|2001–2007
+Iliman Ndiaye|Senegal|24|3|2024–2026
+Lucas Neill|Australia|3|0|2009
+Phil Neville|England|7|0|2006–2007
+Pat Nevin|Scotland|8|1|1989–1992
+Keith Newton|England|8|0|1970
+Oumar Niasse|Senegal|3|1|2016–2018
+Alex Nyarko|Ghana|1|0|2000
+Eamonn O'Keefe|Republic of Ireland|1|0|1981
+Robin Olsen|Sweden|10|0|2020–2021
+Amadou Onana|Belgium|10|0|2022–2024
+Jake O'Brien|Republic of Ireland|15|0|2024–2026
+Jimmy O'Neill|Republic of Ireland|17|0|1952–1959
+Henry Onyekuru|Nigeria|1|0|2019
+Leon Osman|England|2|0|2012–2013
+John Oster|Wales|3|0|1997–1998
+Bryan Oviedo|Costa Rica|14|0|2012–2016
+Alex Parker|Scotland|1|0|1958
+Nathan Patterson|Scotland|23|0|2022–2026
+Charlie Parry|Wales|6|0|1891–1895
+Mark Pembridge|Wales|16|1|1999–2003
+Gerry Peyton|Republic of Ireland|4|0|1992
+Terry Phelan|Republic of Ireland|3|0|1997
+Fred Pickering|England|3|5|1964
+Jordan Pickford|England|81|0|2017–2026
+Steven Pienaar|South Africa|36|0|2007–2012
+Aubrey Powell|Wales|2|0|1948–1949
+Isaac Price|Northern Ireland|2|0|2023
+Tomasz Radzinski|Canada|9|6|2001–2004
+Kevin Ratcliffe|Wales|58|0|1980–1991
+Peter Reid|England|13|0|1985–1988
+Richarlison|Brazil|37|14|2018–2022
+Bruce Rioch|Scotland|6|0|1977
+Antonee Robinson|United States|2|0|2018–2019
+Jacky Robertson|Scotland|1|0|1898
+Jack Rodwell|England|2|0|2011
+James Rodríguez|Colombia|4|1|2020
+Salomón Rondón|Venezuela|10|6|2022
+Wayne Rooney|England|17|9|2003–2004
+Dick Roose|Wales|2|0|1905
+Joe Royle|England|2|1|1971–1972
+Ted Sagar|England|4|0|1935–1936
+Louis Saha|France|1|0|2010
+Odin Samuels-Smith|Jamaica|1|0|2026
+Alex Scott|Scotland|5|0|1963–1966
+Billy Scott|Ireland|16|0|1905–1912
+Peter Scott|Northern Ireland|2|0|1975
+Jimmy Settle|England|4|0|1899–1903
+Graeme Sharp|Scotland|12|1|1985–1988
+Jack Sharp|England|2|1|1903–1905
+Kevin Sheedy|Republic of Ireland|42|7|1983–1992
+James Sheridan|Ireland|5|2|1903–1904
+Gylfi Sigurðsson|Iceland|28|10|2017–2020
+David Smallman|Wales|4|0|1975
+Neville Southall|Wales|91|0|1982–1997
+Gary Speed|Wales|9|1|1996–1997
+Maarten Stekelenburg|Netherlands|4|0|2016
+Trevor Steven|England|25|3|1985–1989
+Gary Stevens|England|26|0|1985–1988
+Alex Stevenson|Ireland|14|5|1934–1947
+Alex Stevenson|Republic of Ireland|6|0|1946–1948
+John Stones|England|10|0|2014–2016
+Idan Tal|Israel|11|3|2000–2003
+Derek Temple|England|1|0|1965
+Mickey Thomas|Wales|1|0|1981
+Jock Thomson|Scotland|1|0|1932
+Claus Thomsen|Denmark|4|0|1997
+Cenk Tosun|Turkey|20|10|2018–2020
+Mark Travers|Republic of Ireland|2|0|2026
+Alex Troup|Scotland|1|0|1926
+Nuno Valente|Portugal|15|0|2005–2006
+David Unsworth|England|1|0|1995
+Enner Valencia|Ecuador|9|5|2016–2017
+Pat Van Den Hauwe|Wales|13|0|1985–1989
+Roy Vernon|Wales|13|1|1960–1963
+Nikola Vlašić|Croatia|1|0|2017
+Mickey Walsh|Republic of Ireland|1|0|1978
+Mike Walsh|Republic of Ireland|4|0|1982
+Robert Warzycha|Poland|17|1|1991–1993
+Dave Watson|England|6|0|1986–1988
+David Weir|Scotland|43|1|1999–2006
+Gordon West|England|3|0|1968–1969
+Tommy White|England|1|0|1933
+Norman Whiteside|Northern Ireland|2|1|1989
+Job Wilding|Wales|2|1|1885
+Ashley Williams|Wales|15|0|2016–2019
+Ben Williams|Wales|6|0|1931–1935
+George Wilson|Scotland|1|0|1907
+Ian Wilson|Scotland|3|0|1987
+Ray Wilson|England|33|0|1965–1968
+Sam Wolstenholme|England|1|0|1904
+George Wood|Scotland|3|0|1979
+Tommy Wright|England|11|0|1968–1970
+Abel Xavier|Portugal|7|1|1999–2001
+Joseph Yobo|Nigeria|55|6|2002–2011
+Alex Young|Scotland|2|2|1961–1966
+Sandy Young|Scotland|2|0|1905–1907
+Kurt Zouma|France|1|0|2018`;
+const WC = [
+  [1958,'Sweden',['Alex Parker','Roy Vernon']],
+  [1966,'England',['Ray Wilson']],
+  [1970,'Mexico',['Alan Ball','Brian Labone','Keith Newton','Tommy Wright']],
+  [1986,'Mexico',['Gary Lineker','Peter Reid','Graeme Sharp','Trevor Steven','Gary Stevens']],
+  [1990,'Italy',['Stuart McCall','Kevin Sheedy']],
+  [1994,'United States',['Anders Limpar']],
+  [1998,'France',['Slaven Bilić']],
+  [2002,'Korea and Japan',['Niclas Alexandersson','Lee Carsley','Thomas Gravesen','Tobias Linderoth','Joe-Max Moore']],
+  [2006,'Germany',['Tim Cahill','Nuno Valente']],
+  [2010,'South Africa',['Yakubu Ayegbeni','Tim Cahill','John Heitinga','Steven Pienaar','Joseph Yobo']],
+  [2014,'Brazil',['Leighton Baines','Ross Barkley','Tim Howard','Phil Jagielka','Kevin Mirallas']],
+  [2018,'Russia',['Idrissa Gueye','Jordan Pickford','Gylfi Sigurðsson']],
+  [2022,'Qatar',['Conor Coady','Idrissa Gueye','Amadou Onana','Jordan Pickford']],
+  [2026,'North America',['Idrissa Gueye','Iliman Ndiaye','Nathan Patterson','Jordan Pickford']]
+];
+
+/* ---------- Helpers ---------- */
+function moodOf(s){
+  if (MOOD[s]) return MOOD[s][0];
+  const o = S[s];
+  if (o){
+    if (o.tier === 2) return (S[s+1] && S[s+1].tier === 1) ? 1.2 : -1;
+    const p = o.pos;
+    if (p === 1) return 2; if (p <= 3) return 1.4; if (p <= 6) return 1.0; if (p <= 10) return 0.4; if (p <= 14) return -0.1; if (p <= 17) return -0.7; return -1.4;
+  }
+  if (s < 1888) return s >= 1884 ? 0.6 : 0.2;
+  return null;
+}
+const moodWord = m => m >= 1.6 ? 'Euphoric' : m >= 0.9 ? 'Buoyant' : m >= 0.3 ? 'Content' : m >= -0.3 ? 'Restless' : m >= -1.1 ? 'Anxious' : 'Despairing';
+const slug = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/["'“”‘’.]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const yrs = s => { const m = String(s).match(/\d{4}/g) || []; return m.length ? [+m[0], +m[m.length-1]] : null; };
+const spanTxt = (a,b) => `${Math.floor(a)}–${b >= NOW ? 'present' : Math.floor(b)}`;
+
+/* ---------- Internationals ---------- */
+const GROUPS = {England:'eng',Scotland:'sco',Wales:'wal',Ireland:'irl','Northern Ireland':'irl','Republic of Ireland':'irl'};
+const GCOL = {eng:'var(--madder)',sco:'var(--blue)',wal:'var(--verd)',irl:'var(--gold)',row:'var(--ink-soft)'};
+const GNAME = {eng:'England',sco:'Scotland',wal:'Wales',irl:'Ireland, Northern Ireland and the Republic',row:'Rest of the world'};
+const INTL = INTL_RAW.split('\n').map(l=>{ const [n,c,caps,g,y]=l.split('|'); const r=yrs(y); return {n,c,caps:+caps,goals:+g,y,a:r[0],b:r[1],k:slug(n),g:GROUPS[c]||'row'}; });
+
+/* ---------- People registry ---------- */
+const PEOPLE = new Map();
+function person(name){ const k = slug(name); if (!PEOPLE.has(k)) PEOPLE.set(k,{key:k,name,roles:[],bio:'',intl:[],wc:[]}); return PEOPLE.get(k); }
+PLAYERS.forEach((p,i)=>{ const P = person(p[0]); P.roles.push({r:'Player',spans:p[1]}); P.bio = p[2]; P.pi = i; });
+MGR.forEach((m,i)=>{ if (i===0) return; const base = m[3].split(',')[0]; const P = person(base); const r = m[1] < 1948 ? 'Secretary' : 'Manager';
+  const ex = P.roles.find(x=>x.r===r); if (ex) ex.spans.push([m[1],m[2]]); else P.roles.push({r,spans:[[m[1],m[2]]]});
+  if (MBIO[base] && !P.mbio) P.mbio = MBIO[base]; });
+Object.entries(OWNP).forEach(([n,v])=>{ const P = person(n); P.roles.push({r:v[0],spans:v[1]}); if (!P.bio) P.bio = v[2]; });
+INTL.forEach(r=>{ const P = person(r.n); P.intl.push(r); });
+WC.forEach(w=>w[2].forEach(n=>person(n).wc.push(w[0])));
+const firstYear = P => { const a = []; P.roles.forEach(r=>r.spans.forEach(s=>a.push(s[0]))); P.intl.forEach(r=>a.push(r.a+0.5)); return a.length ? Math.min(...a) : null; };
+
+/* ---------- Rendering ---------- */
+const svg = document.getElementById('chart'), labels = document.getElementById('labels'), scroller = document.getElementById('scroller');
+const tip = document.getElementById('tip'), pop = document.getElementById('pop');
+const PMIN = 8, PMAX = 64;
+let ppy = window.innerWidth < 640 ? 16 : 22, sel = 1984;
+const X = y => (y - Y0) * ppy;
+const cv = document.createElement('canvas').getContext('2d');
+const tw = (t, px = 12.5, it = false) => { cv.font = `${it ? 'italic ' : ''}${px}px "EB Garamond", Georgia, serif`; return cv.measureText(t).width; };
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const hex = h => { h = h.replace('#',''); if (h.length === 3) h = h.split('').map(c=>c+c).join(''); return [0,2,4].map(i=>parseInt(h.slice(i,i+2),16)); };
+function moodColor(m){
+  const a = hex(css('--madder')), b = hex(css('--ink-soft')), c = hex(css('--blue'));
+  const t = (m + 2) / 4; let p, q, u;
+  if (t < .5){ p = a; q = b; u = t / .5; } else { p = b; q = c; u = (t - .5) / .5; }
+  return `rgb(${p.map((v,i)=>Math.round(v + (q[i]-v)*u)).join(',')})`;
+}
+function pack(items, gap = 10){
+  const ends = [];
+  for (const it of items){ let r = ends.findIndex(e => e <= it.x0); if (r < 0){ r = ends.length; ends.push(0); } ends[r] = it.x1 + gap; it.row = r; }
+  return ends.length;
+}
+function crPath(pts){
+  if (pts.length < 2) return pts.length ? `M${pts[0][0]},${pts[0][1]}` : '';
+  let d = `M${pts[0][0].toFixed(1)},${pts[0][1].toFixed(1)}`;
+  for (let i = 0; i < pts.length - 1; i++){
+    const p0 = pts[i-1] || pts[i], p1 = pts[i], p2 = pts[i+1], p3 = pts[i+2] || p2;
+    const c1 = [p1[0] + (p2[0]-p0[0])/6, p1[1] + (p2[1]-p0[1])/6], c2 = [p2[0] - (p3[0]-p1[0])/6, p2[1] - (p3[1]-p1[1])/6];
+    d += `C${c1[0].toFixed(1)},${c1[1].toFixed(1)} ${c2[0].toFixed(1)},${c2[1].toFixed(1)} ${p2[0].toFixed(1)},${p2[1].toFixed(1)}`;
+  }
+  return d;
+}
+const star = (cx, cy, r) => { let d=''; for (let i=0;i<10;i++){ const a = -Math.PI/2 + i*Math.PI/5, rr = i%2 ? r*0.45 : r; d += (i?'L':'M') + (cx+rr*Math.cos(a)).toFixed(1) + ',' + (cy+rr*Math.sin(a)).toFixed(1); } return d+'Z'; };
+const CUP = 'M-5,-6H5L4.3,-2.2C3.8,0.6 2.2,1.6 0,1.8C-2.2,1.6 -3.8,0.6 -4.3,-2.2ZM-0.9,1.8H0.9V3.8H3V5.6H-3V3.8H-0.9Z';
+function glyph(k, cx, cy){
+  switch(k){
+    case 'lg': return `<path d="${star(cx,cy,6.5)}" fill="var(--gold)" stroke="var(--ink)" stroke-width=".7"/>`;
+    case 'fa': return `<path transform="translate(${cx},${cy})" d="${CUP}" fill="var(--gold)" stroke="var(--ink)" stroke-width=".6"/>`;
+    case 'faL': return `<path transform="translate(${cx},${cy})" d="${CUP}" fill="none" stroke="var(--ink-soft)" stroke-width="1"/>`;
+    case 'lcL': return `<path transform="translate(${cx},${cy}) scale(.8)" d="${CUP}" fill="none" stroke="var(--blue)" stroke-width="1.2"/>`;
+    case 'cwc': return `<path d="M${cx},${cy-7}L${cx+5.5},${cy}L${cx},${cy+7}L${cx-5.5},${cy}Z" fill="var(--gold)" stroke="var(--ink)" stroke-width=".7"/>`;
+    case 'd2': return `<circle cx="${cx}" cy="${cy}" r="4.5" fill="none" stroke="var(--gold)" stroke-width="1.8"/>`;
+    case 'pro': return `<path d="M${cx},${cy-5}L${cx+5},${cy+4}L${cx-5},${cy+4}Z" fill="var(--verd)"/>`;
+    case 'cs': return `<path d="M${cx-3.6},${cy-4.5}H${cx+3.6}V${cy}C${cx+3.6},${cy+2.7} ${cx+1.8},${cy+4.1} ${cx},${cy+5}C${cx-1.8},${cy+4.1} ${cx-3.6},${cy+2.7} ${cx-3.6},${cy}Z" fill="none" stroke="var(--gold)" stroke-width="1.1"/>`;
+    case 'wc': return `<circle cx="${cx}" cy="${cy}" r="5.5" fill="var(--paper-hi)" stroke="var(--ink)" stroke-width=".8"/><path d="M${cx-5.5},${cy}H${cx+5.5}M${cx},${cy-5.5}C${cx-3},${cy-2} ${cx-3},${cy+2} ${cx},${cy+5.5}M${cx},${cy-5.5}C${cx+3},${cy-2} ${cx+3},${cy+2} ${cx},${cy+5.5}" fill="none" stroke="var(--ink)" stroke-width=".7"/>`;
+  }
+  return '';
+}
+function derbyCode(str){
+  const m = str.match(/^(\w+) (\d+)-(\d+) (\w+)$/); if (!m) return 0;
+  const eHome = m[1] === 'EFC', e = eHome ? +m[2] : +m[3], l = eHome ? +m[3] : +m[2];
+  return e > l ? 1 : e < l ? -1 : 0;
+}
+const posY = (tier, p) => tier === 1 ? 14 + (p - 1) / 21 * 112 : 150 + (p - 1) / 21 * 36;
+function blockText(t, x0, w, y, cls){
+  const it = /\bit\b/.test(cls), w0 = tw(t, 12.5, it); if (w0 > w - 8) return '';
+  let out = ''; const step = Math.max(720, w0 + 320);
+  for (let xx = x0 + 5; xx + w0 < x0 + w - 3; xx += step) out += `<text class="${cls}" x="${xx}" y="${y}">${esc(t)}</text>`;
+  return out;
+}
+let PHOTOS = {};
+const LANE_DEFS = [
+  ['ep','Epochs'],['mg','Managers'],['ow','Ownership'],['lg','League finish'],['hn','Honours'],['dy','Derbies'],['md','Mood'],
+  ['mn','Money'],['gr','Home ground'],['pl','Players'],['in','Internationals'],['cl','In the club'],['ec','Liverpool Echo'],['wd','Around the club']
+];
+let HIDDEN = new Set();
+try { HIDDEN = new Set(JSON.parse(localStorage.getItem('efc-hidden') || '[]')); } catch(e){}
+function pinItems(list){ const W = X(Y1); return list.map((e,i)=>{ const xx=X(dec(e.d)), w=tw(e.t); const flip = xx+7+w > W-6; return {...e, i, xx, flip, x0: flip ? xx-8-w : xx-4, x1: flip ? xx+4 : xx+7+w}; }).sort((a,b)=>a.x0-b.x0); }
+function pinMarkup(items, pre, top, cls){
+  let g='';
+  items.forEach(it=>{ const y=top+it.row*17+10;
+    let fill = cls==='club' ? 'var(--paper)' : 'var(--ink-soft)', stroke='none', dash='';
+    if (it.k==='trag'||it.k==='war') fill='var(--madder)'; else if (it.k==='match') fill='var(--blue)'; else if (it.k==='mile') fill='var(--ink)';
+    if (cls==='club' && !it.k){ stroke='var(--ink)'; }
+    if (it.k==='future'){ fill='var(--paper)'; stroke='var(--blue)'; dash=' stroke-dasharray="2 1.5"'; }
+    if (cls==='echo'){ fill='#d98ca0'; stroke='var(--ink)'; }
+    g += `<g data-pk="${pre}:${it.i}"><title>${esc(when(it.d)+': '+it.t)}</title><circle cx="${it.xx}" cy="${y-4}" r="3.4" fill="${fill}" stroke="${stroke}"${dash}/><text x="${it.flip ? it.xx-6 : it.xx+6}" y="${y}"${it.flip?' text-anchor="end"':''}${it.k==='trag'?' style="font-weight:600"':''}${it.k==='future'?' class="it soft"':''}>${esc(it.t)}</text></g>`; });
+  return g;
+}
+function intlByYear(){
+  const by = {};
+  INTL.forEach(r=>{ for (let y=r.a; y<=r.b; y++){ (by[y] = by[y] || new Map()).set(r.k, r); } });
+  return by;
+}
+const IBY = intlByYear();
+
+function render(){
+  const W = Math.round(X(Y1));
+  const lanes = [];
+  const add = (id, label, sub, h, body, ticks) => { if (id.length===2 && HIDDEN.has(id) && id!=='rt' && id!=='rb') return; lanes.push({id,label,sub,h,body,ticks}); };
+  const ruler = (h, top) => {
+    let g = ''; const step = ppy >= 28 ? 5 : 10;
+    for (let y = 1878; y <= Math.floor(Y1); y++){
+      const xx = X(y), big = y % step === 0;
+      g += `<line x1="${xx}" x2="${xx}" y1="${top ? h-1 : 1}" y2="${top ? h-(big?7:3) : (big?7:3)}" stroke="var(--ink)" stroke-width="${big?1:.5}"/>`;
+      if (big) g += `<text class="yr" x="${xx}" y="${top ? h-10 : 19}">${y}</text>`;
+    }
+    return g;
+  };
+  lanes.push({id:'rt',label:'',sub:'',h:26,body:ruler(26,true)});
+
+  { let g=''; EPOCHS.forEach((e,i)=>{ const x0=X(e[0]), x1=X(e[1]), w=x1-x0;
+      g += `<g data-pk="ep:${i}"><title>${esc(e[2])}</title><rect x="${x0}" y="0" width="${w}" height="36" fill="${i%2?'var(--tint-b)':'var(--tint-a)'}"/>`;
+      g += `<line x1="${x0}" x2="${x0}" y1="0" y2="36" stroke="var(--ink)" stroke-width=".6"/>`;
+      let fs = 15; while (fs > 11 && tw(e[2], fs, true) > w - 8) fs--;
+      if (tw(e[2], fs, true) <= w - 6) g += `<text class="ep" x="${x0+w/2}" y="23" style="font-size:${fs}px">${esc(e[2])}</text>`;
+      else if (i === EPOCHS.length-1){ const w0 = tw(e[2],13,true)+10; g += `<rect x="${W-w0-8}" y="8" width="${w0}" height="20" fill="var(--paper-hi)" stroke="var(--ink)" stroke-width=".6"/><text class="ep" x="${W-8-w0/2}" y="22" style="font-size:13px">${esc(e[2])}</text>`; }
+      g += `</g>`; }); add('ep','Epochs','',36,g); }
+
+  { let g=''; MGR.forEach((m,i)=>{ const x0=X(m[1]), x1=X(m[2]), w=Math.max(1.5,x1-x0), y=i%2?24:5, sec = m[1] < 1948;
+      g += `<g data-pk="mg:${i}"><title>${esc(m[3])}, ${spanTxt(m[1],m[2])}</title><rect x="${x0}" y="${y}" width="${w}" height="17" fill="${sec?'var(--tint-a)':'var(--tint-b)'}" stroke="var(--ink)" stroke-width=".5"/>`;
+      g += blockText(m[0], x0-1, w, y+12.5, sec ? 'blk it' : 'blk') + `</g>`; });
+    add('mg','Managers','secretaries until 1939',46,g); }
+
+  { let g=''; OWN.forEach((o,i)=>{ const x0=X(o[1]), w=X(o[2])-x0;
+      g += `<g data-pk="ow:${i}"><title>${esc(o[3])}</title><rect x="${x0}" y="5" width="${w}" height="20" fill="${i%2?'var(--tint-b)':'var(--tint-a)'}" stroke="var(--ink)" stroke-width=".5"/>`;
+      g += blockText(o[0], x0, w, 19, 'blk it') + `</g>`; }); add('ow','Ownership','',30,g); }
+
+  { let g='';
+    g += `<rect x="0" y="142" width="${W}" height="52" fill="var(--tint-a)"/><line x1="0" x2="${W}" y1="140" y2="140" stroke="var(--ink)" stroke-width=".8"/>`;
+    [1,5,10,15,20].forEach(p=>{ g += `<line x1="0" x2="${W}" y1="${posY(1,p)}" y2="${posY(1,p)}" stroke="var(--rule)" stroke-dasharray="${p===1?'':'2 4'}"/>`; });
+    const ys = Object.keys(S).map(Number).sort((a,b)=>a-b);
+    let seg = [], segs = [];
+    ys.forEach(s=>{ const o=S[s]; if (o.partial) return; if (seg.length && !S[s-1]) { segs.push(seg); seg=[]; } seg.push([X(s+1), posY(o.tier,o.pos)]); });
+    if (seg.length) segs.push(seg);
+    segs.forEach(sg => { g += `<path d="M${sg.map(p=>p.join(',')).join('L')}" fill="none" stroke="var(--ink)" stroke-width="1.1" stroke-linejoin="round"/>`; });
+    if (S[2026] && S[2025]) g += `<line x1="${X(2026)}" y1="${posY(1,S[2025].pos)}" x2="${X(2027)}" y2="${posY(1,S[2026].pos)}" stroke="var(--ink)" stroke-dasharray="2 3"/>`;
+    ys.forEach(s=>{ const o=S[s], cx=X(s+1), cy=posY(o.tier,o.pos);
+      const rel = o.tier===1 && S[s+1] && S[s+1].tier===2, pro = o.tier===2 && S[s+1] && S[s+1].tier===1;
+      let c;
+      if (o.partial) c = `<circle cx="${cx}" cy="${cy}" r="3.4" fill="var(--paper)" stroke="var(--ink)"/>`;
+      else if (o.tier===1 && o.pos===1) c = `<circle cx="${cx}" cy="${cy}" r="4.8" fill="var(--gold)" stroke="var(--ink)" stroke-width=".8"/>`;
+      else if (rel) c = `<circle cx="${cx}" cy="${cy}" r="4.3" fill="var(--madder)"/>`;
+      else if (pro) c = `<circle cx="${cx}" cy="${cy}" r="4.3" fill="var(--verd)"/>`;
+      else c = `<circle cx="${cx}" cy="${cy}" r="2.4" fill="var(--ink)"/>`;
+      g += `<g data-pk="lg:${s}"><circle cx="${cx}" cy="${cy}" r="${Math.max(6,ppy*.45)}" fill="transparent"/>${c}</g>`;
+    });
+    for (let y = 1880; y <= 2020; y += 40) g += `<text class="it soft" x="${X(y)+4}" y="187" style="font-size:11.5px">Division Two</text>`;
+    add('lg','League finish','',196,g,[[posY(1,1),'1st'],[posY(1,10),'10th'],[posY(1,20),'20th'],[168,'Div 2']]);
+  }
+
+  { let g=''; const by={}; HON.forEach((h,i)=>{ (by[h[0]]=by[h[0]]||[]).push([...h,i]); });
+    const off = Math.max(9, ppy*.5);
+    Object.keys(by).forEach(k=>{ const s=+k, list=by[s].sort((a,b)=>HORDER[a[1]]-HORDER[b[1]]);
+      list.forEach((h,i)=>{ const cx = X(s+0.8) + Math.floor(i/2)*off, cy = i%2 ? 32 : 13; g += `<g data-pk="hn:${h[3]}"><title>${esc(sl(s)+': '+h[2])}</title><circle cx="${cx}" cy="${cy}" r="8" fill="transparent"/>${glyph(h[1],cx,cy)}</g>`; });
+    }); add('hn','Honours','trophies and lost finals',46,g); }
+
+  { let g=''; Object.keys(S).forEach(k=>{ const s=+k; (S[s].derby||[]).forEach((d,i)=>{ const c=derbyCode(d);
+      g += `<g data-pk="dy:${s}"><title>${esc(res(d))}</title><rect x="${X(s+1)-3.5}" y="${11+i*10}" width="7" height="7" fill="${c>0?'var(--blue)':c<0?'var(--madder)':'var(--ink-soft)'}" opacity="${c===0?.55:1}"/></g>`; }); });
+    add('dy','Derbies','league games v Liverpool',40,g); }
+
+  { const H=104, cy=52; let g=''; const stops=[], segs=[]; let seg=[];
+    for (let s=FIRST; s<=LAST; s++){ const m=moodOf(s);
+      if (m===null){ if (seg.length){ segs.push(seg); seg=[]; } continue; }
+      const xx=X(s+1), half=3+(m+2)*10.5; seg.push([xx,half,m]); stops.push([xx/W, moodColor(m)]); }
+    if (seg.length) segs.push(seg);
+    g += `<defs><linearGradient id="mgr" gradientUnits="userSpaceOnUse" x1="0" x2="${W}" y1="0" y2="0">${stops.map(st=>`<stop offset="${st[0].toFixed(4)}" stop-color="${st[1]}"/>`).join('')}</linearGradient></defs>`;
+    segs.forEach((sg,i)=>{
+      const top = sg.map(p=>[p[0],cy-p[1]]), bot = sg.map(p=>[p[0],cy+p[1]]).reverse();
+      const tp = crPath(top), bp = crPath(bot).replace(/^M/,'L');
+      g += `<path d="${tp}${bp}Z" fill="url(#mgr)" opacity=".92"/><path d="${tp}" fill="none" stroke="var(--ink)" stroke-width=".6" opacity=".55"/><path d="${crPath(bot)}" fill="none" stroke="var(--ink)" stroke-width=".6" opacity=".55"/>`;
+      if (i>0){ const prev=segs[i-1][segs[i-1].length-1]; g += `<line x1="${prev[0]}" x2="${sg[0][0]}" y1="${cy}" y2="${cy}" stroke="var(--ink-soft)" stroke-dasharray="1 4" stroke-width="1.4"/>`; }
+    });
+    for (let s=FIRST; s<=LAST; s++) if (MOOD[s]) g += `<g data-pk="md:${s}"><title>${esc(sl(s)+': '+MOOD[s][1])}</title><circle cx="${X(s+1)}" cy="${cy}" r="${Math.max(5,ppy*.4)}" fill="transparent"/><circle cx="${X(s+1)}" cy="${cy}" r="1.8" fill="var(--paper)" opacity=".85"/></g>`;
+    add('md','Mood','the wider and bluer the stream, the happier the club',H,g); }
+
+  { let g=''; const lv={2:['var(--verd)',.55],1:['var(--verd)',.28],0:['var(--ink-soft)',.16],'-1':['var(--gold)',.32],'-2':['var(--madder)',.42]};
+    FINERA.forEach((f,i)=>{ const x0=X(f[0]), w=X(f[1])-x0, c=lv[f[2]];
+      g += `<g data-pk="fe:${i}"><title>${esc(f[3])}</title><rect x="${x0}" y="4" width="${w}" height="20" fill="${c[0]}" fill-opacity="${c[1]}" stroke="var(--ink)" stroke-width=".4"/>`;
+      g += blockText(f[3], x0, w, 18, 'blk it') + `</g>`; });
+    const items = pinItems(MONEY); const rows = pack(items);
+    items.forEach(it=>{ const y=32+it.row*17+10; g += `<g data-pk="mn:${it.i}"><title>${esc(when(it.d)+': '+it.t)}</title><rect x="${it.xx-3}" y="${y-7}" width="6" height="6" transform="rotate(45 ${it.xx} ${y-4})" fill="var(--gold)"/><text x="${it.flip ? it.xx-6 : it.xx+6}" y="${y}"${it.flip?' text-anchor="end"':''}>${esc(it.t)}</text></g>`; });
+    add('mn','Money','band: the state of the books',32+rows*17+8,g); }
+
+  { let g=''; GROUND.forEach((gr,i)=>{ const x0=X(gr[1]), w=X(gr[2])-x0, hd = i===4;
+      g += `<g data-pk="gr:${i}"><title>${esc(gr[0])}</title><rect x="${x0}" y="5" width="${w}" height="20" fill="${hd?'var(--blue)':i===3?'var(--tint-b)':'var(--tint-a)'}" fill-opacity="${hd?.28:1}" stroke="var(--ink)" stroke-width="${hd?1:.5}"/>`;
+      if (hd){ const tw0 = tw(gr[0],12.5)+8; if (tw0 < w - 4) g += `<text class="blk" x="${x0+5}" y="19" style="font-weight:600">${esc(gr[0])}</text>`;
+        else g += `<rect x="${W-tw0-10}" y="6" width="${tw0+4}" height="18" fill="var(--paper-hi)" stroke="var(--blue)" stroke-width=".8"/><text class="blk" x="${W-8}" y="19" text-anchor="end" style="font-weight:600">${esc(gr[0])}</text>`; }
+      else g += blockText(gr[0], x0, w, 19, 'blk it');
+      g += `</g>`; }); add('gr','Home ground','',30,g); }
+
+  { let g=''; const items = PLAYERS.map((p,i)=>{ const a=X(p[1][0][0]), b=X(p[1][p[1].length-1][1]); return {i, n:p[0], segs:p[1], x0:a, x1:Math.max(b, a+tw(p[0])+16)}; }).sort((a,b)=>a.x0-b.x0);
+    const rows = pack(items, 8);
+    items.forEach(it=>{ const y=it.row*22+6, has = PHOTOS[slug(it.n)];
+      g += `<g data-pk="pl:${it.i}"><title>${esc(it.n)}: ${it.segs.map(s=>spanTxt(s[0],s[1])).join(', ')}</title><rect x="${it.x0-2}" y="${y-2}" width="${it.x1-it.x0+4}" height="20" fill="transparent"/>`;
+      it.segs.forEach(s=>{ g += `<rect x="${X(s[0])}" y="${y+12}" width="${Math.max(2,X(s[1])-X(s[0]))}" height="4" fill="var(--blue)" opacity=".75"/>`; });
+      g += `<text x="${it.x0}" y="${y+9}">${esc(it.n)}</text>`;
+      if (has) g += `<circle class="ph" cx="${it.x0+tw(it.n)+6}" cy="${y+5}" r="2.6"><title>Photo on file</title></circle>`;
+      g += `</g>`; });
+    add('pl','Players','click a name for the player card',rows*22+10,g); }
+
+  { const H=84, base=H-6; let g='', max=1;
+    for (let y=1885; y<=2026; y++) if (IBY[y]) max = Math.max(max, IBY[y].size);
+    const unit = (H-30)/max, order=['eng','sco','wal','irl','row'];
+    for (let y=1885; y<=2026; y++){ const m = IBY[y]; if (!m) continue;
+      const cnt = {eng:0,sco:0,wal:0,irl:0,row:0}; m.forEach(r=>cnt[r.g]++);
+      let yy = base; let parts='';
+      order.forEach(k=>{ if (!cnt[k]) return; const h = cnt[k]*unit; yy -= h; parts += `<rect x="${X(y+0.15)}" y="${yy}" width="${Math.max(2,ppy*0.7)}" height="${h}" fill="${GCOL[k]}" opacity=".8"/>`; });
+      g += `<g data-pk="iy:${y}"><title>${y}: ${m.size} Everton internationals capped</title><rect x="${X(y+0.1)}" y="16" width="${Math.max(3,ppy*.8)}" height="${H-20}" fill="transparent"/>${parts}</g>`;
+    }
+    WC.forEach((w,i)=>{ g += `<g data-pk="wc:${i}"><title>${w[0]} World Cup: ${esc(w[2].join(', '))}</title><circle cx="${X(w[0]+0.5)}" cy="9" r="8" fill="transparent"/>${glyph('wc',X(w[0]+0.5),9)}</g>`; });
+    add('in','Internationals','bars: players capped each year; globes: World Cups',H,g); }
+
+  { const items = pinItems(CLUB); const rows = pack(items); add('cl','In the club','blue dots are matches',2+rows*17+8,pinMarkup(items,'cl',2,'club')); }
+
+  { let g=''; const sp = ECHO_SPANS.map((e,i)=>({...e,i,a:X(dec(e.d)),b:X(dec(e.e))}));
+    sp.forEach(e=>{ g += `<g data-pk="es:${e.i}"><title>${esc(e.t)}</title><rect x="${e.a}" y="4" width="${e.b-e.a}" height="14" fill="#d98ca0" fill-opacity=".35" stroke="#b56a7e" stroke-width=".6"/>`;
+      for (let xx=e.a+4; xx+tw(e.t,12.5,true) < e.b-4; xx+=Math.max(760, tw(e.t,12.5,true)+360)) g += `<text class="it" x="${xx}" y="15">${esc(e.t)}</text>`;
+      g += `</g>`; });
+    const items = pinItems(ECHO); const rows = pack(items);
+    g += pinMarkup(items,'ec',24,'echo');
+    add('ec','Liverpool Echo','the city\'s paper since 1879',24+rows*17+8,g); }
+
+  { let g=''; const sp = WORLD_SPANS.map((e,i)=>{ const a=X(dec(e.d)), b=X(dec(e.e)); return {...e, i, a, b, x0:a, x1:Math.max(b, a+tw(e.t,12.5,true)+8)}; }).sort((p,q)=>p.x0-q.x0);
+    const srows = pack(sp, 6);
+    sp.forEach(e=>{ const y=4+e.row*18;
+      g += `<g data-pk="ws:${e.i}"><title>${esc(e.t)}</title><rect x="${e.a}" y="${y}" width="${e.b-e.a}" height="14" fill="${e.war?'var(--madder)':'var(--ink-soft)'}" fill-opacity="${e.war?.22:.16}" stroke="${e.war?'var(--madder)':'var(--ink-soft)'}" stroke-width=".6"/><text class="it" x="${e.a+4}" y="${y+11}">${esc(e.t)}</text></g>`; });
+    const top = 8+srows*18, items = pinItems(WORLD); const rows = pack(items);
+    g += pinMarkup(items,'wd',top,'world');
+    add('wd','Around the club','city, country, wars and griefs',top+rows*17+8,g); }
+  lanes.push({id:'rb',label:'',sub:'',h:26,body:ruler(26,false)});
+
+  let y = 0, body = '';
+  const H = lanes.reduce((a,l)=>a+l.h,0);
+  body += `<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="var(--madder)" stroke-width="1" opacity=".22"/></pattern><pattern id="fut" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="7" stroke="var(--ink)" stroke-width=".6" opacity=".12"/></pattern></defs>`;
+  for (let d = 1880; d <= 2030; d += 10) body += `<line x1="${X(d)}" x2="${X(d)}" y1="0" y2="${H}" stroke="var(--ink)" stroke-opacity="${d%50===0?.28:.1}" stroke-width="${d%50===0?1:.6}"/>`;
+  WORLD_SPANS.filter(w=>w.war && w.t.indexOf('World War')>0).forEach(w=>{ const a=X(dec(w.d)), b=X(dec(w.e)); body += `<rect x="${a}" y="26" width="${b-a}" height="${H-52}" fill="var(--war)"/><rect x="${a}" y="26" width="${b-a}" height="${H-52}" fill="url(#hatch)"/>`; });
+  body += `<rect x="${X(NOW)}" y="26" width="${W-X(NOW)}" height="${H-52}" fill="url(#fut)"/><text class="it soft" x="${X(NOW)+8}" y="${H-34}">still to come</text>`;
+  body += `<defs><pattern id="mintP" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="4" fill="#111"/><rect x="2" width="2" height="4" fill="#fff"/></pattern></defs>`;
+  body += `<rect id="selr" x="0" y="0" width="${ppy}" height="${H}" fill="var(--sel)" stroke="var(--blue)" stroke-width=".8" stroke-opacity=".6"/>`;
+  body += `<g id="mint"><title>Selected season</title><rect x="0" y="2" width="16" height="9" rx="4.5" fill="url(#mintP)" stroke="var(--ink)" stroke-width=".7"/></g>`;
+  body += `<line id="hovl" x1="0" x2="0" y1="0" y2="${H}" stroke="var(--blue)" stroke-width="1" stroke-dasharray="3 3" opacity="0"/>`;
+  lanes.forEach(l=>{ body += `<g transform="translate(0,${y})">${l.body}<line x1="0" x2="${W}" y1="${l.h-.5}" y2="${l.h-.5}" stroke="var(--rule)"/></g>`; y += l.h; });
+  svg.setAttribute('width', W); svg.setAttribute('height', H); svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = body;
+  labels.innerHTML = lanes.map(l=>`<div class="lab${l.label?'':' ruler'}" style="height:${l.h}px">${l.label?`<b>${esc(l.label)}</b>`:''}${l.sub?`<small>${esc(l.sub)}</small>`:''}${(l.ticks||[]).map(t=>`<span class="tick" style="top:${t[0]}px">${t[1]}</span>`).join('')}</div>`).join('');
+  placeSel();
+}
+function placeSel(){
+  const r = document.getElementById('selr'), m = document.getElementById('mint'); if (!r) return;
+  r.setAttribute('width', ppy); r.style.transform = `translateX(${X(sel+0.5)}px)`;
+  if (m) m.style.transform = `translateX(${X(sel+1)-8}px)`;
+  miniWin();
+}
+function labW(){ return labels.getBoundingClientRect().width; }
+function centerOn(year, smooth){
+  const lw = labW(), target = lw + X(year) - (lw + scroller.clientWidth)/2;
+  scroller.scrollTo({left:Math.max(0,target), behavior: smooth && !matchMedia('(prefers-reduced-motion: reduce)').matches ? 'smooth' : 'auto'});
+}
+function ensureVisible(s){
+  const lw = labW(), xx = lw + X(s+1), l = scroller.scrollLeft + lw + 30, r = scroller.scrollLeft + scroller.clientWidth - 30;
+  if (xx < l || xx > r) centerOn(s+1, true);
+}
+
+/* ---------- Hover, select, keyboard ---------- */
+function yearAt(clientX){ const b = svg.getBoundingClientRect(); return (clientX - b.left) / ppy + Y0; }
+function tipText(s){
+  const o = S[s];
+  if (o){
+    if (o.partial) return `${sl(s)}: ${ord(o.pos)} after ${o.P} games`;
+    if (o.tier===1 && o.pos===1) return `${sl(s)}: champions`;
+    if (o.tier===2) return `${sl(s)}: Division Two, ${ord(o.pos)}`;
+    return `${sl(s)}: ${ord(o.pos)} of ${o.n}${S[s+1] && S[s+1].tier===2 ? ', relegated' : ''}`;
+  }
+  if (WAR.has(s)) return `${sl(s)}: no league football`;
+  if (s < 1888) return `${sl(s)}: before the Football League`;
+  return sl(s);
+}
+svg.addEventListener('pointermove', e=>{
+  const s = seasonOf(yearAt(e.clientX)); const l = document.getElementById('hovl');
+  if (s < FIRST || s > LAST){ tip.classList.remove('on'); if (l) l.setAttribute('opacity',0); return; }
+  l.setAttribute('x1', X(s+1)); l.setAttribute('x2', X(s+1)); l.setAttribute('opacity', .8);
+  const el = e.target.closest('[data-pk]'); const t = el && el.querySelector('title');
+  tip.textContent = t ? t.textContent : tipText(s); tip.classList.add('on');
+  tip.style.left = Math.min(window.innerWidth - tip.offsetWidth - 8, e.clientX + 14) + 'px'; tip.style.top = (e.clientY + 16) + 'px';
+});
+svg.addEventListener('pointerleave', ()=>{ tip.classList.remove('on'); const l=document.getElementById('hovl'); if (l) l.setAttribute('opacity',0); });
+svg.addEventListener('click', e=>{
+  if (suppressClick) return;
+  tip.classList.remove('on');
+  const s = seasonOf(yearAt(e.clientX));
+  const el = e.target.closest('[data-pk]');
+  if (s>=FIRST && s<=LAST) select(s, false);
+  if (el) openPop(el.dataset.pk, {x:e.clientX, y:e.clientY});
+  else closePop();
+});
+scroller.addEventListener('keydown', e=>{
+  if (e.key==='ArrowRight'||e.key==='ArrowLeft'){ e.preventDefault(); select(Math.min(LAST, Math.max(FIRST, sel + (e.key==='ArrowRight'?1:-1))), true); }
+  else if (e.key==='+'||e.key==='='){ e.preventDefault(); zoomAt(null, 1.3); }
+  else if (e.key==='-'||e.key==='_'){ e.preventDefault(); zoomAt(null, 1/1.3); }
+});
+function select(s, scroll){ sel = s; placeSel(); detail(s); if (scroll) ensureVisible(s); try { history.replaceState(null,'','#'+s); } catch(e){} }
+
+/* ---------- Popover cards ---------- */
+let popKey = null, popAnchor = null;
+const nb = (k, label) => `<button type="button" class="namebtn" data-open="p:${k}">${esc(label)}</button>`;
+const pname = n => { const k = slug(n); return PEOPLE.has(k) ? nb(k, n) : esc(n); };
+const goBtn = (s, label) => `<button type="button" data-go="${s}">${esc(label || 'Open '+sl(s))}</button>`;
+function monogram(name){
+  const parts = name.replace(/["'.]/g,'').split(/\s+/).filter(Boolean), ini = ((parts[0]||'')[0]||'') + (parts.length>1 ? parts[parts.length-1][0] : '');
+  return `<svg viewBox="0 0 100 125" aria-hidden="true"><rect width="100" height="125" fill="var(--tint-b)"/><ellipse cx="50" cy="62" rx="40" ry="52" fill="none" stroke="var(--ink)" stroke-width="1"/><ellipse cx="50" cy="62" rx="35" ry="47" fill="none" stroke="var(--ink)" stroke-width=".5"/><text x="50" y="74" text-anchor="middle" style="font-family:'IM Fell English',Georgia,serif;font-size:34px;fill:var(--ink)">${esc(ini.toUpperCase())}</text></svg>`;
+}
+function personCard(k){
+  const P = PEOPLE.get(k); if (!P) return '';
+  const ph = PHOTOS[k];
+  const purl = ph ? (ph.url || '/_blob/' + ph.asset) : '';
+  const plink = ph && ph.source && /^https:\/\/(commons\.wikimedia|en\.wikipedia)\.org\//.test(ph.source) ? ph.source : '';
+  const ptxt = ph ? (ph.credit || 'Photo: Wikimedia Commons (loading credit…)') : '';
+  let h = `<div class="row"><div><div class="portrait">${monogram(P.name)}${ph ? `<img src="${esc(purl)}" alt="${esc(P.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}</div>${ph ? `<div class="credit" id="pcredit">${plink ? `<a href="${esc(plink)}" target="_blank" rel="noopener" style="color:inherit">${esc(ptxt)}</a>` : esc(ptxt)}</div>` : ''}</div><div>`;
+  h += `<h3 id="popTitle">${esc(P.name)}</h3>`;
+  const lines = P.roles.map(r=>`${r.r}, ${r.spans.map(s=>spanTxt(s[0],s[1])).join(' and ')}`);
+  if (!lines.length) lines.push(P.intl.length ? 'International while at Everton' : 'Everton player');
+  h += `<p class="meta">${esc(lines.join('; '))}</p>`;
+  P.intl.forEach(r=>{ h += `<p class="meta" style="font-style:normal"><span class="swc" style="background:${GCOL[r.g]}"></span>${esc(r.c)}: ${r.caps} cap${r.caps===1?'':'s'}${r.goals?`, ${r.goals} goal${r.goals===1?'':'s'}`:''} (${esc(r.y)})</p>`; });
+  h += `</div></div>`;
+  if (P.bio) h += `<p>${esc(P.bio)}</p>`;
+  if (P.mbio && P.mbio !== P.bio) h += `<p>${esc(P.mbio)}</p>`;
+  if (P.wc.length) h += `<p>At the World Cup in ${P.wc.join(', ')} while an Everton player.</p>`;
+  const fy = firstYear(P);
+  h += `<div class="acts">`;
+  if (fy) { const s = Math.max(FIRST, Math.min(LAST, seasonOf(fy))); h += goBtn(s, `Go to ${sl(s)}`); }
+  h += `<a href="https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(P.name+' Everton')}&title=Special:MediaSearch&type=image" target="_blank" rel="noopener">Find a free photo</a>`;
+  h += `</div>`;
+  if (CAN_EDIT && ASSETS && DB){
+    h += `<div class="upl"><b style="font-weight:500">${ph?'Replace':'Add'} photo</b> <span class="hint" style="font-size:13px">JPEG, PNG or WebP. Shown to everyone who opens the chart.</span>
+      <input type="text" id="phCredit" placeholder="Credit, e.g. Photo: Jane Smith, CC BY-SA 4.0" value="${ph && ph.credit ? esc(ph.credit) : ''}">
+      <div class="acts">${MCP && PHOTO_FILES.has(k) && !(ph && ph.file) ? '<button type="button" class="primary" data-act="wm">Load Wikimedia photo</button>' : ''}<button type="button" class="${MCP && PHOTO_FILES.has(k) && !ph ? '' : 'primary'}" data-act="pick">${ph?'Choose a new image':'Upload an image'}</button>${ph?'<button type="button" data-act="rm">Remove photo</button>':''}</div>
+      <input type="file" id="phFile" accept="image/jpeg,image/png,image/webp" hidden><div class="status" id="phStatus" role="status"></div></div>`;
+  } else if (!ph) {
+    h += `<p class="hint" style="font-size:13.5px;margin-top:8px">No photo yet. The chart's editors can add one from this card.</p>`;
+  }
+  return h;
+}
+function evCard(e, label){
+  const s = seasonOf(dec(e.d));
+  let h = `<h3 id="popTitle">${esc(e.t)}</h3><p class="meta">${esc(when(e.d))}${label?', '+esc(label):''}</p>`;
+  if (e.x) h += `<p>${linkNames(e.x)}</p>`;
+  h += `<div class="acts">${s>=FIRST && s<=LAST ? goBtn(s) : ''}</div>`;
+  return h;
+}
+function linkNames(text){
+  let out = esc(text);
+  const names = [...PEOPLE.values()].filter(P=>P.roles.length).map(P=>P.name).sort((a,b)=>b.length-a.length);
+  const done = new Set();
+  names.forEach(n=>{ const en = esc(n); if (done.has(n)) return; const i = out.indexOf(en); if (i<0) return;
+    if (out.lastIndexOf('<button', i) > out.lastIndexOf('</button>', i)) return;
+    out = out.slice(0,i) + nb(slug(n), n) + out.slice(i+en.length); done.add(n); });
+  return out;
+}
+function spanCard(title, a, b, text, extra){
+  return `<h3 id="popTitle">${esc(title)}</h3><p class="meta">${spanTxt(a,b)}</p>${text?`<p>${linkNames(text)}</p>`:''}${extra||''}`;
+}
+function popHTML(pk){
+  const [t, a, b] = pk.split(':');
+  const i = +a;
+  switch(t){
+    case 'p': return personCard(a);
+    case 'pl': return personCard(slug(PLAYERS[i][0]));
+    case 'mg': { if (i===0) return spanCard('Run by committee', MGR[0][1], MGR[0][2], 'Before the Football League the club committee picked the team.'); return personCard(slug(MGR[i][3].split(',')[0])); }
+    case 'ow': { const o = OWN[i]; return spanCard(o[0], o[1], o[2], o[3]+'.', `<p>${o[4].map(n=>pname(n)).join(', ')}</p>`); }
+    case 'ep': { const e = EPOCHS[i]; return spanCard(e[2], e[0], e[1], EPOCH_TXT[e[2]], `<div class="acts">${goBtn(Math.max(FIRST,seasonOf(e[0]+0.6)), 'Go to the start')}</div>`); }
+    case 'fe': { const f = FINERA[i]; return spanCard(f[3], f[0], f[1], f[4]); }
+    case 'gr': { const g = GROUND[i]; return spanCard(g[0], g[1], g[2], g[3]); }
+    case 'mn': return evCard(MONEY[i], 'money');
+    case 'cl': return evCard(CLUB[i], CLUB[i].k==='future' ? 'fixture' : 'in the club');
+    case 'wd': return evCard(WORLD[i], 'around the club');
+    case 'ec': return evCard(ECHO[i], 'Liverpool Echo');
+    case 'es': { const e = ECHO_SPANS[i]; return spanCard(e.t, dec(e.d), dec(e.e), 'The Echo\'s Saturday-night results paper, printed on pink paper and sold on the streets within an hour of the final whistle. It ran as a standalone paper until August 2004.'); }
+    case 'ws': { const e = WORLD_SPANS[i]; return `<h3 id="popTitle">${esc(e.t)}</h3><p class="meta">${when(e.d)} to ${when(e.e)}</p>`; }
+    case 'hn': { const h = HON[i]; return `<h3 id="popTitle">${esc(h[2])}</h3><p class="meta">${sl(h[0])}</p>${FA[h[0]] && /fa/.test(h[1]) ? `<p>${esc(res(FA[h[0]].last))}</p>` : ''}${h[1]==='cwc'?`<p>${esc(EURO[1984])}</p>`:''}${h[1]==='lcL'?`<p>${esc(LCUP[h[0]])}</p>`:''}<div class="acts">${goBtn(h[0])}</div>`; }
+    case 'dy': { const s=i, o=S[s]; return `<h3 id="popTitle">Derbies, ${sl(s)}</h3><ul class="plain">${o.derby.map(d=>`<li>${esc(res(d))}</li>`).join('')}</ul><div class="acts">${goBtn(s)}</div>`; }
+    case 'lg': { const s=i; return `<h3 id="popTitle">${sl(s)}</h3><p class="meta">${esc(tipText(s).split(': ')[1]||'')}</p>${S[s]?`<p>P ${S[s].P}, W ${S[s].W}, D ${S[s].D}, L ${S[s].L}, ${S[s].F}–${S[s].A}, ${S[s].Pts} pts</p>`:''}<div class="acts">${goBtn(s, 'Full season record')}</div>`; }
+    case 'md': { const s=i; return `<h3 id="popTitle">${moodWord(moodOf(s))}</h3><p class="meta">${sl(s)}</p><p>${esc(MOOD[s][1])}</p><div class="acts">${goBtn(s)}</div>`; }
+    case 'iy': { const y=i, m=IBY[y]; const list=[...m.values()].sort((p,q)=>p.g.localeCompare(q.g)||q.caps-p.caps);
+      return `<h3 id="popTitle">Capped in ${y}</h3><p class="meta">${list.length} Everton player${list.length===1?'':'s'} won caps in a span covering ${y}</p><ul class="plain">${list.map(r=>`<li><span class="swc" style="background:${GCOL[r.g]}"></span>${nb(r.k, r.n)}, ${esc(r.c)}</li>`).join('')}</ul>`; }
+    case 'wc': { const w=WC[i]; return `<h3 id="popTitle">${w[0]} World Cup</h3><p class="meta">${esc(w[1])}</p><p>Everton players in the squads:</p><ul class="plain">${w[2].map(n=>`<li>${pname(n)}</li>`).join('')}</ul>`; }
+  }
+  return '';
+}
+function openPop(pk, at){
+  const html = popHTML(pk); if (!html) return;
+  popKey = pk; popAnchor = at;
+  pop.innerHTML = `<button type="button" class="x" aria-label="Close">×</button>${html}`;
+  pop.classList.add('on');
+  if (window.innerWidth > 640){
+    const w = pop.offsetWidth, h = pop.offsetHeight;
+    let x = at.x + 16, y = at.y + 12;
+    if (x + w > window.innerWidth - 8) x = Math.max(8, at.x - w - 16);
+    if (y + h > window.innerHeight - 8) y = Math.max(8, window.innerHeight - h - 8);
+    pop.style.left = x + 'px'; pop.style.top = y + 'px';
+  }
+  pop.querySelector('.x').focus({preventScroll:true});
+  const pkey = personKeyOf(pk); if (pkey) ensureCredit(pkey);
+}
+function closePop(){ pop.classList.remove('on'); popKey = null; }
+function refreshPop(){ if (popKey) { const at = popAnchor; const k = popKey; openPop(k, at); } }
+pop.addEventListener('click', e=>{
+  const b = e.target.closest('button,a'); if (!b) return;
+  if (b.classList.contains('x')) return closePop();
+  if (b.dataset.open) return openPop(b.dataset.open, popAnchor);
+  if (b.dataset.go){ select(+b.dataset.go, true); document.getElementById('detail').scrollIntoView({behavior:'smooth', block:'start'}); return; }
+  if (b.dataset.act==='pick') return pop.querySelector('#phFile').click();
+  if (b.dataset.act==='rm') return removePhoto(personKeyOf(popKey));
+  if (b.dataset.act==='wm') return loadOnePhoto(personKeyOf(popKey));
+});
+pop.addEventListener('change', e=>{ if (e.target.id==='phFile' && e.target.files[0]) uploadPhoto(personKeyOf(popKey), e.target.files[0]); });
+document.addEventListener('keydown', e=>{ if (e.key==='Escape') { closePop(); closeResults(); } });
+document.addEventListener('pointerdown', e=>{ if (pop.classList.contains('on') && !pop.contains(e.target) && !svg.contains(e.target) && !e.target.closest('[data-open]')) closePop(); });
+function personKeyOf(pk){ const [t,a] = pk.split(':'); if (t==='p') return a; if (t==='pl') return slug(PLAYERS[+a][0]); if (t==='mg') return slug(MGR[+a][3].split(',')[0]); return null; }
+
+/* Delegated name buttons outside the popover */
+document.addEventListener('click', e=>{
+  const b = e.target.closest('[data-open]'); if (!b || pop.contains(b)) return;
+  const r = b.getBoundingClientRect(); openPop(b.dataset.open, {x:r.left, y:r.bottom});
+});
+
+/* ---------- Photos (db + assets + Wikimedia via the viewer's Apify connector) ---------- */
+let DB = null, ASSETS = null, CAN_EDIT = false, MCP = null, PERMS = null, APIFY = 'unknown';
+const PHOTO_FILES = new Map(`Gary Lineker|Prime_Minister_Keir_Starmer_hosts_St_George's_Day_Reception_(54470857860)_(cropped).jpg
+Peter Reid|Peter_Reid_Sunderland_1998small.jpg
+John Heitinga|GAE_-_Ajax_-_52788475730_(John_Heitinga).jpg
+James McFadden|JamesMcFadden_2009_pre-season_cropped.jpg
+Louis Saha|Louis_Saha_-_53821556907_(cropped).jpg
+Duncan Ferguson|Duncan_Ferguson,_November_2019.jpg
+Dixie Dean|Dixie_Dean_(1931).jpg
+Neville Southall|NevilleSouthall.jpg
+Alan Ball|Alan_Ball_(cropped).jpg
+Nick Barmby|Nick_Barmby_23-07-11_1.png
+Phil Neville|Phil_Neville_2019.jpg
+Andy Gray|Andy_Gray_2004-10-23.jpg
+David Unsworth|David_Unsworth_2017.png
+John Collins|John_Collins_Hibs_(cropped).jpg
+Michael Ball|Michael_Ball_Leicester.png
+David Weir|David_Weir_2014.jpg
+Andy Johnson|Andy_johnson_fulham.jpg
+Pat Jennings|Pat_Jennings_(2018).jpg
+Anders Limpar|Anders_Limpar*.jpg
+Gary Speed|Gary_Speed_2011.jpg
+Bobby Collins|Bobby_Collins_1959.jpg
+Lucas Neill|Lucas_Neill.jpg
+Andrei Kanchelskis|Kanchelskis_Andrei.jpg
+Bruce Rioch|Bruce_Rioch.jpg
+Aiden McGeady|AidenMcGeadyIreland.png
+Martin Keown|Martin_Keown_2015.jpg
+Norman Whiteside|Norman_whiteside_head_crop.jpg
+Jesper Blomqvist|Jesper_Blomqvist.jpg
+Richard Dunne|FIFA_WC-qualification_2014_-_Austria_vs_Ireland_2013-09-10_-_Richard_Dunne_01.jpg
+Niclas Alexandersson|Niclas_Alexandersson_2006.jpg
+Brian Labone|Brian_Labone_México_70.png
+Keith Newton|Keith_Newton_México_70.png
+Graeme Sharp|Graeme_Sharp_2018.jpg
+Leighton Baines|Baines_Leighton_126176_(cropped).jpg
+Lee Carsley|Lee_Carsley.png
+Dick Roose|Roose.jpg
+Kevin Kilbane|Kevin_Kilbane_(13938890939).jpg
+Lars Jacobsen|Lars_Jacobsen_20120609.jpg
+Joseph Yobo|JosephYobo'13_(cropped).JPG
+Daniel Amokachi|Daniel_Amokachi.jpg
+Leon Osman|Leon_Osman_Bohemians_V_Everton_(44_of_51).jpg
+Don Hutchison|Hutchison,_Don.jpg
+Pat Nevin|Pat_Nevin_2017.jpg
+Darron Gibson|Darron_Gibson_2012_Sopot.jpg
+Joleon Lescott|Joleon_Lescott_8696_(15441498930).jpg
+Kevin Mirallas|Kevin_Mirallas.jpg
+Jack Sharp|1193388_Jack_Sharp.jpg
+Harry Makepeace|Everton_fa_cup_1906_(Makepeace).jpg
+Phil Jagielka|Phil_Jagielka_2015-07-18_1.jpg
+Jacky Robertson|RobertsonJT.jpg
+Edgar Chadwick|Player_chadwick.jpg
+Pat Van Den Hauwe|PAT_VAN_DEN_HAUWE_2018.jpg
+Maarten Stekelenburg|GAE_-_Ajax_-_52788476880_(Maarten_Stekelenburg).jpg
+Gerry Peyton|Gerry_Peyton_(cropped).jpg
+Marc Hottiger|Marc_Hottiger.JPG
+Ashley Williams|AUT_vs._WAL_2016-10-06_(128).jpg
+Ben Howard Baker|Benjamin_Howard_Baker_1920.jpg
+Bill Lacey|Bill_Lacey_(1914).png
+Marouane Fellaini|Marouane_Fellaini_2018.jpg
+Frank Jefferis|Frank_Jefferis.jpg
+Ján Mucha|JanMucha2010.jpg
+James McCarthy|1_james_mccarthy_everton_2015_(cropped).jpg
+Diniyar Bilyaletdinov|Spar-Rub15_(7).jpg
+Billy Scott|Everton_fa_cup_1906_(Scott).jpg
+Nikica Jelavić|Nikica_Jelavić_with_West_Ham_United_in_2015.jpg
+Jimmy Dunn|Wembley_wizards_duke_york_(Dunn).jpg
+Jimmy O'Neill|JimmyONeill.jpg
+Sandy Young|Everton_fa_cup_1906_(Young).jpg
+Jimmy Settle|Everton_fa_cup_1906_(Settle).jpg
+Jack Rodwell|Jack_Rodwell_2013_(3x4_cropped).jpg
+Bob Howarth|Preston_north_end_art_(Howarth).jpg
+Bert Freeman|Bert_Freeman.jpg
+Gylfi Sigurðsson|ISL-HRV_(21)_(cropped).jpg
+Fred Geary|Fred_Geary.jpg
+Phil Griffiths|Phil_Griffiths.jpg
+James Rodríguez|Argentina_-_Colombia_2022_(28)_(cropped_2).jpg
+Cuco Martina|Cuco_Martina_-_Audi-quattro-Cup_(2015).jpg
+Joshua King|Chelsea_0_Bournemouth_1_(cropped).jpg
+Lucas Digne|Lucas_Digne_France_v_Norway_26_June_26-043.jpg
+Cenk Tosun|Cenk_Tosun_in_2023.jpg
+Muhamed Bešić|Muhamed_Besic_2014-05-03.jpg
+Allan|Allan_Marques_Loureiro_in_Everton_(cropped).jpg
+Idan Tal|Idan_Tal.jpg
+Idrissa Gueye|Idrissa_Gueye_(cropped).jpg
+Enner Valencia|Enner_Valencia_Cote_D'Ivoire_v_Ecuador_14_June_2026-95.jpg
+Christian Atsu|Christian_Atsu_20150331_Mali_vs_Ghana_039_(cropped).jpg
+Kurt Zouma|Kurt_Zouma_West_Ham.jpg
+Charlie Parry|Parry_180395.jpg
+Michael Keane|Michael_Keane_2017.jpg
+Davy Klaassen|GAE_-_Ajax_-_52788472780_(Davy_Klaassen).jpg
+Ramiro Funes Mori|SM-Villareal_(3).jpg
+Oumar Niasse|Loko_skndrb_10.jpg
+John Stones|John_Stones_England_v_Ghana_23_June_2026-038.jpg
+Conor Coady|Conor_Coady_30082025_(1).jpg
+Abdoulaye Doucouré|Stade_rennais_-_Le_Havre_AC_20150708_40.JPG
+Jordan Pickford|Jordan_Pickford_England_v_Ghana_23_June_2026-316_(cropped).jpg
+Demarai Gray|Demarai_Gray_August_2014.png
+Nikola Vlašić|Nikola_Vlasic_Croatia_v_Portugal_2_July_2026-189.jpg
+Dominic Calvert-Lewin|Dominic_Calvert-Lewin_13092025_(5).jpg
+Ben Godfrey|Ben_Godfrey_2019-05-06_1.jpg
+Alex Iwobi|Issa_Diop,_Alex_Iwobi_and_Antonee_Robinson_04032026_(1)_(cropped).jpg
+Henry Onyekuru|Henry_Onyekuru,_2018.jpg
+Moise Kean|FC_Zenit_Saint_Petersburg_vs._Juventus,_20_October_2021_64_-_Moise_Kean_(cropped).jpg
+Antonee Robinson|Antonee_Robinson_Australia_v_USA_19_June_2026-24_(cropped).jpg
+Orel Mangala|Orel_mangala.jpg
+James Garner|James_Garner_2025.jpg
+Mark Travers|Mark_Travers_29122024_(2).jpg
+Jesper Lindstrøm|2022128173607_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_Mönchengladbach_-_Sven_-_1D_X_MK_II_-_0635_-_AK8I7370_(Jesper_Lindstrøm_cropped).jpg
+Beto|Fulham_v_Everton_10052025_(7)_(Beto).jpg
+Jarrad Branthwaite|Celebration!_(54493257432)_(Jarrad_Branthwaite).jpg
+Nathan Patterson|Nathan_Patterson_Scotland_v_Bolivia_6_June_2026-58.jpg
+Armando Broja|Armando_Broja_29112025_(2).jpg
+Amadou Onana|Amadou_Onana_USMNT_v_Belgium_Mar_28_2026-96_(cropped).jpg
+Iliman Ndiaye|Iliman_Ndiaye_France_v_Senegal_16_June_2026-243.jpg
+Jake O'Brien|Jake_O'Brien_in_2024.png
+Bryan Oviedo|Bryan_Oviedo_20160116.jpg
+Wayne Rooney|Wayne_Rooney_(50121495731)_(cropped).jpg
+Tim Howard|Tim_Howard_2023.jpg
+Tommy Lawton|Tommy_Lawton_(ca.1951).jpg
+Yakubu Ayegbeni|Yakubu_in_2013_(cropped).jpg
+Tomasz Radzinski|Tomasz_Radzinski_2004.jpg
+Thomas Myhre|Thomas_Myhre_04.jpg
+Tim Cahill|Tim_Cahill_(53557484101).jpg
+Robert Warzycha|Robert_Warzycha_Crew.jpg
+Tony Cottee|Tony_Cottee_at_Tony_Carr's_testimonial.jpg
+Simon Davies|Simon_Davies_Wales_October_2006.jpg
+Tommy Wright|Tommy_wright_figurita.jpg
+Steven Pienaar|Steven_Pienaar_2015.jpg
+Tobias Linderoth|Tobias_Linderoth_2006.jpg
+Steven Naismith|Steven_Naismith_(cropped).jpg
+Victor Anichebe|Victor_Anichebe_Bohemians_V_Everton_(5_of_51).jpg
+Stuart McCall|Stuart_mccall.jpg
+Slaven Bilić|Slaven_Bilić.jpg
+Segundo Castillo|Segundo_Castillo.png
+Terry Phelan|Terry_Phelan_SUFC.png
+Val Harris|Ireland_1914_(Harris).png
+Walter Abbott|Walter_Abbott.jpg
+William Balmer|Everton_fa_cup_1906_(Balmer).jpg
+Wally Boyes|Phillips_card_boyes.jpg
+Yannick Bolasie|Yannick_Bolasie2.jpg
+Salomón Rondón|Salomón_Rondón_2021.jpg
+Teddy Hughes|Edward_"Ted"_Hughes_(cropped).jpg
+Romelu Lukaku|Romelu_Lukaku_Belgium_v_USA_6_July_2026-038.jpg
+Séamus Coleman|Nair_Tiknizyan,_Seamus_Coleman,_Festy_Ebosele_YantsImages_-_Asatur_Yesayants_668_(cropped).jpg
+Shane Duffy|Shane_Duffy_2018.jpg
+Smart Arridge|Smart-Arridge.jpg
+Ross Barkley|Ross_Barkley_in_2019.jpg
+Robin Olsen|SWE-SWI_(8)_(cropped).jpg
+Richarlison|Richarlison_é_homenageado_na_ALES_(10.July.2019)_08_(cropped).jpg
+Yerry Mina|Yerry_Mina,_Colombia_NT_presidential_send-off,_Jun_2026.jpg
+Vitaliy Mykolenko|Виталий_Миколенко_—_1182449_(cropped).jpg
+David Moyes|David_Moyes_2025.jpg
+Frank Lampard|Frank_Lampard_2019.jpg
+Rafael Benítez|Shahter-Reak_M_2015_(2).jpg
+Ronald Koeman|Матч_«Динамо»_-_«Барселона»_0-4._24_ноября_2020_года_—_1166990_(Ronald_Koeman).jpg
+Walter Smith|Walter_Smith_(cropped).jpg
+Carlo Ancelotti|Carlo_Ancelotti_Brazil_V_Morocco_13_June_2026-47.jpg
+Mikel Arteta|Arsenal_v_Everton_-_52223142689_(cropped).jpg
+Sam Allardyce|Big_Sam_Allardyce_signs_autographs_for_fans_October_2014.jpg
+John Houlding|John_Houlding.jpg
+Roberto Martínez|Roberto_Martínez_USMNT_v_Portugal_Mar_31_2026-35.jpg
+Sean Dyche|Sean_Dyche_-_Toffee_TV_EFC.png
+Farhad Moshiri|Moshiribagnes.jpg
+Dick Molyneux|D_Molyneux.jpg
+Marco Silva|Marco_Silva_20042025_(2)_(cropped).jpg`.split('\n').map(l=>{ const i = l.indexOf('|'); return [slug(l.slice(0,i)), l.slice(i+1)]; }));
+function firstObject(t){
+  const s0 = t.indexOf('{'); if (s0 < 0) return null; let d=0, inS=false, e=false;
+  for (let i=s0;i<t.length;i++){ const c=t[i];
+    if (inS){ if (e) e=false; else if (c.charCodeAt(0)===92) e=true; else if (c==='"') inS=false; continue; }
+    if (c==='"') inS=true; else if (c==='{') d++; else if (c==='}'){ d--; if (d===0){ try { return JSON.parse(t.slice(s0,i+1)); } catch(err){ return null; } } } }
+  return null;
+}
+function toJSON(res){
+  if (res && res.payload && typeof res.payload === 'object') return res.payload;
+  const texts = []; if (res && typeof res.payload === 'string') texts.push(res.payload);
+  ((res && res.content) || []).forEach(b=>{ if (b && b.type==='text' && typeof b.text==='string') texts.push(b.text); });
+  for (const t of texts){ try { return JSON.parse(t); } catch(e){} const j = firstObject(t); if (j) return j; }
+  throw {code:'unreadable', message:'The connector answered in an unexpected format.'};
+}
+const texts = res => { const t = []; if (res && typeof res.payload === 'string') t.push(res.payload); ((res && res.content) || []).forEach(x=>{ if (x && x.type==='text' && typeof x.text==='string') t.push(x.text); }); return t.join('\n'); };
+async function callApify(tool, input){
+  let res;
+  try { res = await MCP.callTool('Apify', tool, input, {cache:false}); }
+  catch(e){ if (e && e.retryable){ await new Promise(r=>setTimeout(r, (e.retryAfterMs||1500) + Math.random()*800)); res = await MCP.callTool('Apify', tool, input, {cache:false}); } else throw e; }
+  let j = null; try { j = toJSON(res); } catch(e){}
+  return {j, raw: res};
+}
+const findDs = o => !o || typeof o !== 'object' ? null : (o.storages && o.storages.datasets && o.storages.datasets.default && o.storages.datasets.default.id) || o.defaultDatasetId || o.datasetId || findDs(o.run) || findDs(o.data) || null;
+const findItems = o => !o || typeof o !== 'object' ? null : Array.isArray(o) ? o : Array.isArray(o.items) ? o.items : findItems(o.data) || findItems(o.result) || null;
+const fld = (it, k) => it[k] !== undefined ? it[k] : k.split('.').reduce((o,p)=>o && o[p], it);
+async function apifyFetch(url, format){
+  const want = format==='raw' ? 'raw' : 'text';
+  const r1 = await callApify('apify--web-fetch', {url, formats:[format]});
+  if (r1.j && r1.j.status && r1.j.status !== 'SUCCEEDED') throw {code:'run_failed', message:'Fetch run '+r1.j.status};
+  let items = findItems(r1.j) || findItems(r1.raw && r1.raw.structuredContent);
+  if (!(items && items[0] && items[0][want] !== undefined)){
+    let ds = findDs(r1.j) || findDs(r1.raw && r1.raw.structuredContent);
+    if (!ds){ const m = texts(r1.raw).match(/datasetId[=":\s]+"?([A-Za-z0-9~_-]{8,})/); if (m) ds = m[1]; }
+    if (!ds) throw {code:'no_dataset', message:'Apify answered without a dataset: ' + texts(r1.raw).slice(0,120)};
+    const r2 = await callApify('get-dataset-items', {datasetId:ds, fields: want + ',fetch.contentType,fetch.httpStatusCode'});
+    items = findItems(r2.j) || findItems(r2.raw && r2.raw.structuredContent);
+    if (!items) throw {code:'unreadable', message:'Dataset answer: ' + texts(r2.raw).slice(0,120)};
+  }
+  const it = items[0]; if (!it || it[want] === undefined) throw {code:'empty', message:'Empty result.'};
+  const st = fld(it, 'fetch.httpStatusCode');
+  if (st && st >= 400) throw {code:'http', message:'HTTP '+st};
+  return it;
+}
+const stripHTML = h => { try { return (new DOMParser().parseFromString(String(h||''),'text/html').body.textContent||'').replace(/\s+/g,' ').trim(); } catch(e){ return ''; } };
+async function fileMeta(keys){
+  const want = keys.map(k=>({k, t:'File:'+PHOTO_FILES.get(k).replace(/_/g,' ')}));
+  const url = 'https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&prop=imageinfo&iiprop=url|size|mime|extmetadata&iiurlwidth=330&iiextmetadatafilter=Artist|LicenseShortName&titles=' + encodeURIComponent(want.map(w=>w.t).join('|'));
+  const it = await apifyFetch(url, 'text');
+  const j = JSON.parse(it.text); const q = j.query || {};
+  const norm = {}; (q.normalized||[]).forEach(n=>{ norm[n.from] = n.to; });
+  const byTitle = {}; (q.pages||[]).forEach(p=>{ if (p.imageinfo && p.imageinfo[0]) byTitle[p.title] = p.imageinfo[0]; });
+  const out = {};
+  want.forEach(w=>{ const ii = byTitle[norm[w.t] || w.t]; if (!ii) return; const em = ii.extmetadata || {};
+    const artist = stripHTML(em.Artist && em.Artist.value), lic = stripHTML(em.LicenseShortName && em.LicenseShortName.value);
+    out[w.k] = {thumb: ii.thumburl || ii.url, mime: ii.mime, page: ii.descriptionurl, credit: `Photo: ${artist || 'unknown author'}. ${lic || 'Free licence'}, via Wikimedia Commons`.slice(0,200)}; });
+  return out;
+}
+function b64Blob(b64, type){ const bin = atob(b64); const u = new Uint8Array(bin.length); for (let i=0;i<bin.length;i++) u[i] = bin.charCodeAt(i); return new Blob([u], {type}); }
+async function storeCommons(k, meta){
+  const it = await apifyFetch(meta.thumb, 'raw');
+  if (!it.raw) throw {code:'empty', message:'No image data.'};
+  const ct = String(fld(it,'fetch.contentType') || meta.mime || 'image/jpeg').split(';')[0];
+  let blob = await downscale(b64Blob(it.raw, ct));
+  const type = /^image\/(jpeg|png|webp)$/.test(blob.type) ? blob.type : 'image/jpeg';
+  const up = await ASSETS.upload(blob, {type});
+  const old = PHOTOS[k] && PHOTOS[k].asset;
+  await DB.doc('photos/'+k).set({asset:up.id, credit:meta.credit, name:(PEOPLE.get(k)||{}).name||k, file:PHOTO_FILES.get(k), source:meta.page||'', updated:Date.now()});
+  if (old && old !== up.id) { try { await ASSETS.delete(old); } catch(e){} }
+}
+const MCPMSG = {
+  needs_reauth:'Your Apify connector needs reconnecting. Reconnect it in Claude\'s connector settings, then try again.',
+  server_not_connected:'Apify is not connected to your Claude account, so the photos cannot be fetched.',
+  not_in_manifest:'This chart is not allowed to use Apify for you. Check the artifact\'s permissions and try again.',
+  blocked_by_policy:'Your organisation blocks this chart from using Apify.',
+  approval_required:'Apify use needs approval before this chart can fetch photos.',
+  cancelled:'Stopped. You declined access to Apify.',
+  rate_limited:'Apify is rate-limiting requests. Wait a minute and try again.'
+};
+const isFatal = e => !!e && (FATAL.has(e.code) || /usage hard limit|platform-feature-disabled|limit-reached/i.test(String(e.message||'')));
+const FATAL = new Set(['needs_reauth','server_not_connected','not_in_manifest','blocked_by_policy','approval_required','cancelled','not_granted','capability_disabled','upstream_auth','quota_or_state']);
+let RUN = null;
+const bar = document.getElementById('photoBar');
+function pending(){ return [...PHOTO_FILES.keys()].filter(k=>PEOPLE.has(k) && !PHOTOS[k]); }
+function drawBar(){ bar.hidden = true; return;
+  if (!(CAN_EDIT && ASSETS && DB)) { bar.hidden = true; return; }
+  bar.hidden = false;
+  if (!RUN && pending().length && (!MCP || APIFY === 'denied' || APIFY === 'unavailable')){
+    bar.innerHTML = `<p>${pending().length} free Wikimedia photos are waiting to load, but this chart ${APIFY === 'denied' ? 'has been refused access to your Apify connector' : 'cannot reach your Apify connector right now'}. ${PERMS ? 'Allow Apify in the chart\'s permissions, then reload the page.' : 'Check Apify is connected in Claude\'s connector settings, then reload the page.'}</p>${PERMS ? '<button type="button" id="pbPerm">Open permissions</button>' : ''}`;
+    const pb = bar.querySelector('#pbPerm');
+    if (pb) pb.onclick = async () => { try { await PERMS.manage(); APIFY = await PERMS.state('mcp:Apify'); MCP = MCP || await window.claude.use('mcp'); } catch(e){ bar.dataset.msg = 'Open the chart\'s Permissions menu at the top of the page and allow Apify.'; } drawBar(); };
+    return;
+  }
+  const left = pending().length, total = [...PHOTO_FILES.keys()].filter(k=>PEOPLE.has(k)).length;
+  if (RUN) {
+    bar.innerHTML = `<p>Fetching free Wikimedia Commons photos through your Apify connector: ${RUN.done} of ${RUN.total} saved${RUN.skip?`, ${RUN.skip} skipped`:''}.</p><progress max="${RUN.total}" value="${RUN.done+RUN.skip}"></progress><button type="button" class="ghost" id="pbStop">Stop</button>`;
+    bar.querySelector('#pbStop').onclick = () => { RUN.stop = true; };
+  } else if (left) {
+    bar.innerHTML = `<p>${total-left ? `${total-left} of ${total} Wikimedia photos are saved. ` : ''}${left} people have a freely licensed photo on Wikimedia Commons not yet in the chart. Loading them runs about ${left*2} short Apify jobs on your account and takes a few minutes. Each photo keeps its author and licence credit.${bar.dataset.msg?` <span class="err">${esc(bar.dataset.msg)}</span>`:''}</p><button type="button" id="pbGo">Load ${left} photos</button>`;
+    bar.querySelector('#pbGo').onclick = async () => {
+      if (PERMS && APIFY !== 'granted'){ try { const r = await PERMS.request(['mcp:Apify']); APIFY = r['mcp:Apify'] || APIFY; } catch(e){} if (APIFY === 'denied' || APIFY === 'unavailable'){ drawBar(); return; } }
+      loadPhotos(pending()); };
+  } else {
+    bar.innerHTML = `<p>All ${total} available Wikimedia photos are in the chart. Everyone else shows engraved initials until a photo is added from their card.</p><button type="button" class="ghost" id="pbHide">Hide</button>`;
+    bar.querySelector('#pbHide').onclick = () => { bar.hidden = true; };
+  }
+}
+async function loadPhotos(keys){
+  if (RUN || !keys.length) return;
+  bar.dataset.msg = '';
+  RUN = {done:0, skip:0, total:keys.length, stop:false}; drawBar();
+  let fatal = null;
+  try {
+    for (let i=0; i<keys.length && !RUN.stop && !fatal; i+=20){
+      const batch = keys.slice(i, i+20);
+      let meta = {};
+      try { meta = await fileMeta(batch); } catch(e){ if (isFatal(e)) { fatal = e; break; } if (!RUN.err) RUN.err = e; }
+      const queue = batch.slice();
+      const worker = async () => { while (queue.length && !RUN.stop && !fatal){ const k = queue.shift();
+        if (!meta[k]) { RUN.skip++; drawBar(); continue; }
+        try { await storeCommons(k, meta[k]); RUN.done++; } catch(e){ if (isFatal(e)) { fatal = e; } else { RUN.skip++; if (!RUN.err) RUN.err = e; } }
+        drawBar(); } };
+      await Promise.all([worker(), worker(), worker()]);
+    }
+  } finally {
+    const r = RUN; RUN = null;
+    bar.dataset.msg = fatal ? (/usage hard limit|platform-feature-disabled|limit-reached/i.test(String(fatal.message||'')) ? 'Stopped: your Apify account has hit its monthly usage limit. Raise the limit or wait for it to reset, then click Load again.' : MCPMSG[fatal.code] || ERRMSG[fatal.code] || 'Stopped: the connector reported a problem. Try again later.') : (r.stop ? 'Stopped. Run it again to carry on where it left off.' : (r.skip ? `${r.skip} could not be fetched and were skipped.${r.err ? ' First problem: ' + (r.err.code||'error') + (r.err.message ? ', ' + r.err.message : '') : ''}` : ''));
+    drawBar();
+  }
+}
+async function loadOnePhoto(k){
+  setStatus('Fetching from Wikimedia Commons…');
+  try { const m = await fileMeta([k]); if (!m[k]) { setStatus('Wikimedia did not return that image.', true); return; } await storeCommons(k, m[k]); setStatus('Saved.'); }
+  catch(e){ setStatus(MCPMSG[e && e.code] || ERRMSG[e && e.code] || 'The photo could not be fetched. Try again.', true); }
+}
+async function initStore(){
+  if (!window.claude || !window.claude.use) return;
+  try {
+    const [db, user] = await Promise.all([window.claude.use('db'), window.claude.use('user')]);
+    DB = db;
+    if (user) { try { CAN_EDIT = await user.canEdit(); } catch(e){ CAN_EDIT = false; } }
+    if (CAN_EDIT) { try { ASSETS = await window.claude.use('assets'); } catch(e){ ASSETS = null; } }
+
+    try { PERMS = await window.claude.use('permissions'); } catch(e){ PERMS = null; }
+    if (PERMS) { try { APIFY = await PERMS.state('mcp:Apify'); } catch(e){ APIFY = 'unavailable'; } } else APIFY = MCP ? 'prompt' : 'unavailable';
+    let rt = null;
+    if (DB) DB.collection('photos').onSnapshot(snap=>{ const m = {}; snap.docs.forEach(d=>{ const v = d.data(); if (v && v.asset) m[d.id] = v; });
+      const pk = popKey && personKeyOf(popKey); const changed = pk && ((PHOTOS[pk]||{}).asset !== (m[pk]||{}).asset);
+      PHOTOS = m; if (changed) refreshPop(); drawBar();
+      clearTimeout(rt); rt = setTimeout(()=>{ const sl0 = scroller.scrollLeft; render(); scroller.scrollLeft = sl0; }, 700); }, ()=>{});
+    if (CAN_EDIT && ASSETS) refreshPop();
+    drawBar();
+    if (MCP && CAN_EDIT && ASSETS && DB && APIFY !== 'denied' && APIFY !== 'unavailable'){
+      let done = false; try { done = localStorage.getItem('efc-autoload-v1') === '1'; } catch(e){}
+      if (!done) setTimeout(()=>{ const p = pending(); if (p.length && !RUN){ try { localStorage.setItem('efc-autoload-v1','1'); } catch(e){} loadPhotos(p); } }, 2500);
+    }
+  } catch(e) {}
+}
+async function downscale(file){
+  try {
+    const bmp = await createImageBitmap(file); const max = 640, r = Math.min(1, max / Math.max(bmp.width, bmp.height));
+    const c = document.createElement('canvas'); c.width = Math.round(bmp.width*r); c.height = Math.round(bmp.height*r);
+    c.getContext('2d').drawImage(bmp, 0, 0, c.width, c.height);
+    return await new Promise((res, rej)=>c.toBlob(b=>b?res(b):rej(new Error('encode')), 'image/jpeg', .86));
+  } catch(e) { return file; }
+}
+function setStatus(msg, err){ const s = pop.querySelector('#phStatus'); if (s){ s.textContent = msg; s.classList.toggle('err', !!err); } }
+const ERRMSG = {too_large:'That image is too large. Pick one under 20 MB.', unsupported_type:'Use a JPEG, PNG or WebP image.', quota_or_state:'The chart has run out of photo storage. Remove an unused photo first.', rate_limited:'Too many uploads at once. Wait a minute and try again.', not_granted:'Your access to this chart does not include adding photos.', upstream_auth:'Sign-in expired. Reload the page and try again.'};
+async function uploadPhoto(k, file){
+  if (!k || !ASSETS || !DB) return;
+  const credit = (pop.querySelector('#phCredit')||{}).value || '';
+  setStatus('Uploading…');
+  try {
+    const blob = await downscale(file);
+    const type = blob.type && /^image\/(jpeg|png|webp)$/.test(blob.type) ? blob.type : 'image/jpeg';
+    const up = await ASSETS.upload(blob, {type});
+    const old = PHOTOS[k] && PHOTOS[k].asset;
+    await DB.doc('photos/'+k).set({asset:up.id, credit:credit.slice(0,200), name:(PEOPLE.get(k)||{}).name||k, updated:Date.now()});
+    if (old && old !== up.id) { try { await ASSETS.delete(old); } catch(e){} }
+    setStatus('Saved.');
+  } catch(e) { setStatus(ERRMSG[e && e.code] || 'The photo could not be saved. Try again.', true); }
+}
+async function removePhoto(k){
+  if (!k || !DB || !PHOTOS[k]) return;
+  const old = PHOTOS[k].asset;
+  try { await DB.doc('photos/'+k).delete(); if (ASSETS) { try { await ASSETS.delete(old); } catch(e){} } }
+  catch(e) { setStatus('The photo could not be removed. Try again.', true); }
+}
+
+/* ---------- Season detail ---------- */
+const inSeason = (d, s) => seasonOf(dec(d)) === s;
+const overlap = (a, b, s) => a < s + 1.5 && b > s + 0.5;
+function divName(s, t){ return t===2 ? 'Division Two' : s >= 1992 ? 'Premier League' : s >= 1892 ? 'Division One' : 'Football League'; }
+function detail(s){
+  const o = S[s], el = document.getElementById('detail');
+  const ep = EPOCHS.find(e=>s+1 >= e[0] && s+1 < e[1]);
+  let h = `<div class="dhead"><h2>${sl(s)}</h2><p class="epoch">${ep?esc(ep[2]):''}</p><div class="nav"><button type="button" data-step="-1"${s<=FIRST?' disabled':''}>Previous season</button><button type="button" data-step="1"${s>=LAST?' disabled':''}>Next season</button></div></div><div class="cols">`;
+  h += `<section><h3>Results</h3>`;
+  if (o){
+    const rel = o.tier===1 && S[s+1] && S[s+1].tier===2, pro = o.tier===2 && S[s+1] && S[s+1].tier===1;
+    let lead;
+    if (o.partial) lead = `${divName(s,1)}, ${ord(o.pos)} after ${o.P} games`;
+    else if (o.pos===1) lead = o.tier===1 ? `${divName(s,1)} champions` : 'Division Two champions, promoted';
+    else lead = `${divName(s,o.tier)}, ${ord(o.pos)} of ${o.n}${rel?', <span class="rel">relegated</span>':''}${pro?', promoted':''}`;
+    h += `<p class="lead">${lead}</p><table class="rec"><tr><th>P</th><th>W</th><th>D</th><th>L</th><th>F</th><th>A</th><th>Pts</th></tr><tr><td>${o.P}</td><td>${o.W}</td><td>${o.D}</td><td>${o.L}</td><td>${o.F}</td><td>${o.A}</td><td>${o.Pts}</td></tr></table>`;
+    if (s===2023) h += `<p class="none" style="margin-top:-6px">Points total after an eight-point deduction.</p>`;
+  } else if (WAR.has(s)) {
+    h += `<p class="lead">No Football League competition</p><p>${s===1939?'The 1939–40 season was abandoned after three games when war was declared. ':''}Everton played in regional wartime competitions.</p>`;
+  } else if (s < 1888) {
+    h += `<p class="lead">Before the Football League</p><p>Friendlies and local cup ties${s>=1884?' at Anfield':''}.</p>`;
+  }
+  h += '<dl>';
+  const hon = HON.filter(x=>x[0]===s).sort((a,b)=>HORDER[a[1]]-HORDER[b[1]]);
+  if (hon.length) h += `<dt>Honours</dt><dd>${hon.map(x=>esc(x[2])).join('; ')}</dd>`;
+  if (FA[s]){ const f=FA[s]; const lbl = f.stage==='Winners' ? 'Won the final' : f.stage==='Final' ? 'Lost in the final' : /^Round/.test(f.stage) ? `Out in ${f.stage.toLowerCase()}` : `Out in the ${f.stage.toLowerCase()}`; h += `<dt>FA Cup</dt><dd>${lbl}: ${esc(res(f.last))}</dd>`; }
+  if (LCUP[s]) h += `<dt>League Cup</dt><dd>${esc(LCUP[s])}</dd>`;
+  if (EURO[s]) h += `<dt>Europe</dt><dd>${esc(EURO[s])}</dd>`;
+  if (o && o.derby && o.derby.length) h += `<dt>League derbies</dt><dd>${o.derby.map(d=>esc(res(d))).join('; ')}</dd>`;
+  if (o && o.bw) h += `<dt>Biggest league win</dt><dd>${esc(res(o.bw))}</dd>`;
+  if (o && o.bl) h += `<dt>Heaviest league defeat</dt><dd>${esc(res(o.bl))}</dd>`;
+  const capped = new Map(); [s, s+1].forEach(y=>{ if (IBY[y]) IBY[y].forEach((r,k)=>capped.set(k,r)); });
+  if (capped.size) h += `<dt>Internationals at the club</dt><dd>${[...capped.values()].sort((p,q)=>q.caps-p.caps).map(r=>`${nb(r.k, r.n)} <span class="none">(${esc(r.c)})</span>`).join(', ')}</dd>`;
+  h += '</dl></section>';
+
+  const m = moodOf(s), fe = FINERA.find(f=>s+1 >= f[0] && s+1 < f[1]);
+  const mg = MGR.filter((x,i)=>i>0 && overlap(x[1],x[2],s)).map(x=>x[3].split(',')[0]);
+  const ow = OWN.filter(x=>overlap(x[1],x[2],s));
+  const gr = GROUND.filter(x=>overlap(x[1],x[2],s)).map(x=>x[0]);
+  const pl = PLAYERS.filter(p=>p[1].some(sg=>overlap(sg[0],sg[1],s))).map(p=>p[0]);
+  h += `<section><h3>The club</h3><dl>`;
+  h += m !== null ? `<dt>Mood</dt><dd><span class="sw" style="background:${moodColor(m)}"></span>${moodWord(m)}.${MOOD[s]?' '+esc(MOOD[s][1]):''}</dd>` : `<dt>Mood</dt><dd>Football on hold.</dd>`;
+  if (fe) h += `<dt>Money</dt><dd>${esc(fe[3])}. ${esc(fe[4])}</dd>`;
+  if (mg.length) h += `<dt>${mg.length>1?'Managers':'Manager'}</dt><dd>${[...new Set(mg)].map(n=>pname(n)).join('; ')}</dd>`;
+  else if (s < 1889) h += `<dt>Team chosen by</dt><dd>The club committee</dd>`;
+  if (ow.length) h += `<dt>Ownership</dt><dd>${ow.map(x=>esc(x[0])).join(', then ')}</dd>`;
+  if (gr.length) h += `<dt>Home ground</dt><dd>${gr.map(esc).join(', then ')}</dd>`;
+  if (pl.length) h += `<dt>Greats at the club</dt><dd>${pl.map(n=>pname(n)).join(', ')}</dd>`;
+  h += `</dl></section>`;
+
+  const evs = [
+    ...CLUB.filter(e=>inSeason(e.d,s)).map(e=>({...e, c:'club'})),
+    ...MONEY.filter(e=>inSeason(e.d,s)).map(e=>({...e, c:'money'})),
+    ...WORLD.filter(e=>inSeason(e.d,s)).map(e=>({...e, c:e.k==='trag'||e.k==='war'?e.k:'city'})),
+    ...WORLD_SPANS.filter(e=>overlap(dec(e.d),dec(e.e),s)).map(e=>({d:e.d, t:e.t, x:`${when(e.d)} to ${when(e.e)}`, c:e.war?'war':'city', span:1}))
+  ].sort((a,b)=>dec(a.d)-dec(b.d));
+  const echo = ECHO.filter(e=>inSeason(e.d,s));
+  h += `<section><h3>That season, in and around the club</h3>`;
+  h += evs.length ? `<ul class="ev">${evs.map(e=>`<li class="${e.c}"><span class="when">${e.span && !inSeason(e.d,s) ? 'Ongoing' : when(e.d)}</span><b style="font-weight:500">${esc(e.t)}</b>${e.x?'. '+linkNames(e.x):''}</li>`).join('')}</ul>` : `<p class="none">Nothing recorded here beyond the football. Try a neighbouring season.</p>`;
+  if (echo.length) h += `<h3>In the Liverpool Echo</h3><ul class="ev">${echo.map(e=>`<li class="echo" style="--c:#d98ca0"><span class="when">${when(e.d)}</span><b style="font-weight:500">${esc(e.t)}</b>. ${linkNames(e.x)}</li>`).join('')}</ul>`;
+  else if (s >= 1889 && s < 2004) h += `<p class="none">The Football Echo was on the streets every Saturday night this season. Transcribed reports: <a href="https://bluecorrespondent.co.uk/" target="_blank" rel="noopener">Blue Correspondent</a>.</p>`;
+  h += `</section></div>`;
+  el.innerHTML = h;
+}
+document.getElementById('detail').addEventListener('click', e=>{ const b = e.target.closest('[data-step]'); if (b) select(sel + (+b.dataset.step), true); });
+
+/* ---------- Search ---------- */
+const qEl = document.getElementById('q'), rEl = document.getElementById('results');
+let RES = [], rIdx = -1;
+const INDEX = [];
+PEOPLE.forEach(P=>{ const sub = [...P.roles.map(r=>r.r), ...P.intl.map(r=>r.c)].join(', '); INDEX.push({label:P.name, sub, pk:'p:'+P.key, year:firstYear(P)}); });
+CLUB.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', in the club', pk:'cl:'+i, year:dec(e.d)}));
+WORLD.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', around the club', pk:'wd:'+i, year:dec(e.d)}));
+MONEY.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', money', pk:'mn:'+i, year:dec(e.d)}));
+ECHO.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', Liverpool Echo', pk:'ec:'+i, year:dec(e.d)}));
+EPOCHS.forEach((e,i)=>INDEX.push({label:e[2], sub:'epoch', pk:'ep:'+i, year:e[0]+0.5}));
+GROUND.forEach((g,i)=>INDEX.push({label:g[0], sub:'home ground', pk:'gr:'+i, year:g[1]+0.5}));
+function search(q){
+  q = slug(q); if (!q) return [];
+  const m = q.match(/^(\d{4})/);
+  const out = [];
+  if (m){ const s = +m[1]; if (s>=FIRST && s<=LAST) out.push({label:sl(s), sub:'season', season:s}); }
+  INDEX.forEach(it=>{ const l = slug(it.label); let sc = (l.startsWith(q) || l.split('-').some(w=>w.startsWith(q))) ? 0 : l.includes(q) ? 1 : slug(it.sub).includes(q) ? 2 : -1; if (sc>=0){ if (it.pk.startsWith('p:')) sc -= 0.5; out.push({...it, sc}); } });
+  return out.sort((a,b)=>(a.sc||0)-(b.sc||0)).slice(0,10);
+}
+function showResults(){
+  rEl.innerHTML = RES.map((r,i)=>`<li role="option" id="r${i}" aria-selected="${i===rIdx}" data-i="${i}">${esc(r.label)}<small>${esc(r.sub)}</small></li>`).join('');
+  rEl.classList.toggle('on', RES.length>0); qEl.setAttribute('aria-expanded', RES.length>0);
+  if (rIdx>=0) qEl.setAttribute('aria-activedescendant','r'+rIdx); else qEl.removeAttribute('aria-activedescendant');
+}
+function closeResults(){ RES=[]; rIdx=-1; showResults(); }
+function choose(r){
+  closeResults(); qEl.blur();
+  if (r.season !== undefined){ select(r.season, true); return; }
+  if (r.year){ const s = Math.max(FIRST, Math.min(LAST, seasonOf(r.year))); select(s, false); centerOn(r.year, true); }
+  const b = qEl.getBoundingClientRect(); openPop(r.pk, {x:b.left, y:b.bottom+4});
+}
+qEl.addEventListener('input', ()=>{ RES = search(qEl.value); rIdx = RES.length ? 0 : -1; showResults(); });
+qEl.addEventListener('keydown', e=>{
+  if (e.key==='ArrowDown'){ e.preventDefault(); rIdx = Math.min(RES.length-1, rIdx+1); showResults(); }
+  else if (e.key==='ArrowUp'){ e.preventDefault(); rIdx = Math.max(0, rIdx-1); showResults(); }
+  else if (e.key==='Enter' && RES[rIdx]){ e.preventDefault(); choose(RES[rIdx]); }
+});
+rEl.addEventListener('pointerdown', e=>{ const li = e.target.closest('li'); if (li){ e.preventDefault(); choose(RES[+li.dataset.i]); } });
+qEl.addEventListener('blur', ()=>setTimeout(closeResults, 120));
+
+/* ---------- Stream toggles ---------- */
+const chips = document.getElementById('chips');
+LANE_DEFS.forEach(([id,label])=>{
+  const b = document.createElement('button'); b.type='button'; b.textContent=label; b.setAttribute('aria-pressed', !HIDDEN.has(id));
+  b.onclick = () => { if (HIDDEN.has(id)) HIDDEN.delete(id); else HIDDEN.add(id); b.setAttribute('aria-pressed', !HIDDEN.has(id)); try { localStorage.setItem('efc-hidden', JSON.stringify([...HIDDEN])); } catch(e){} const sl0 = scroller.scrollLeft; render(); scroller.scrollLeft = sl0; miniWin(); };
+  chips.appendChild(b);
+});
+
+/* ---------- Internationals section ---------- */
+function intlSection(){
+  const uniq = new Set(INTL.map(r=>r.k)), countries = [...new Set(INTL.map(r=>r.c))].sort();
+  const caps = INTL.reduce((a,r)=>a+r.caps,0);
+  document.getElementById('intlLede').innerHTML = `${uniq.size} players have won caps while on Everton's books, ${caps.toLocaleString('en-GB')} caps in all, for ${countries.length} countries. Job Wilding was first, for Wales in 1885. ${nb('tim-howard','Tim Howard')} holds the club record with 93 caps for the United States; ${nb('dixie-dean','Dixie Dean')} and ${nb('tim-cahill','Tim Cahill')} share the scoring record with 18 international goals each. Three men appear twice because they were capped by both Ireland and the Republic of Ireland. Click a column heading to sort, and any name for the player card.`;
+  const ic = document.getElementById('ic');
+  ic.innerHTML = `<option value="">All countries</option>` + countries.map(c=>`<option>${esc(c)}</option>`).join('');
+  const SORTERS = {
+    name:(x,y)=>x.n.split(' ').pop().localeCompare(y.n.split(' ').pop()) || x.n.localeCompare(y.n),
+    country:(x,y)=>x.c.localeCompare(y.c), caps:(x,y)=>x.caps-y.caps, goals:(x,y)=>x.goals-y.goals, first:(x,y)=>x.a-y.a || x.b-y.b };
+  const ths = [...document.querySelectorAll('table.itab th[data-k]')];
+  let sortK = 'caps', sortDir = -1;
+  const draw = () => {
+    const q = slug(document.getElementById('iq').value), c = ic.value;
+    const rows = INTL.filter(r=>(!q || r.k.includes(q)) && (!c || r.c===c));
+    rows.sort((x,y)=>sortDir*SORTERS[sortK](x,y) || y.caps-x.caps || x.n.localeCompare(y.n));
+    document.getElementById('ibody').innerHTML = rows.map(r=>`<tr><td>${nb(r.k, r.n)}</td><td><span class="swc" style="background:${GCOL[r.g]}"></span>${esc(r.c)}</td><td class="n">${r.caps}</td><td class="n">${r.goals||''}</td><td class="yr">${esc(r.y)}</td></tr>`).join('');
+    document.getElementById('icount').textContent = rows.length === INTL.length ? `${rows.length} rows` : `${rows.length} of ${INTL.length} rows`;
+    ths.forEach(th=>{ const on = th.dataset.k === sortK; th.setAttribute('aria-sort', on ? (sortDir > 0 ? 'ascending' : 'descending') : 'none'); th.querySelector('.arr').textContent = on ? (sortDir > 0 ? '▲' : '▼') : ''; });
+  };
+  ths.forEach(th=>th.querySelector('button').addEventListener('click', ()=>{
+    const k = th.dataset.k;
+    if (k === sortK) sortDir = -sortDir; else { sortK = k; sortDir = (k==='caps' || k==='goals') ? -1 : 1; }
+    draw();
+  }));
+  ['iq','ic'].forEach(id=>document.getElementById(id).addEventListener('input', draw));
+  draw();
+  document.getElementById('wclist').innerHTML = `<h3 style="font-family:'IM Fell English',Georgia,serif;font-weight:400;font-style:italic;font-size:21px;margin:0 0 8px;column-span:all">At the World Cup while Everton players</h3>` + WC.map(w=>`<p><b>${w[0]}</b>, ${esc(w[1])}: ${w[2].map(n=>pname(n)).join(', ')}</p>`).join('');
+}
+
+/* ---------- Chrome ---------- */
+function tally(){
+  const tf = Object.values(S).filter(o=>o.tier===1 && !o.partial).length;
+  document.getElementById('tally').textContent = `Nine league titles. Five FA Cups. The European Cup Winners' Cup of 1985. ${tf} completed seasons in the top flight, the most of any English club, and every season since 1954.`;
+}
+function legend(){
+  const g = (inner, w=18) => `<svg width="${w}" height="18" viewBox="0 0 ${w} 18" aria-hidden="true">${inner}</svg>`;
+  document.getElementById('legend').innerHTML = [
+    `<span>${g(glyph('lg',9,9))}League title</span>`,`<span>${g(glyph('fa',9,9))}FA Cup won</span>`,`<span>${g(glyph('faL',9,9))}FA Cup final lost</span>`,
+    `<span>${g(glyph('lcL',9,9))}League Cup final lost</span>`,`<span>${g(glyph('cwc',9,9))}European trophy</span>`,`<span>${g(glyph('cs',9,9))}Charity Shield</span>`,
+    `<span>${g('<rect x="1" y="5" width="7" height="7" fill="var(--blue)"/><rect x="10" y="5" width="7" height="7" fill="var(--madder)"/>')}Derby won, lost</span>`,
+    `<span>${g('<circle cx="9" cy="9" r="4.5" fill="var(--madder)"/>')}Relegated</span>`,`<span>${g('<circle cx="9" cy="9" r="4.5" fill="var(--verd)"/>')}Promoted</span>`,
+    `<span>Despair <i class="moodkey" style="background:linear-gradient(90deg,${moodColor(-2)},${moodColor(0)},${moodColor(2)})"></i> euphoria</span>`,
+    `<span>${g(glyph('wc',9,9))}World Cup</span>`,
+    ...['eng','sco','wal','irl','row'].map(k=>`<span><i class="swc" style="background:${GCOL[k]}"></i>${GNAME[k]}</span>`),
+    `<span>${g('<circle cx="9" cy="9" r="3.6" fill="#d98ca0" stroke="var(--ink)"/>')}Liverpool Echo</span>`,
+    `<span>${g('<rect x="1" y="3" width="16" height="12" fill="url(#lh)"/><defs><pattern id="lh" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="var(--madder)" stroke-width="1.4"/></pattern></defs>')}World wars</span>`
+  ].join('');
+}
+/* ---------- Fluid navigation: zoom at pointer, drag to pan, overview strip, playback ---------- */
+let suppressClick = false, drag = null;
+function zoomAt(clientX, f){
+  const rect = scroller.getBoundingClientRect(), lw = labW();
+  if (clientX == null) clientX = rect.left + (lw + scroller.clientWidth) / 2;
+  const off = clientX - rect.left, year = (scroller.scrollLeft + off - lw) / ppy + Y0;
+  const np = Math.max(PMIN, Math.min(PMAX, ppy * f)); if (Math.abs(np - ppy) < 0.05) return;
+  ppy = np; render();
+  scroller.scrollLeft = Math.max(0, lw + X(year) - off);
+  document.getElementById('zin').disabled = ppy >= PMAX - 0.05; document.getElementById('zout').disabled = ppy <= PMIN + 0.05;
+  miniWin();
+}
+document.getElementById('zin').onclick = () => zoomAt(null, 1.35);
+document.getElementById('zout').onclick = () => zoomAt(null, 1/1.35);
+let wheelF = 1, wheelX = null, wheelRAF = 0;
+scroller.addEventListener('wheel', e=>{
+  if (!(e.ctrlKey || e.metaKey)) return;
+  e.preventDefault(); wheelF *= Math.exp(-e.deltaY * 0.0022); wheelX = e.clientX;
+  if (!wheelRAF) wheelRAF = requestAnimationFrame(()=>{ wheelRAF = 0; const f = wheelF; wheelF = 1; zoomAt(wheelX, f); });
+}, {passive:false});
+svg.addEventListener('pointerdown', e=>{ if (e.pointerType === 'touch' || e.button !== 0) return; drag = {x:e.clientX, sl:scroller.scrollLeft, moved:false, id:e.pointerId}; });
+window.addEventListener('pointermove', e=>{
+  if (!drag) return; const dx = e.clientX - drag.x;
+  if (!drag.moved && Math.abs(dx) > 5){ drag.moved = true; svg.classList.add('dragging'); tip.classList.remove('on'); try { svg.setPointerCapture(drag.id); } catch(_){} }
+  if (drag.moved) scroller.scrollLeft = drag.sl - dx;
+});
+window.addEventListener('pointerup', ()=>{ if (drag && drag.moved){ suppressClick = true; setTimeout(()=>{ suppressClick = false; }, 0); } drag = null; svg.classList.remove('dragging'); });
+
+const mini = document.getElementById('miniSvg');
+const mx = (y, W) => (y - Y0) / (Y1 - Y0) * W;
+function drawMini(){
+  const W = mini.getBoundingClientRect().width; if (!W) return;
+  const H = 46; let g = '';
+  WORLD_SPANS.filter(w=>w.war && w.t.indexOf('World War')>0).forEach(w=>{ g += `<rect x="${mx(dec(w.d),W)}" y="0" width="${mx(dec(w.e),W)-mx(dec(w.d),W)}" height="${H}" fill="var(--war)"/>`; });
+  g += `<rect x="${mx(NOW,W)}" y="0" width="${W-mx(NOW,W)}" height="${H}" fill="var(--tint-a)"/>`;
+  for (let s=FIRST; s<=LAST; s++){ const m = moodOf(s); if (m===null) continue; g += `<rect x="${mx(s+0.5,W).toFixed(1)}" y="${H-9}" width="${(mx(s+1.5,W)-mx(s+0.5,W)+0.4).toFixed(1)}" height="7" fill="${moodColor(m)}"/>`; }
+  let d = '', prev = null;
+  Object.keys(S).map(Number).sort((a,b)=>a-b).forEach(s=>{ const o = S[s]; if (o.partial) return; const y = 5 + (o.tier===1 ? (o.pos-1)/21*21 : 27 + (o.pos-1)/21*5); d += (prev===s-1 ? 'L' : 'M') + mx(s+1,W).toFixed(1) + ',' + y.toFixed(1); prev = s; });
+  g += `<path d="${d}" fill="none" stroke="var(--ink)" stroke-width=".9" stroke-opacity=".7"/>`;
+  HON.filter(h=>h[1]==='lg').forEach(h=>{ g += `<circle cx="${mx(h[0]+1,W)}" cy="5" r="2.6" fill="var(--gold)"/>`; });
+  for (let y=1880; y<=2030; y+=10){ const big = y % 50 === 0; g += `<line x1="${mx(y,W)}" x2="${mx(y,W)}" y1="${H-11}" y2="${H-2}" stroke="var(--ink)" stroke-opacity="${big?.45:.18}"/>`;
+    if (y % (W > 700 ? 20 : 50) === 0) g += `<text x="${mx(y,W)+3}" y="${H-12}" style="font:11.5px 'EB Garamond',Georgia,serif;fill:var(--ink-soft)">${y}</text>`; }
+  g += `<rect id="miniWin" x="0" y="0.5" width="10" height="${H-1}" rx="3" fill="var(--sel)" stroke="var(--ink)" stroke-width="1.2"/>`;
+  g += `<g id="miniSel"><line x1="0" x2="0" y1="0" y2="${H}" stroke="var(--gold)" stroke-width="2"/><rect x="-6" y="0" width="12" height="7" rx="3.5" fill="url(#mintP)" stroke="var(--ink)" stroke-width=".6"/></g>`;
+  mini.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  mini.innerHTML = `<defs><pattern id="mintPm" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="4" fill="#111"/><rect x="2" width="2" height="4" fill="#fff"/></pattern></defs>` + g.replace('url(#mintP)','url(#mintPm)');
+  miniWin();
+}
+function miniWin(){
+  const r = document.getElementById('miniWin'); if (!r) return;
+  const W = mini.getBoundingClientRect().width, lw = labW();
+  const y0 = scroller.scrollLeft / ppy + Y0, y1 = (scroller.scrollLeft + scroller.clientWidth - lw) / ppy + Y0;
+  r.setAttribute('x', Math.max(0, mx(y0,W))); r.setAttribute('width', Math.max(8, Math.min(W, mx(y1,W)) - Math.max(0, mx(y0,W))));
+  const g = document.getElementById('miniSel'); if (g) g.setAttribute('transform', `translate(${mx(sel+1,W)},0)`);
+}
+let miniDrag = false;
+const miniGo = e => { const b = mini.getBoundingClientRect(), year = Y0 + (e.clientX - b.left) / b.width * (Y1 - Y0), lw = labW();
+  scroller.scrollLeft = Math.max(0, X(year) - (scroller.clientWidth - lw) / 2); };
+mini.addEventListener('pointerdown', e=>{ miniDrag = true; try { mini.setPointerCapture(e.pointerId); } catch(_){} miniGo(e); });
+mini.addEventListener('pointermove', e=>{ if (miniDrag) miniGo(e); });
+mini.addEventListener('pointerup', ()=>{ miniDrag = false; });
+mini.addEventListener('pointercancel', ()=>{ miniDrag = false; });
+let scrollRAF = 0;
+scroller.addEventListener('scroll', ()=>{ if (!scrollRAF) scrollRAF = requestAnimationFrame(()=>{ scrollRAF = 0; miniWin(); }); }, {passive:true});
+let resizeT = null;
+window.addEventListener('resize', ()=>{ clearTimeout(resizeT); resizeT = setTimeout(drawMini, 120); });
+
+let playT = null;
+const playBtn = document.getElementById('play');
+function stopPlay(){ if (playT){ clearInterval(playT); playT = null; } playBtn.textContent = 'Play history'; playBtn.setAttribute('aria-pressed','false'); }
+playBtn.onclick = () => {
+  if (playT) return stopPlay();
+  if (sel >= LAST) sel = FIRST - 1;
+  playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed','true');
+  const step = () => { if (sel >= LAST) return stopPlay(); select(sel + 1, false); centerOn(sel + 1, true); };
+  step(); playT = setInterval(step, 750);
+};
+scroller.addEventListener('pointerdown', ()=>{ if (playT) stopPlay(); });
+
+async function ensureCredit(k){
+  const ph = PHOTOS[k]; if (!ph || !ph.url || ph.credit || ph.pending) return;
+  ph.pending = true;
+  try {
+    const url = 'https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&origin=*&prop=imageinfo&iiprop=extmetadata&iiextmetadatafilter=Artist|LicenseShortName&titles=' + encodeURIComponent('File:' + ph.file.replace(/_/g,' '));
+    const j = await (await fetch(url)).json();
+    const p = (j.query && j.query.pages || [])[0], em = p && p.imageinfo && p.imageinfo[0] && p.imageinfo[0].extmetadata || {};
+    const artist = stripHTML(em.Artist && em.Artist.value), lic = stripHTML(em.LicenseShortName && em.LicenseShortName.value);
+    ph.credit = `Photo: ${artist || 'unknown author'}. ${lic || 'Free licence'}, via Wikimedia Commons`;
+  } catch(e) { ph.credit = 'Photo: Wikimedia Commons'; }
+  ph.pending = false;
+  const el = document.getElementById('pcredit');
+  if (el && popKey && personKeyOf(popKey) === k){ const a = el.querySelector('a'); (a || el).textContent = ph.credit; }
+}
+function boot(){
+  if (!window.claude) PHOTO_FILES.forEach((f, k)=>{ if (PEOPLE.has(k)) PHOTOS[k] = {url:'https://en.wikipedia.org/wiki/Special:FilePath/' + encodeURIComponent(f) + '?width=330', file:f, credit:'', source:'https://en.wikipedia.org/wiki/File:' + encodeURIComponent(f)}; });
+  try { const h = +location.hash.slice(1); if (h>=FIRST && h<=LAST) sel = h; } catch(e){}
+  render(); legend(); tally(); detail(sel); intlSection(); centerOn(sel+1, false); drawMini();
+  initStore();
+}
+boot();
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(()=>{ const sl0 = scroller.scrollLeft; render(); scroller.scrollLeft = sl0; drawMini(); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ()=>{ render(); legend(); detail(sel); drawMini(); });
+new MutationObserver(()=>{ render(); legend(); detail(sel); drawMini(); }).observe(document.documentElement, {attributes:true, attributeFilter:['data-theme']});
+
+})();
+</script>
+</body>
+</html>
