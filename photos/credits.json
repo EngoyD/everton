@@ -1,0 +1,827 @@
+{
+ "gary-lineker": {
+  "img": "photos/gary-lineker.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_hosts_St_George%27s_Day_Reception_(54470857860)_(cropped).jpg",
+  "credit": "Photo: Lauren Hurley / No 10 Downing Street. OGL 3, via Wikimedia Commons"
+ },
+ "peter-reid": {
+  "img": "photos/peter-reid.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Peter_Reid_Sunderland_1998small.jpg",
+  "credit": "Photo: Philip Dews. CC BY 1.0, via Wikimedia Commons"
+ },
+ "john-heitinga": {
+  "img": "photos/john-heitinga.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:GAE_-_Ajax_-_52788475730_(John_Heitinga).jpg",
+  "credit": "Photo: Carlo Bruil Fotografie. CC BY 2.0, via Wikimedia Commons"
+ },
+ "james-mcfadden": {
+  "img": "photos/james-mcfadden.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JamesMcFadden_2009_pre-season_cropped.jpg",
+  "credit": "Photo: General Synopsis. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "louis-saha": {
+  "img": "photos/louis-saha.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Louis_Saha_-_53821556907_(cropped).jpg",
+  "credit": "Photo: Chin Yu Chu. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "duncan-ferguson": {
+  "img": "photos/duncan-ferguson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Duncan_Ferguson,_November_2019.jpg",
+  "credit": "Photo: Toffee TV : Everton Fan Channel. CC BY 3.0, via Wikimedia Commons"
+ },
+ "dixie-dean": {
+  "img": "photos/dixie-dean.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dixie_Dean_(1931).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "neville-southall": {
+  "img": "photos/neville-southall.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:NevilleSouthall.jpg",
+  "credit": "Photo: CrackersTeam. Public domain, via Wikimedia Commons"
+ },
+ "alan-ball": {
+  "img": "photos/alan-ball.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alan_Ball_(cropped).jpg",
+  "credit": "Photo: The original uploader was Pyrope at English Wikipedia.. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "nick-barmby": {
+  "img": "photos/nick-barmby.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Nick_Barmby_23-07-11_1.png",
+  "credit": "Photo: Mattythewhite. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "phil-neville": {
+  "img": "photos/phil-neville.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Phil_Neville_2019.jpg",
+  "credit": "Photo: James Boyes from UK. CC BY 2.0, via Wikimedia Commons"
+ },
+ "andy-gray": {
+  "img": "photos/andy-gray.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Andy_Gray_2004-10-23.jpg",
+  "credit": "Photo: Phil Guest from Bournemouth, UK. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "david-unsworth": {
+  "img": "photos/david-unsworth.png",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Unsworth_2017.png",
+  "credit": "Photo: Everton Football Club. CC BY 3.0, via Wikimedia Commons"
+ },
+ "john-collins": {
+  "img": "photos/john-collins.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Collins_Hibs_(cropped).jpg",
+  "credit": "Photo: User:Herny Wood. Public domain, via Wikimedia Commons"
+ },
+ "michael-ball": {
+  "img": "photos/michael-ball.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Michael_Ball_Leicester.png",
+  "credit": "Photo: Kidstylez. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "david-weir": {
+  "img": "photos/david-weir.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Weir_2014.jpg",
+  "credit": "Photo: Jeff Anderson from Harrow, Middx. CC BY 2.0, via Wikimedia Commons"
+ },
+ "andy-johnson": {
+  "img": "photos/andy-johnson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Andy_johnson_fulham.jpg",
+  "credit": "Photo: Nick. CC BY 2.0, via Wikimedia Commons"
+ },
+ "pat-jennings": {
+  "img": "photos/pat-jennings.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pat_Jennings_(2018).jpg",
+  "credit": "Photo: VEO15. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "anders-limpar": {
+  "img": "photos/anders-limpar.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Anders_Limpar*.jpg",
+  "credit": "Photo: Håkan Dahlström. CC BY 2.0, via Wikimedia Commons"
+ },
+ "gary-speed": {
+  "img": "photos/gary-speed.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gary_Speed_2011.jpg",
+  "credit": "Photo: Biser Todorov. CC BY 4.0, via Wikimedia Commons"
+ },
+ "bobby-collins": {
+  "img": "photos/bobby-collins.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bobby_Collins_1959.jpg",
+  "credit": "Photo: Harry Pot / Anefo. CC0, via Wikimedia Commons"
+ },
+ "lucas-neill": {
+  "img": "photos/lucas-neill.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lucas_Neill.jpg",
+  "credit": "Photo: David Luu from Sydney, Australia. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "andrei-kanchelskis": {
+  "img": "photos/andrei-kanchelskis.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kanchelskis_Andrei.jpg",
+  "credit": "Photo: unknown author. Public domain, via Wikimedia Commons"
+ },
+ "bruce-rioch": {
+  "img": "photos/bruce-rioch.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bruce_Rioch.jpg",
+  "credit": "Photo: Simon Wedege Petersen. CC BY 3.0, via Wikimedia Commons"
+ },
+ "aiden-mcgeady": {
+  "img": "photos/aiden-mcgeady.png",
+  "page": "https://commons.wikimedia.org/wiki/File:AidenMcGeadyIreland.png",
+  "credit": "Photo: https://profiles.google.com/101377584180932207696. CC BY 3.0, via Wikimedia Commons"
+ },
+ "martin-keown": {
+  "img": "photos/martin-keown.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Martin_Keown_2015.jpg",
+  "credit": "Photo: Ronnie Macdonald. CC BY 2.0, via Wikimedia Commons"
+ },
+ "norman-whiteside": {
+  "img": "photos/norman-whiteside.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Norman_whiteside_head_crop.jpg",
+  "credit": "Photo: apasciuto. CC BY 2.0, via Wikimedia Commons"
+ },
+ "jesper-blomqvist": {
+  "img": "photos/jesper-blomqvist.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jesper_Blomqvist.jpg",
+  "credit": "Photo: sv:User:Einarspetz. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "richard-dunne": {
+  "img": "photos/richard-dunne.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:FIFA_WC-qualification_2014_-_Austria_vs_Ireland_2013-09-10_-_Richard_Dunne_01.jpg",
+  "credit": "Photo: Michael Kranewitter. CC BY-SA 3.0 at, via Wikimedia Commons"
+ },
+ "niclas-alexandersson": {
+  "img": "photos/niclas-alexandersson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Niclas_Alexandersson_2006.jpg",
+  "credit": "Photo: Ricardo Alvarez. CC BY 2.0, via Wikimedia Commons"
+ },
+ "brian-labone": {
+  "img": "photos/brian-labone.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Brian_Labone_M%C3%A9xico_70.png",
+  "credit": "Photo: Panini. Public domain, via Wikimedia Commons"
+ },
+ "keith-newton": {
+  "img": "photos/keith-newton.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Keith_Newton_M%C3%A9xico_70.png",
+  "credit": "Photo: Panini. Public domain, via Wikimedia Commons"
+ },
+ "graeme-sharp": {
+  "img": "photos/graeme-sharp.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Graeme_Sharp_2018.jpg",
+  "credit": "Photo: Everton Football Club. CC BY 3.0, via Wikimedia Commons"
+ },
+ "leighton-baines": {
+  "img": "photos/leighton-baines.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Baines_Leighton_126176_(cropped).jpg",
+  "credit": "Photo: Александр Осипов. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "lee-carsley": {
+  "img": "photos/lee-carsley.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Lee_Carsley.png",
+  "credit": "Photo: law_keven. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "dick-roose": {
+  "img": "photos/dick-roose.jpg",
+  "page": "https://en.wikipedia.org/wiki/File:Roose.jpg",
+  "credit": "Photo: unknown author. PD-US, via Wikimedia Commons"
+ },
+ "kevin-kilbane": {
+  "img": "photos/kevin-kilbane.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kevin_Kilbane_(13938890939).jpg",
+  "credit": "Photo: vagueonthehow from England. CC BY 2.0, via Wikimedia Commons"
+ },
+ "lars-jacobsen": {
+  "img": "photos/lars-jacobsen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lars_Jacobsen_20120609.jpg",
+  "credit": "Photo: Дмитрий Неймырок/Dmitriy Neymyrok/Dmitrij Nejmyrok. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "joseph-yobo": {
+  "img": "photos/joseph-yobo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JosephYobo%2713_(cropped).JPG",
+  "credit": "Photo: Ultraslansi. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "daniel-amokachi": {
+  "img": "photos/daniel-amokachi.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Daniel_Amokachi.jpg",
+  "credit": "Photo: FOOTBALL REPORTERS. CC BY 4.0, via Wikimedia Commons"
+ },
+ "leon-osman": {
+  "img": "photos/leon-osman.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Leon_Osman_Bohemians_V_Everton_(44_of_51).jpg",
+  "credit": "Photo: The Bohs. CC BY 2.0, via Wikimedia Commons"
+ },
+ "don-hutchison": {
+  "img": "photos/don-hutchison.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hutchison,_Don.jpg",
+  "credit": "Photo: Jonesy702. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "pat-nevin": {
+  "img": "photos/pat-nevin.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pat_Nevin_2017.jpg",
+  "credit": "Photo: @cfcunofficial (Chelsea Debs) London. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "darron-gibson": {
+  "img": "photos/darron-gibson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Darron_Gibson_2012_Sopot.jpg",
+  "credit": "Photo: Tomasz Przechlewski. CC BY 2.0, via Wikimedia Commons"
+ },
+ "joleon-lescott": {
+  "img": "photos/joleon-lescott.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Joleon_Lescott_8696_(15441498930).jpg",
+  "credit": "Photo: Warwick Gastinger. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "kevin-mirallas": {
+  "img": "photos/kevin-mirallas.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kevin_Mirallas.jpg",
+  "credit": "Photo: Майоров Владимир. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "jack-sharp": {
+  "img": "photos/jack-sharp.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1193388_Jack_Sharp.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "harry-makepeace": {
+  "img": "photos/harry-makepeace.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Everton_fa_cup_1906_(Makepeace).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "phil-jagielka": {
+  "img": "photos/phil-jagielka.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Phil_Jagielka_2015-07-18_1.jpg",
+  "credit": "Photo: Chensiyuan. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "jacky-robertson": {
+  "img": "photos/jacky-robertson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:RobertsonJT.jpg",
+  "credit": "Photo: TLWC1905. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "edgar-chadwick": {
+  "img": "photos/edgar-chadwick.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Player_chadwick.jpg",
+  "credit": "Photo: unknown author. Public domain, via Wikimedia Commons"
+ },
+ "pat-van-den-hauwe": {
+  "img": "photos/pat-van-den-hauwe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PAT_VAN_DEN_HAUWE_2018.jpg",
+  "credit": "Photo: Everton Football Club. CC BY 3.0, via Wikimedia Commons"
+ },
+ "maarten-stekelenburg": {
+  "img": "photos/maarten-stekelenburg.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:GAE_-_Ajax_-_52788476880_(Maarten_Stekelenburg).jpg",
+  "credit": "Photo: Carlo Bruil Fotografie. CC BY 2.0, via Wikimedia Commons"
+ },
+ "gerry-peyton": {
+  "img": "photos/gerry-peyton.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gerry_Peyton_(cropped).jpg",
+  "credit": "Photo: wonker. CC BY 2.0, via Wikimedia Commons"
+ },
+ "marc-hottiger": {
+  "img": "photos/marc-hottiger.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Marc_Hottiger.JPG",
+  "credit": "Photo: Christophe95. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "ashley-williams": {
+  "img": "photos/ashley-williams.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:AUT_vs._WAL_2016-10-06_(128).jpg",
+  "credit": "Photo: Steindy (talk) 16:12, 10 November 2016 (UTC). CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "ben-howard-baker": {
+  "img": "photos/ben-howard-baker.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Benjamin_Howard_Baker_1920.jpg",
+  "credit": "Photo: Unknown (Popperfoto). Public domain, via Wikimedia Commons"
+ },
+ "bill-lacey": {
+  "img": "photos/bill-lacey.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Bill_Lacey_(1914).png",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "marouane-fellaini": {
+  "img": "photos/marouane-fellaini.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Marouane_Fellaini_2018.jpg",
+  "credit": "Photo: Кирилл Венедиктов. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "frank-jefferis": {
+  "img": "photos/frank-jefferis.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Frank_Jefferis.jpg",
+  "credit": "Photo: Phil4 at en.wikipedia. Public domain, via Wikimedia Commons"
+ },
+ "jan-mucha": {
+  "img": "photos/jan-mucha.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JanMucha2010.jpg",
+  "credit": "Photo: Майоров Владимир. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "james-mccarthy": {
+  "img": "photos/james-mccarthy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1_james_mccarthy_everton_2015_(cropped).jpg",
+  "credit": "Photo: Chensiyuan. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "diniyar-bilyaletdinov": {
+  "img": "photos/diniyar-bilyaletdinov.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Spar-Rub15_(7).jpg",
+  "credit": "Photo: Дмитрий Садовников. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "billy-scott": {
+  "img": "photos/billy-scott.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Everton_fa_cup_1906_(Scott).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "nikica-jelavic": {
+  "img": "photos/nikica-jelavic.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nikica_Jelavi%C4%87_with_West_Ham_United_in_2015.jpg",
+  "credit": "Photo: Egghead06. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "jimmy-dunn": {
+  "img": "photos/jimmy-dunn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wembley_wizards_duke_york_(Dunn).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "jimmy-oneill": {
+  "img": "photos/jimmy-oneill.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JimmyONeill.jpg",
+  "credit": "Photo: Jonathan Rowley. Public domain, via Wikimedia Commons"
+ },
+ "sandy-young": {
+  "img": "photos/sandy-young.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Everton_fa_cup_1906_(Young).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "jimmy-settle": {
+  "img": "photos/jimmy-settle.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Everton_fa_cup_1906_(Settle).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "jack-rodwell": {
+  "img": "photos/jack-rodwell.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jack_Rodwell_2013_(3x4_cropped).jpg",
+  "credit": "Photo: Leon Queeley derivative work: Dudek1337. CC BY 2.0, via Wikimedia Commons"
+ },
+ "bob-howarth": {
+  "img": "photos/bob-howarth.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Preston_north_end_art_(Howarth).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "bert-freeman": {
+  "img": "photos/bert-freeman.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bert_Freeman.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "gylfi-sigur-sson": {
+  "img": "photos/gylfi-sigur-sson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:ISL-HRV_(21)_(cropped).jpg",
+  "credit": "Photo: Светлана Бекетова. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "fred-geary": {
+  "img": "photos/fred-geary.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fred_Geary.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "phil-griffiths": {
+  "img": "photos/phil-griffiths.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Phil_Griffiths.jpg",
+  "credit": "Photo: Unknown. Public domain, via Wikimedia Commons"
+ },
+ "james-rodriguez": {
+  "img": "photos/james-rodriguez.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Argentina_-_Colombia_2022_(28)_(cropped_2).jpg",
+  "credit": "Photo: jmmuguerza. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "cuco-martina": {
+  "img": "photos/cuco-martina.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cuco_Martina_-_Audi-quattro-Cup_(2015).jpg",
+  "credit": "Photo: Werner100359. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "joshua-king": {
+  "img": "photos/joshua-king.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chelsea_0_Bournemouth_1_(cropped).jpg",
+  "credit": "Photo: @cfcunofficial (Chelsea Debs) London. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "lucas-digne": {
+  "img": "photos/lucas-digne.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lucas_Digne_France_v_Norway_26_June_26-043.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "cenk-tosun": {
+  "img": "photos/cenk-tosun.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cenk_Tosun_in_2023.jpg",
+  "credit": "Photo: Beşiktaş. CC BY 2.0, via Wikimedia Commons"
+ },
+ "muhamed-besic": {
+  "img": "photos/muhamed-besic.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Muhamed_Besic_2014-05-03.jpg",
+  "credit": "Photo: EFCsophie. CC BY 2.0, via Wikimedia Commons"
+ },
+ "allan": {
+  "img": "photos/allan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Allan_Marques_Loureiro_in_Everton_(cropped).jpg",
+  "credit": "Photo: Ardfern. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "idan-tal": {
+  "img": "photos/idan-tal.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Idan_Tal.jpg",
+  "credit": "Photo: NYC2TLV at English Wikipedia. Public domain, via Wikimedia Commons"
+ },
+ "idrissa-gueye": {
+  "img": "photos/idrissa-gueye.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Idrissa_Gueye_(cropped).jpg",
+  "credit": "Photo: Екатерина Лаут. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "enner-valencia": {
+  "img": "photos/enner-valencia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Enner_Valencia_Cote_D%27Ivoire_v_Ecuador_14_June_2026-95.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "christian-atsu": {
+  "img": "photos/christian-atsu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Christian_Atsu_20150331_Mali_vs_Ghana_039_(cropped).jpg",
+  "credit": "Photo: Pierre-Yves Beaudouin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "kurt-zouma": {
+  "img": "photos/kurt-zouma.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kurt_Zouma_West_Ham.jpg",
+  "credit": "Photo: Egghead06. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "charlie-parry": {
+  "img": "photos/charlie-parry.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Parry_180395.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "michael-keane": {
+  "img": "photos/michael-keane.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Michael_Keane_2017.jpg",
+  "credit": "Photo: @cfcunofficial (Chelsea Debs) London. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "davy-klaassen": {
+  "img": "photos/davy-klaassen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:GAE_-_Ajax_-_52788472780_(Davy_Klaassen).jpg",
+  "credit": "Photo: Carlo Bruil Fotografie. CC BY 2.0, via Wikimedia Commons"
+ },
+ "ramiro-funes-mori": {
+  "img": "photos/ramiro-funes-mori.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SM-Villareal_(3).jpg",
+  "credit": "Photo: Антон Зайцев. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "oumar-niasse": {
+  "img": "photos/oumar-niasse.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Loko_skndrb_10.jpg",
+  "credit": "Photo: Дмитрий Корнило. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "john-stones": {
+  "img": "photos/john-stones.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Stones_England_v_Ghana_23_June_2026-038.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "conor-coady": {
+  "img": "photos/conor-coady.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Conor_Coady_30082025_(1).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ },
+ "abdoulaye-doucoure": {
+  "img": "photos/abdoulaye-doucoure.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stade_rennais_-_Le_Havre_AC_20150708_40.JPG",
+  "credit": "Photo: S. Plaine. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "jordan-pickford": {
+  "img": "photos/jordan-pickford.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jordan_Pickford_England_v_Ghana_23_June_2026-316_(cropped).jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "demarai-gray": {
+  "img": "photos/demarai-gray.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Demarai_Gray_August_2014.png",
+  "credit": "Photo: Struway2. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "nikola-vlasic": {
+  "img": "photos/nikola-vlasic.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nikola_Vlasic_Croatia_v_Portugal_2_July_2026-189.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "dominic-calvert-lewin": {
+  "img": "photos/dominic-calvert-lewin.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dominic_Calvert-Lewin_13092025_(5).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ },
+ "ben-godfrey": {
+  "img": "photos/ben-godfrey.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ben_Godfrey_2019-05-06_1.jpg",
+  "credit": "Photo: Michael Button from Norwich UK, England. CC BY 2.0, via Wikimedia Commons"
+ },
+ "alex-iwobi": {
+  "img": "photos/alex-iwobi.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Issa_Diop,_Alex_Iwobi_and_Antonee_Robinson_04032026_(1)_(cropped).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ },
+ "henry-onyekuru": {
+  "img": "photos/henry-onyekuru.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Henry_Onyekuru,_2018.jpg",
+  "credit": "Photo: Антон Зайцев. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "moise-kean": {
+  "img": "photos/moise-kean.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:FC_Zenit_Saint_Petersburg_vs._Juventus,_20_October_2021_64_-_Moise_Kean_(cropped).jpg",
+  "credit": "Photo: Original: Kirill Venediktov / Derivative work: Danyele / FMSky. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "antonee-robinson": {
+  "img": "photos/antonee-robinson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Antonee_Robinson_Australia_v_USA_19_June_2026-24_(cropped).jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "orel-mangala": {
+  "img": "photos/orel-mangala.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Orel_mangala.jpg",
+  "credit": "Photo: Jeollo von http://www.vfb-exklusiv.de. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "james-garner": {
+  "img": "photos/james-garner.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:James_Garner_2025.jpg",
+  "credit": "Photo: Toffee TV. CC BY 3.0, via Wikimedia Commons"
+ },
+ "mark-travers": {
+  "img": "photos/mark-travers.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mark_Travers_29122024_(2).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ },
+ "jesper-lindstr-m": {
+  "img": "photos/jesper-lindstr-m.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2022128173607_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0635_-_AK8I7370_(Jesper_Lindstr%C3%B8m_cropped).jpg",
+  "credit": "Photo: Sven Mandel. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "beto": {
+  "img": "photos/beto.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fulham_v_Everton_10052025_(7)_(Beto).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ },
+ "jarrad-branthwaite": {
+  "img": "photos/jarrad-branthwaite.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Celebration!_(54493257432)_(Jarrad_Branthwaite).jpg",
+  "credit": "Photo: Pete from Liverpool, UK. CC BY 2.0, via Wikimedia Commons"
+ },
+ "nathan-patterson": {
+  "img": "photos/nathan-patterson.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nathan_Patterson_Scotland_v_Bolivia_6_June_2026-58.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "armando-broja": {
+  "img": "photos/armando-broja.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Armando_Broja_29112025_(2).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ },
+ "amadou-onana": {
+  "img": "photos/amadou-onana.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Amadou_Onana_USMNT_v_Belgium_Mar_28_2026-96_(cropped).jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "iliman-ndiaye": {
+  "img": "photos/iliman-ndiaye.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Iliman_Ndiaye_France_v_Senegal_16_June_2026-243.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "jake-obrien": {
+  "img": "photos/jake-obrien.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Jake_O%27Brien_in_2024.png",
+  "credit": "Photo: Irish Football Fan TV. CC BY 3.0, via Wikimedia Commons"
+ },
+ "bryan-oviedo": {
+  "img": "photos/bryan-oviedo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bryan_Oviedo_20160116.jpg",
+  "credit": "Photo: @cfcunofficial (Chelsea Debs) London. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "wayne-rooney": {
+  "img": "photos/wayne-rooney.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wayne_Rooney_(50121495731)_(cropped).jpg",
+  "credit": "Photo: All-Pro Reels from District of Columbia, USA. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "tim-howard": {
+  "img": "photos/tim-howard.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tim_Howard_2023.jpg",
+  "credit": "Photo: UKinUSA. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "tommy-lawton": {
+  "img": "photos/tommy-lawton.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tommy_Lawton_(ca.1951).jpg",
+  "credit": "Photo: footysphere from Sheffield, England. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "yakubu-ayegbeni": {
+  "img": "photos/yakubu-ayegbeni.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yakubu_in_2013_(cropped).jpg",
+  "credit": "Photo: No machine-readable author provided. Alexchen4836 assumed (based on copyright claims).. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "tomasz-radzinski": {
+  "img": "photos/tomasz-radzinski.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tomasz_Radzinski_2004.jpg",
+  "credit": "Photo: Canadian Soccer Association. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "thomas-myhre": {
+  "img": "photos/thomas-myhre.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Myhre_04.jpg",
+  "credit": "Photo: Kjetil Ree. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "tim-cahill": {
+  "img": "photos/tim-cahill.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tim_Cahill_(53557484101).jpg",
+  "credit": "Photo: Web Summit Qatar. CC BY 2.0, via Wikimedia Commons"
+ },
+ "robert-warzycha": {
+  "img": "photos/robert-warzycha.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Robert_Warzycha_Crew.jpg",
+  "credit": "Photo: The original uploader was Late1 at English Wikipedia.. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "tony-cottee": {
+  "img": "photos/tony-cottee.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tony_Cottee_at_Tony_Carr%27s_testimonial.jpg",
+  "credit": "Photo: East Ham Bull. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "simon-davies": {
+  "img": "photos/simon-davies.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Simon_Davies_Wales_October_2006.jpg",
+  "credit": "Photo: Dan Goddard (Transfered by Ytoyoda/Original uploaded by Foo-med). Public domain, via Wikimedia Commons"
+ },
+ "tommy-wright": {
+  "img": "photos/tommy-wright.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tommy_wright_figurita.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "steven-pienaar": {
+  "img": "photos/steven-pienaar.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Steven_Pienaar_2015.jpg",
+  "credit": "Photo: Tommy Low from Singapore, Singapore. CC BY 2.0, via Wikimedia Commons"
+ },
+ "tobias-linderoth": {
+  "img": "photos/tobias-linderoth.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tobias_Linderoth_2006.jpg",
+  "credit": "Photo: Swedish national football team 2006.jpg: Ricardo Alvarez derivative work: Armigo. CC BY 2.0, via Wikimedia Commons"
+ },
+ "steven-naismith": {
+  "img": "photos/steven-naismith.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Steven_Naismith_(cropped).jpg",
+  "credit": "Photo: @cfcunofficial (Chelsea Debs). CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "victor-anichebe": {
+  "img": "photos/victor-anichebe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Victor_Anichebe_Bohemians_V_Everton_(5_of_51).jpg",
+  "credit": "Photo: The Bohs. CC BY 2.0, via Wikimedia Commons"
+ },
+ "stuart-mccall": {
+  "img": "photos/stuart-mccall.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stuart_mccall.jpg",
+  "credit": "Photo: https://www.flickr.com/photos/cocca/. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "slaven-bilic": {
+  "img": "photos/slaven-bilic.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Slaven_Bili%C4%87.jpg",
+  "credit": "Photo: Рыбакова Елена. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "segundo-castillo": {
+  "img": "photos/segundo-castillo.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Segundo_Castillo.png",
+  "credit": "Photo: Guayaco at English Wikipedia. Public domain, via Wikimedia Commons"
+ },
+ "terry-phelan": {
+  "img": "photos/terry-phelan.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Terry_Phelan_SUFC.png",
+  "credit": "Photo: Indianfootballfan29. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "val-harris": {
+  "img": "photos/val-harris.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Ireland_1914_(Harris).png",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "walter-abbott": {
+  "img": "photos/walter-abbott.jpg",
+  "page": "https://en.wikipedia.org/wiki/File:Walter_Abbott.jpg",
+  "credit": "Photo: Not known (Life time: Not known). PD-US, via Wikimedia Commons"
+ },
+ "william-balmer": {
+  "img": "photos/william-balmer.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Everton_fa_cup_1906_(Balmer).jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "wally-boyes": {
+  "img": "photos/wally-boyes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Phillips_card_boyes.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "yannick-bolasie": {
+  "img": "photos/yannick-bolasie.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yannick_Bolasie2.jpg",
+  "credit": "Photo: Yannick34. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "salomon-rondon": {
+  "img": "photos/salomon-rondon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Salom%C3%B3n_Rond%C3%B3n_2021.jpg",
+  "credit": "Photo: Антон Зайцев. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "teddy-hughes": {
+  "img": "photos/teddy-hughes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Edward_%22Ted%22_Hughes_(cropped).jpg",
+  "credit": "Photo: Ogden's Cigarettes. Public domain, via Wikimedia Commons"
+ },
+ "romelu-lukaku": {
+  "img": "photos/romelu-lukaku.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Romelu_Lukaku_Belgium_v_USA_6_July_2026-038.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "seamus-coleman": {
+  "img": "photos/seamus-coleman.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nair_Tiknizyan,_Seamus_Coleman,_Festy_Ebosele_YantsImages_-_Asatur_Yesayants_668_(cropped).jpg",
+  "credit": "Photo: YantsImages. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "shane-duffy": {
+  "img": "photos/shane-duffy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shane_Duffy_2018.jpg",
+  "credit": "Photo: James Boyes from UK. CC BY 2.0, via Wikimedia Commons"
+ },
+ "smart-arridge": {
+  "img": "photos/smart-arridge.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Smart-Arridge.jpg",
+  "credit": "Photo: Anhysbys. Public domain, via Wikimedia Commons"
+ },
+ "ross-barkley": {
+  "img": "photos/ross-barkley.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ross_Barkley_in_2019.jpg",
+  "credit": "Photo: https://www.flickr.com/photos/cfcunofficial/. CC BY-SA 2.0, via Wikimedia Commons"
+ },
+ "robin-olsen": {
+  "img": "photos/robin-olsen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SWE-SWI_(8)_(cropped).jpg",
+  "credit": "Photo: Кирилл Венедиктов. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "richarlison": {
+  "img": "photos/richarlison.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Richarlison_%C3%A9_homenageado_na_ALES_(10.July.2019)_08_(cropped).jpg",
+  "credit": "Photo: Assembleia Legislativa do Espírito Santo. CC BY 2.0, via Wikimedia Commons"
+ },
+ "yerry-mina": {
+  "img": "photos/yerry-mina.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yerry_Mina,_Colombia_NT_presidential_send-off,_Jun_2026.jpg",
+  "credit": "Photo: Fotografía oficial de la Presidencia de Colombia. Public domain, via Wikimedia Commons"
+ },
+ "vitaliy-mykolenko": {
+  "img": "photos/vitaliy-mykolenko.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9_%D0%9C%D0%B8%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%BA%D0%BE_%E2%80%94_1182449_(cropped).jpg",
+  "credit": "Photo: Dynamomania.com. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "david-moyes": {
+  "img": "photos/david-moyes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:David_Moyes_2025.jpg",
+  "credit": "Photo: Toffee TV. CC BY 3.0, via Wikimedia Commons"
+ },
+ "frank-lampard": {
+  "img": "photos/frank-lampard.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Frank_Lampard_2019.jpg",
+  "credit": "Photo: Mehdi Bolourian. CC BY 4.0, via Wikimedia Commons"
+ },
+ "rafael-benitez": {
+  "img": "photos/rafael-benitez.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shahter-Reak_M_2015_(2).jpg",
+  "credit": "Photo: Дмитрий Журавель. CC BY-SA 3.0, via Wikimedia Commons"
+ },
+ "ronald-koeman": {
+  "img": "photos/ronald-koeman.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%82%D1%87_%C2%AB%D0%94%D0%B8%D0%BD%D0%B0%D0%BC%D0%BE%C2%BB_-_%C2%AB%D0%91%D0%B0%D1%80%D1%81%D0%B5%D0%BB%D0%BE%D0%BD%D0%B0%C2%BB_0-4._24_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_2020_%D0%B3%D0%BE%D0%B4%D0%B0_%E2%80%94_1166990_(Ronald_Koeman).jpg",
+  "credit": "Photo: Olga Shcherbytska. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "walter-smith": {
+  "img": "photos/walter-smith.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Walter_Smith_(cropped).jpg",
+  "credit": "Photo: Scottish Labour. CC BY 2.5, via Wikimedia Commons"
+ },
+ "carlo-ancelotti": {
+  "img": "photos/carlo-ancelotti.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Carlo_Ancelotti_Brazil_V_Morocco_13_June_2026-47.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "mikel-arteta": {
+  "img": "photos/mikel-arteta.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Arsenal_v_Everton_-_52223142689_(cropped).jpg",
+  "credit": "Photo: Maryland GovPics. CC BY 2.0, via Wikimedia Commons"
+ },
+ "sam-allardyce": {
+  "img": "photos/sam-allardyce.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Big_Sam_Allardyce_signs_autographs_for_fans_October_2014.jpg",
+  "credit": "Photo: Egghead06. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "john-houlding": {
+  "img": "photos/john-houlding.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:John_Houlding.jpg",
+  "credit": "Photo: Unknown authorUnknown author. Public domain, via Wikimedia Commons"
+ },
+ "roberto-martinez": {
+  "img": "photos/roberto-martinez.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Roberto_Mart%C3%ADnez_USMNT_v_Portugal_Mar_31_2026-35.jpg",
+  "credit": "Photo: Bryan Berlin. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "sean-dyche": {
+  "img": "photos/sean-dyche.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Sean_Dyche_-_Toffee_TV_EFC.png",
+  "credit": "Photo: Toffee TV : Everton Fan Channel. CC BY 3.0, via Wikimedia Commons"
+ },
+ "farhad-moshiri": {
+  "img": "photos/farhad-moshiri.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Moshiribagnes.jpg",
+  "credit": "Photo: Fheinimann96fh. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "dick-molyneux": {
+  "img": "photos/dick-molyneux.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:D_Molyneux.jpg",
+  "credit": "Photo: Thebees1889. CC BY-SA 4.0, via Wikimedia Commons"
+ },
+ "marco-silva": {
+  "img": "photos/marco-silva.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Marco_Silva_20042025_(2)_(cropped).jpg",
+  "credit": "Photo: Timmy96. CC0, via Wikimedia Commons"
+ }
+}

@@ -211,6 +211,30 @@ svg#chart.dragging{cursor:grabbing}
 .playbtn{background:var(--cover) !important;color:#fff !important;border-color:var(--cover) !important;padding:2px 12px !important}
 .playbtn[aria-pressed="true"]{background:var(--gold) !important;border-color:var(--gold) !important;color:#111 !important}
 @media (prefers-reduced-motion:reduce){#selr,#mint{transition:none}.pop.on,.detail .cols{animation:none}}
+
+/* Kits, season bar, span highlight */
+.kits{display:flex;gap:18px;margin:6px 0 10px}
+.kits figure{margin:0;text-align:center}
+.kits figcaption{font-size:13px;font-style:italic;color:var(--ink-soft)}
+.kdl{display:grid;grid-template-columns:auto 1fr;gap:2px 12px;margin:0 0 8px}
+.kdl dt{font-size:14px;margin:0}.kdl dd{margin:0}
+.kitbtn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.kitbtn:hover span{text-decoration:underline}
+.kitbtn:focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+.seasonbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;padding:6px 0 2px;font-size:15.5px;line-height:1.3}
+.seasonbar .sb-season{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:21px}
+.seasonbar .sb-res{font-style:italic}
+.seasonbar .sb-hon{font-style:normal;color:var(--gold)}
+.seasonbar .sb-mood{display:inline-flex;align-items:center;color:var(--ink-soft)}
+.seasonbar .sb-mgr{color:var(--ink-soft)}
+.seasonbar button{font:inherit;background:transparent;color:var(--ink);border:1px solid var(--rule);border-radius:2px;cursor:pointer;line-height:1.2}
+.seasonbar .sb-nav{font-size:18px;padding:0 9px}
+.seasonbar .sb-nav:disabled{opacity:.35;cursor:default}
+.seasonbar .sb-kit{border:0;padding:0;display:inline-flex}
+.seasonbar .sb-more{margin-left:auto;padding:2px 10px;font-size:14.5px}
+.seasonbar button:hover:not(:disabled){border-color:var(--ink)}
+#hl{transition:opacity .15s}
+@media (max-width:640px){.seasonbar .sb-mgr,.seasonbar .sb-mood{display:none}.seasonbar .sb-more{margin-left:0}}
 /* Internationals section */
 .intl{max-width:1200px;margin:34px auto 0;padding:0 18px}
 .intl h2{font-family:"IM Fell English",Georgia,serif;font-weight:400;font-size:clamp(28px,4vw,38px);margin:0 0 4px;border-bottom:1px solid var(--ink);padding-bottom:6px}
@@ -279,7 +303,7 @@ table.itab tbody tr:hover{background:var(--tint-b)}
 </div>
 
 <div class="chartzone">
-<div class="mini" id="mini"><svg id="miniSvg" height="46" role="img" aria-label="Overview of the whole timeline. Drag across it to move through history."></svg></div>
+<div class="mini" id="mini"><div class="seasonbar" id="sbar" aria-live="polite"></div><svg id="miniSvg" height="46" role="img" aria-label="Overview of the whole timeline. Drag across it to move through history."></svg></div>
 <div class="photobar" id="photoBar" hidden></div>
 <div class="chartwrap">
   <div class="chart" id="scroller" tabindex="0" aria-label="Everton timeline chart. Use left and right arrow keys to move between seasons.">
@@ -651,6 +675,40 @@ const EURO = {
   2007:'UEFA Cup: last 16, out on penalties to Fiorentina',2008:'UEFA Cup: out in round 1 to Standard Liège',
   2009:'Europa League: last 32, out to Sporting CP',2014:'Europa League: last 16, out to Dynamo Kyiv',2017:'Europa League: out in the group stage'
 };
+
+/* ---------- Kits: colours by era (simplified drawings, no logos) ---------- */
+const KC = {royal:'#1F48B0', light:'#4A7BE0', white:'#FFFFFF', black:'#171717', scarlet:'#C8102E', salmon:'#F2A08B', dblue:'#1A2452', ruby:'#8E1B2E', amber:'#F2A900', navy:'#16213F', pink:'#F05FA0', indigo:'#3B2C8E'};
+const KIT_HOME = [
+  [1878,1881,{p:'stripes',s:KC.white,a:KC.royal,sh:KC.white},'Blue and white striped shirts',"St Domingo's first played in white, then in blue and white vertical stripes."],
+  [1881,1892,{p:'sash',s:KC.black,a:KC.scarlet,sh:KC.black},'Black shirts with a scarlet sash, black shorts, white socks',"New players kept turning out in their old clubs' shirts, so the secretary had every shirt dyed black and a scarlet sash sewn across it. The look earned the team the nickname the Black Watch. The club's ledgers show the colours were often chosen afresh each season."],
+  [1892,1895,{p:'stripes',s:KC.salmon,a:KC.dblue,sh:KC.dblue},'Salmon pink and dark blue stripes, dark blue shorts','The colours worn when the club moved to Goodison. The exact year of the change to ruby is uncertain.'],
+  [1895,1901,{p:'trim',s:KC.ruby,a:KC.dblue,sh:KC.dblue},'Ruby shirts with blue trim, dark blue shorts','Worn until royal blue arrived in 1901. The exact start year is uncertain.'],
+  [1901,1930,{p:'solid',s:KC.royal,a:KC.white,sh:KC.white},'Royal blue shirts, white shorts','Royal blue was first worn in 1901–02 and gave the club its nickname, the Blues.'],
+  [1930,1966,{p:'solid',s:KC.royal,a:KC.white,sh:KC.white,ss:KC.royal},'Royal blue shirts, white shorts with a blue side stripe','Everton were among the first clubs to put a stripe on their shorts in 1930. It stayed a signature until 1966.'],
+  [1966,1983,{p:'solid',s:KC.royal,a:KC.white,sh:KC.white},'Royal blue shirts, white shorts',''],
+  [1983,1985,{p:'trim',s:KC.royal,a:KC.white,sh:KC.white},'Royal blue with fine shadow stripes and a bold collar, white shorts',"Le Coq Sportif's design, now seen as a classic: the strip of the 1984 FA Cup, the 1985 title and the Cup Winners' Cup."],
+  [1985,1986,{p:'yoke',s:KC.royal,a:KC.white,sh:KC.white},'Royal blue with a white yoke, white shorts',"The white-yoked Le Coq Sportif shirt was unpopular, and Umbro returned the following summer."],
+  [1986,Y1,{p:'trim',s:KC.royal,a:KC.white,sh:KC.white},'Royal blue shirts, white shorts, white socks','']
+];
+const KIT_SEASON = {
+  1905:{note:'In 1906 the club briefly tried sky blue and supporters protested; royal blue returned.'},
+  1906:{note:'In 1906 the club briefly tried sky blue and supporters protested; royal blue returned.'},
+  1930:{s:KC.light, note:'A lighter shade of blue than usual this season.'},
+  1997:{s:KC.light, note:'Another season in a lighter shade of blue.'},
+  2014:{note:"Umbro's comeback strip took its inspiration from the 1924 kit."}
+};
+const KIT_AWAY = [
+  [1901,1968,{p:'solid',s:KC.white,a:KC.black,sh:KC.black},'White shirts, black shorts','The traditional change strip.'],
+  [1968,2000,{p:'solid',s:KC.amber,a:KC.royal,sh:KC.royal},'Usually amber shirts with royal blue shorts','From 1968 amber with royal blue became the usual change strip.'],
+  [2000,Y1,null,'Varied: black, white, grey and yellow have all been used','']
+];
+const KIT_AWAY_SEASON = {
+  2010:[{p:'chest',s:KC.pink,a:KC.indigo,sh:KC.indigo},'"Lightning pink" with an indigo chest panel'],
+  2011:[{p:'solid',s:KC.amber,a:KC.navy,sh:KC.navy},'Amber shirts, navy shorts']
+};
+const MAKERS = [[1974,1983,'Umbro'],[1983,1986,'Le Coq Sportif'],[1986,2000,'Umbro'],[2000,2004,'Puma'],[2004,2009,'Umbro'],[2009,2012,'Le Coq Sportif'],[2012,2014,'Nike'],[2014,2020,'Umbro'],[2020,2024,'Hummel'],[2024,2027,'Castore']];
+const SPONSORS = [[1979,1985,'Hafnia'],[1985,1995,'NEC'],[1995,1997,'Danka'],[1997,2002,'one2one'],[2002,2004,'Kejian'],[2004,2017,'Chang'],[2017,2020,'SportPesa'],[2020,2022,'Cazoo'],[2022,2026,'Stake'],[2026,2027,'CMC Markets']];
+
 const LCUP = {1976:'Final lost to Aston Villa after two replays',1983:'Final lost to Liverpool in a replay at Maine Road'};
 const MOOD = {
   1878:[0.2,'A chapel side kicking about in Stanley Park.'],1884:[0.8,'Anfield brings proper crowds and paying customers.'],
@@ -1062,7 +1120,7 @@ function blockText(t, x0, w, y, cls){
 let PHOTOS = {};
 const LANE_DEFS = [
   ['ep','Epochs'],['mg','Managers'],['ow','Ownership'],['lg','League finish'],['hn','Honours'],['dy','Derbies'],['md','Mood'],
-  ['mn','Money'],['gr','Home ground'],['pl','Players'],['in','Internationals'],['cl','In the club'],['ec','Liverpool Echo'],['wd','Around the club']
+  ['mn','Money'],['gr','Home ground'],['pl','Players'],['kt','Kits'],['in','Internationals'],['cl','In the club'],['ec','Liverpool Echo'],['wd','Around the club']
 ];
 let HIDDEN = new Set();
 try { HIDDEN = new Set(JSON.parse(localStorage.getItem('efc-hidden') || '[]')); } catch(e){}
@@ -1190,6 +1248,13 @@ function render(){
       g += `</g>`; });
     add('pl','Players','click a name for the player card',rows*22+10,g); }
 
+  { let g=''; const iw = Math.min(ppy*0.9, 21);
+    if (iw >= 5) for (let s=FIRST; s<=LAST; s++){ const k = kitFor(s); g += `<g data-pk="kt:${s}"${WAR.has(s)?' opacity=".45"':''}><title>${esc(sl(s)+': '+k.label)}</title><rect x="${X(s+1)-iw/2}" y="2" width="${iw}" height="${iw*1.12+2}" fill="transparent"/><g transform="translate(${X(s+1)-iw/2},2)">${kitSVG(k, iw)}</g></g>`; }
+    const top = 6 + iw*1.12;
+    const band = (list, y, label) => list.forEach(b=>{ const x0 = X(b[0]+0.5), w = X(Math.min(b[1], LAST+1)+0.5) - x0;
+      g += `<g data-pk="kb"><title>${esc(label+': '+b[2]+', '+sl(b[0])+' to '+sl(Math.min(b[1], LAST+1)-1))}</title><rect x="${x0}" y="${y}" width="${w}" height="13" fill="var(--tint-b)" stroke="var(--ink)" stroke-width=".4"/>${tw(b[2],11) < w-6 ? `<text x="${x0+4}" y="${y+10}" style="font-size:11px">${esc(b[2])}</text>` : ''}</g>`; });
+    band(SPONSORS, top+3, 'Shirt sponsor'); band(MAKERS, top+19, 'Kit maker');
+    add('kt','Kits','home kit each season; sponsor and maker below',top+36,g); }
   { const H=84, base=H-6; let g='', max=1;
     for (let y=1885; y<=2026; y++) if (IBY[y]) max = Math.max(max, IBY[y].size);
     const unit = (H-30)/max, order=['eng','sco','wal','irl','row'];
@@ -1228,6 +1293,7 @@ function render(){
   WORLD_SPANS.filter(w=>w.war && w.t.indexOf('World War')>0).forEach(w=>{ const a=X(dec(w.d)), b=X(dec(w.e)); body += `<rect x="${a}" y="26" width="${b-a}" height="${H-52}" fill="var(--war)"/><rect x="${a}" y="26" width="${b-a}" height="${H-52}" fill="url(#hatch)"/>`; });
   body += `<rect x="${X(NOW)}" y="26" width="${W-X(NOW)}" height="${H-52}" fill="url(#fut)"/><text class="it soft" x="${X(NOW)+8}" y="${H-34}">still to come</text>`;
   body += `<defs><pattern id="mintP" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="2" height="4" fill="#111"/><rect x="2" width="2" height="4" fill="#fff"/></pattern></defs>`;
+  body += `<rect id="hl" x="0" y="0" width="0" height="${H}" fill="var(--blue)" opacity="0" style="pointer-events:none"/>`;
   body += `<rect id="selr" x="0" y="0" width="${ppy}" height="${H}" fill="var(--sel)" stroke="var(--blue)" stroke-width=".8" stroke-opacity=".6"/>`;
   body += `<g id="mint"><title>Selected season</title><rect x="0" y="2" width="16" height="9" rx="4.5" fill="url(#mintP)" stroke="var(--ink)" stroke-width=".7"/></g>`;
   body += `<line id="hovl" x1="0" x2="0" y1="0" y2="${H}" stroke="var(--blue)" stroke-width="1" stroke-dasharray="3 3" opacity="0"/>`;
@@ -1272,17 +1338,18 @@ svg.addEventListener('pointermove', e=>{
   if (s < FIRST || s > LAST){ tip.classList.remove('on'); if (l) l.setAttribute('opacity',0); return; }
   l.setAttribute('x1', X(s+1)); l.setAttribute('x2', X(s+1)); l.setAttribute('opacity', .8);
   const el = e.target.closest('[data-pk]'); const t = el && el.querySelector('title');
+  { const hl = document.getElementById('hl'), sp = el ? spanOf(el.dataset.pk) : null; if (hl){ if (sp){ hl.setAttribute('x', X(sp[0])); hl.setAttribute('width', Math.max(2, X(sp[1]) - X(sp[0]))); hl.setAttribute('opacity', .09); } else hl.setAttribute('opacity', 0); } }
   tip.textContent = t ? t.textContent : tipText(s); tip.classList.add('on');
   tip.style.left = Math.min(window.innerWidth - tip.offsetWidth - 8, e.clientX + 14) + 'px'; tip.style.top = (e.clientY + 16) + 'px';
 });
-svg.addEventListener('pointerleave', ()=>{ tip.classList.remove('on'); const l=document.getElementById('hovl'); if (l) l.setAttribute('opacity',0); });
+svg.addEventListener('pointerleave', ()=>{ const hl = document.getElementById('hl'); if (hl) hl.setAttribute('opacity', 0); tip.classList.remove('on'); const l=document.getElementById('hovl'); if (l) l.setAttribute('opacity',0); });
 svg.addEventListener('click', e=>{
   if (suppressClick) return;
   tip.classList.remove('on');
   const s = seasonOf(yearAt(e.clientX));
   const el = e.target.closest('[data-pk]');
   if (s>=FIRST && s<=LAST) select(s, false);
-  if (el) openPop(el.dataset.pk, {x:e.clientX, y:e.clientY});
+  if (el) openPop(el.dataset.pk === 'kb' ? 'kt:' + Math.max(FIRST, Math.min(LAST, s)) : el.dataset.pk, {x:e.clientX, y:e.clientY});
   else closePop();
 });
 scroller.addEventListener('keydown', e=>{
@@ -1290,7 +1357,7 @@ scroller.addEventListener('keydown', e=>{
   else if (e.key==='+'||e.key==='='){ e.preventDefault(); zoomAt(null, 1.3); }
   else if (e.key==='-'||e.key==='_'){ e.preventDefault(); zoomAt(null, 1/1.3); }
 });
-function select(s, scroll){ sel = s; placeSel(); detail(s); if (scroll) ensureVisible(s); try { history.replaceState(null,'','#'+s); } catch(e){} }
+function select(s, scroll){ setTimeout(drawSbar, 0); sel = s; placeSel(); detail(s); if (scroll) ensureVisible(s); try { history.replaceState(null,'','#'+s); } catch(e){} }
 
 /* ---------- Popover cards ---------- */
 let popKey = null, popAnchor = null;
@@ -1307,7 +1374,7 @@ function personCard(k){
   const purl = ph ? (ph.url || '/_blob/' + ph.asset) : '';
   const plink = ph && ph.source && /^https:\/\/(commons\.wikimedia|en\.wikipedia)\.org\//.test(ph.source) ? ph.source : '';
   const ptxt = ph ? (ph.credit || 'Photo: Wikimedia Commons (loading credit…)') : '';
-  let h = `<div class="row"><div><div class="portrait">${monogram(P.name)}${ph ? `<img src="${esc(purl)}" alt="${esc(P.name)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}</div>${ph ? `<div class="credit" id="pcredit">${plink ? `<a href="${esc(plink)}" target="_blank" rel="noopener" style="color:inherit">${esc(ptxt)}</a>` : esc(ptxt)}</div>` : ''}</div><div>`;
+  let h = `<div class="row"><div><div class="portrait">${monogram(P.name)}${ph ? `<img src="${esc(purl)}" alt="${esc(P.name)}" loading="lazy" onerror="this.remove()">` : ''}</div>${ph ? `<div class="credit" id="pcredit">${plink ? `<a href="${esc(plink)}" target="_blank" rel="noopener" style="color:inherit">${esc(ptxt)}</a>` : esc(ptxt)}</div>` : ''}</div><div>`;
   h += `<h3 id="popTitle">${esc(P.name)}</h3>`;
   const lines = P.roles.map(r=>`${r.r}, ${r.spans.map(s=>spanTxt(s[0],s[1])).join(' and ')}`);
   if (!lines.length) lines.push(P.intl.length ? 'International while at Everton' : 'Everton player');
@@ -1374,6 +1441,7 @@ function popHTML(pk){
     case 'md': { const s=i; return `<h3 id="popTitle">${moodWord(moodOf(s))}</h3><p class="meta">${sl(s)}</p><p>${esc(MOOD[s][1])}</p><div class="acts">${goBtn(s)}</div>`; }
     case 'iy': { const y=i, m=IBY[y]; const list=[...m.values()].sort((p,q)=>p.g.localeCompare(q.g)||q.caps-p.caps);
       return `<h3 id="popTitle">Capped in ${y}</h3><p class="meta">${list.length} Everton player${list.length===1?'':'s'} won caps in a span covering ${y}</p><ul class="plain">${list.map(r=>`<li><span class="swc" style="background:${GCOL[r.g]}"></span>${nb(r.k, r.n)}, ${esc(r.c)}</li>`).join('')}</ul>`; }
+    case 'kt': return kitCard(i);
     case 'wc': { const w=WC[i]; return `<h3 id="popTitle">${w[0]} World Cup</h3><p class="meta">${esc(w[1])}</p><p>Everton players in the squads:</p><ul class="plain">${w[2].map(n=>`<li>${pname(n)}</li>`).join('')}</ul>`; }
   }
   return '';
@@ -1399,6 +1467,7 @@ pop.addEventListener('click', e=>{
   const b = e.target.closest('button,a'); if (!b) return;
   if (b.classList.contains('x')) return closePop();
   if (b.dataset.open) return openPop(b.dataset.open, popAnchor);
+  if (b.dataset.kit){ return openPop('kt:' + b.dataset.kit, popAnchor); }
   if (b.dataset.go){ select(+b.dataset.go, true); document.getElementById('detail').scrollIntoView({behavior:'smooth', block:'start'}); return; }
   if (b.dataset.act==='pick') return pop.querySelector('#phFile').click();
   if (b.dataset.act==='rm') return removePhoto(personKeyOf(popKey));
@@ -1770,6 +1839,92 @@ async function removePhoto(k){
   catch(e) { setStatus('The photo could not be removed. Try again.', true); }
 }
 
+
+/* ---------- Kit helpers ---------- */
+const inBand = (list, s) => list.find(b => s >= b[0] && s < b[1]);
+function kitFor(s){
+  const e = KIT_HOME.find(k => s >= k[0] && s < k[1]) || KIT_HOME[KIT_HOME.length-1];
+  const o = KIT_SEASON[s] || {};
+  const k = {...e[2], label:e[3], note:[e[4], o.note].filter(Boolean).join(' ')};
+  if (o.s) k.s = o.s;
+  k.sp = !!inBand(SPONSORS, s);
+  return k;
+}
+function awayFor(s){
+  if (KIT_AWAY_SEASON[s]) return {k:{...KIT_AWAY_SEASON[s][0]}, label:KIT_AWAY_SEASON[s][1]};
+  const e = KIT_AWAY.find(k => s >= k[0] && s < k[1]); if (!e) return null;
+  return {k: e[2] ? {...e[2], sp: !!inBand(SPONSORS, s)} : null, label:e[3]};
+}
+const makerFor = s => (inBand(MAKERS, s) || [])[2] || '';
+const sponsorFor = s => (inBand(SPONSORS, s) || [])[2] || '';
+const crestFor = s => s < 1912 ? 'No badge on the shirt' : s < 1972 ? 'A monogram badge, used at times from 1912–13' : s < 1976 ? 'Club initials in script' : s < 1978 ? 'Plain capital initials' : "The Prince Rupert's Tower crest, on shirts since 1978";
+let KID = 0;
+const lum = h => { const [r,g,b] = hex(h); return (0.299*r + 0.587*g + 0.114*b) / 255; };
+function kitSVG(k, w){
+  const id = 'kc' + (KID++), h = Math.round(w * 1.12);
+  const shirt = 'M12 4L16.5 2Q20 5.5 23.5 2L28 4L37 10.5L33 17.5L29 15V31H11V15L7 17.5L3 10.5Z';
+  const shorts = 'M11 32H29L30.5 43H21.5L20 37.5L18.5 43H9.5Z';
+  let pat = '';
+  if (k.p === 'stripes') for (let x = 4.5; x < 37; x += 4) pat += `<rect x="${x}" y="0" width="2" height="32" fill="${k.a}"/>`;
+  if (k.p === 'sash') pat += `<path d="M6 6L13 3L35 31H27Z" fill="${k.a}"/>`;
+  if (k.p === 'yoke') pat += `<rect x="0" y="0" width="40" height="9" fill="${k.a}"/>`;
+  if (k.p === 'chest') pat += `<rect x="0" y="6" width="40" height="8" fill="${k.a}"/>`;
+  if (k.sp) pat += `<rect x="15" y="16" width="10" height="3" rx=".7" fill="${lum(k.s) > .6 ? KC.navy : '#fff'}" opacity=".8"/>`;
+  let trim = '';
+  if (k.p === 'trim') trim = `<path d="M16.5 2Q20 5.5 23.5 2" stroke="${k.a}" stroke-width="1.8" fill="none"/><path d="M3.7 11.8L7.6 16.6M36.3 11.8L32.4 16.6" stroke="${k.a}" stroke-width="1.5"/>`;
+  const ss = k.ss ? `<path d="M10.4 33L10 42M29.6 33L30 42" stroke="${k.ss}" stroke-width="1.5"/>` : '';
+  return `<svg class="kitsvg" viewBox="0 0 40 45" width="${w}" height="${h}" aria-hidden="true"><defs><clipPath id="${id}"><path d="${shirt}"/></clipPath></defs><path d="${shorts}" fill="${k.sh}" stroke="var(--ink)" stroke-width=".8" stroke-linejoin="round"/>${ss}<path d="${shirt}" fill="${k.s}"/><g clip-path="url(#${id})">${pat}</g>${trim}<path d="${shirt}" fill="none" stroke="var(--ink)" stroke-width=".8" stroke-linejoin="round"/></svg>`;
+}
+function kitCard(s){
+  s = Math.max(FIRST, Math.min(LAST, s));
+  const k = kitFor(s), aw = awayFor(s), mk = makerFor(s), sp = sponsorFor(s);
+  let h = `<h3 id="popTitle">${sl(s)} kit</h3><p class="meta">${esc(k.label)}</p>`;
+  h += `<div class="kits"><figure>${kitSVG(k, 86)}<figcaption>Home</figcaption></figure>${aw && aw.k ? `<figure>${kitSVG(aw.k, 86)}<figcaption>Away</figcaption></figure>` : ''}</div>`;
+  h += `<dl class="kdl">${aw ? `<dt>Away</dt><dd>${esc(aw.label)}</dd>` : ''}<dt>Maker</dt><dd>${esc(mk || 'Not recorded here')}</dd><dt>Shirt sponsor</dt><dd>${esc(sp || 'None')}</dd><dt>Badge</dt><dd>${esc(crestFor(s))}</dd></dl>`;
+  if (k.note) h += `<p>${esc(k.note)}</p>`;
+  h += `<p class="hint" style="font-size:13.5px;margin-top:6px">A simplified drawing of the colours, not the exact design. The real kits, season by season, are drawn at <a href="https://www.historicalkits.co.uk/Everton/Everton.htm" target="_blank" rel="noopener">Historical Football Kits</a>.</p>`;
+  h += `<div class="acts"><button type="button" data-kit="${s-1}"${s<=FIRST?' disabled':''}>Earlier</button><button type="button" data-kit="${s+1}"${s>=LAST?' disabled':''}>Later</button>${goBtn(s)}</div>`;
+  return h;
+}
+function spanOf(pk){
+  const [t, a] = pk.split(':'), i = +a;
+  switch(t){
+    case 'mg': return [MGR[i][1], MGR[i][2]];
+    case 'ow': return [OWN[i][1], OWN[i][2]];
+    case 'gr': return [GROUND[i][1], GROUND[i][2]];
+    case 'fe': return [FINERA[i][0], FINERA[i][1]];
+    case 'ep': return [EPOCHS[i][0], EPOCHS[i][1]];
+    case 'ws': return [dec(WORLD_SPANS[i].d), dec(WORLD_SPANS[i].e)];
+    case 'es': return [dec(ECHO_SPANS[i].d), dec(ECHO_SPANS[i].e)];
+    case 'pl': { const sg = PLAYERS[i][1]; return [sg[0][0], sg[sg.length-1][1]]; }
+  }
+  return null;
+}
+/* ---------- Sticky season bar ---------- */
+const sbar = document.getElementById('sbar');
+function drawSbar(){
+  if (!sbar) return;
+  const o = S[sel], m = moodOf(sel), k = kitFor(sel);
+  let res = '';
+  if (o) res = o.partial ? `${ord(o.pos)} after ${o.P} games` : o.tier===1 && o.pos===1 ? 'League champions' : o.tier===2 ? `Division Two, ${ord(o.pos)}` : `${ord(o.pos)} of ${o.n}${S[sel+1] && S[sel+1].tier===2 ? ', relegated' : ''}`;
+  else res = WAR.has(sel) ? 'No league football' : sel < 1888 ? 'Before the League' : '';
+  const hon = HON.filter(x=>x[0]===sel && (x[1]==='fa'||x[1]==='cwc')).map(x=>x[2]);
+  const mg = [...new Set(MGR.filter((x,i)=>i>0 && overlap(x[1],x[2],sel)).map(x=>x[3].split(',')[0]))];
+  sbar.innerHTML = `<button type="button" class="sb-nav" data-step="-1" aria-label="Previous season"${sel<=FIRST?' disabled':''}>‹</button>
+    <b class="sb-season">${sl(sel)}</b>
+    <span class="sb-res">${esc(res)}${hon.length ? ` <span class="sb-hon">${hon.map(esc).join(', ')}</span>` : ''}</span>
+    ${m !== null ? `<span class="sb-mood"><i class="sw" style="background:${moodColor(m)}"></i>${moodWord(m)}</span>` : ''}
+    <button type="button" class="sb-kit" data-open="kt:${sel}" aria-label="${sl(sel)} kit">${kitSVG(k, 22)}</button>
+    ${mg.length ? `<span class="sb-mgr">${mg.map(n=>pname(n)).join(', ')}</span>` : ''}
+    <button type="button" class="sb-nav" data-step="1" aria-label="Next season"${sel>=LAST?' disabled':''}>›</button>
+    <button type="button" class="sb-more" data-jump="detail">Full season</button>`;
+}
+if (sbar) sbar.addEventListener('click', e=>{
+  const b = e.target.closest('button'); if (!b) return;
+  if (b.dataset.step){ select(Math.max(FIRST, Math.min(LAST, sel + (+b.dataset.step))), true); }
+  else if (b.dataset.jump) document.getElementById('detail').scrollIntoView({behavior:'smooth', block:'start'});
+});
+
 /* ---------- Season detail ---------- */
 const inSeason = (d, s) => seasonOf(dec(d)) === s;
 const overlap = (a, b, s) => a < s + 1.5 && b > s + 0.5;
@@ -1817,6 +1972,7 @@ function detail(s){
   else if (s < 1889) h += `<dt>Team chosen by</dt><dd>The club committee</dd>`;
   if (ow.length) h += `<dt>Ownership</dt><dd>${ow.map(x=>esc(x[0])).join(', then ')}</dd>`;
   if (gr.length) h += `<dt>Home ground</dt><dd>${gr.map(esc).join(', then ')}</dd>`;
+  { const k = kitFor(s), mk = makerFor(s), sp = sponsorFor(s); h += `<dt>Kit</dt><dd><button type="button" class="kitbtn" data-open="kt:${s}">${kitSVG(k, 34)}<span>${esc(k.label)}${mk ? `. Made by ${esc(mk)}` : ''}${sp ? `, ${esc(sp)} on the front` : ''}</span></button></dd>`; }
   if (pl.length) h += `<dt>Greats at the club</dt><dd>${pl.map(n=>pname(n)).join(', ')}</dd>`;
   h += `</dl></section>`;
 
@@ -1846,6 +2002,8 @@ WORLD.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', around the club', p
 MONEY.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', money', pk:'mn:'+i, year:dec(e.d)}));
 ECHO.forEach((e,i)=>INDEX.push({label:e.t, sub:when(e.d)+', Liverpool Echo', pk:'ec:'+i, year:dec(e.d)}));
 EPOCHS.forEach((e,i)=>INDEX.push({label:e[2], sub:'epoch', pk:'ep:'+i, year:e[0]+0.5}));
+SPONSORS.forEach(b=>INDEX.push({label:b[2], sub:'shirt sponsor, '+sl(b[0])+' onward', pk:'kt:'+b[0], year:b[0]+0.6}));
+MAKERS.forEach(b=>INDEX.push({label:b[2]+' kits', sub:'kit maker, '+sl(b[0])+' onward', pk:'kt:'+b[0], year:b[0]+0.6}));
 GROUND.forEach((g,i)=>INDEX.push({label:g[0], sub:'home ground', pk:'gr:'+i, year:g[1]+0.5}));
 function search(q){
   q = slug(q); if (!q) return [];
@@ -2012,6 +2170,14 @@ playBtn.onclick = () => {
 };
 scroller.addEventListener('pointerdown', ()=>{ if (playT) stopPlay(); });
 
+async function loadLocalPhotos(){
+  try {
+    const r = await fetch('photos/credits.json', {cache:'no-cache'}); if (!r.ok) return;
+    const j = await r.json();
+    Object.entries(j).forEach(([k, v])=>{ if (PEOPLE.has(k) && v && v.img) PHOTOS[k] = {url:v.img, credit:v.credit || 'Photo: Wikimedia Commons', source:v.page || ''}; });
+    const sl0 = scroller.scrollLeft; render(); scroller.scrollLeft = sl0; refreshPop();
+  } catch(e) {}
+}
 async function ensureCredit(k){
   const ph = PHOTOS[k]; if (!ph || !ph.url || ph.credit || ph.pending) return;
   ph.pending = true;
@@ -2027,9 +2193,9 @@ async function ensureCredit(k){
   if (el && popKey && personKeyOf(popKey) === k){ const a = el.querySelector('a'); (a || el).textContent = ph.credit; }
 }
 function boot(){
-  if (!window.claude) PHOTO_FILES.forEach((f, k)=>{ if (PEOPLE.has(k)) PHOTOS[k] = {url:'https://en.wikipedia.org/wiki/Special:FilePath/' + encodeURIComponent(f) + '?width=330', file:f, credit:'', source:'https://en.wikipedia.org/wiki/File:' + encodeURIComponent(f)}; });
+  if (!window.claude) loadLocalPhotos();
   try { const h = +location.hash.slice(1); if (h>=FIRST && h<=LAST) sel = h; } catch(e){}
-  render(); legend(); tally(); detail(sel); intlSection(); centerOn(sel+1, false); drawMini();
+  render(); legend(); tally(); detail(sel); intlSection(); centerOn(sel+1, false); drawMini(); drawSbar();
   initStore();
 }
 boot();
